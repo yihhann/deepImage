@@ -195,7 +195,7 @@
         UIGraphicsEndImageContext();
         [imgView initWithImage:cellImage];
         
-        // m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
+        m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
         [m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
     }
 
