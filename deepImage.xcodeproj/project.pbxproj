@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF29F6D8174FB24000C44598 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D6174FB24000C44598 /* Icon.png */; };
+		DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D7174FB24000C44598 /* Icon@2x.png */; };
+		DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5EC66717677169008FE5F7 /* pictureFrame.png */; };
 		DF94F8041748E6CE008B9B65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF94F8031748E6CE008B9B65 /* UIKit.framework */; };
 		DF94F8061748E6CE008B9B65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF94F8051748E6CE008B9B65 /* Foundation.framework */; };
 		DF94F8081748E6CE008B9B65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF94F8071748E6CE008B9B65 /* CoreGraphics.framework */; };
@@ -19,9 +22,32 @@
 		DF94F81D1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF94F81B1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard */; };
 		DF94F8201748E6CE008B9B65 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF94F81E1748E6CE008B9B65 /* MainStoryboard_iPad.storyboard */; };
 		DF94F8231748E6CE008B9B65 /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF94F8221748E6CE008B9B65 /* YHViewController.m */; };
+		DFEC51C217686E3C0007FB86 /* pictureQuestion.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C117686E3C0007FB86 /* pictureQuestion.png */; };
+		DFEC51C41768B2720007FB86 /* FamousPeople.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */; };
+		DFEC51C71768CE630007FB86 /* FamousPeople.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */; };
+		DFEC51C81768CE630007FB86 /* FamousPeople.018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */; };
+		DFF5C10817642EDA0096C4C9 /* YHMatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */; };
+		DFF5C11A1764B40A0096C4C9 /* FamousPeople.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */; };
+		DFF5C11B1764B40A0096C4C9 /* FamousPeople.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10C1764B40A0096C4C9 /* FamousPeople.002.jpg */; };
+		DFF5C11C1764B40A0096C4C9 /* FamousPeople.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10D1764B40A0096C4C9 /* FamousPeople.003.jpg */; };
+		DFF5C11D1764B40A0096C4C9 /* FamousPeople.004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10E1764B40A0096C4C9 /* FamousPeople.004.jpg */; };
+		DFF5C11E1764B40A0096C4C9 /* FamousPeople.005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10F1764B40A0096C4C9 /* FamousPeople.005.jpg */; };
+		DFF5C11F1764B40A0096C4C9 /* FamousPeople.006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1101764B40A0096C4C9 /* FamousPeople.006.jpg */; };
+		DFF5C1201764B40A0096C4C9 /* FamousPeople.007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1111764B40A0096C4C9 /* FamousPeople.007.jpg */; };
+		DFF5C1211764B40A0096C4C9 /* FamousPeople.008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1121764B40A0096C4C9 /* FamousPeople.008.jpg */; };
+		DFF5C1221764B40A0096C4C9 /* FamousPeople.009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1131764B40A0096C4C9 /* FamousPeople.009.jpg */; };
+		DFF5C1231764B40A0096C4C9 /* FamousPeople.010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1141764B40A0096C4C9 /* FamousPeople.010.jpg */; };
+		DFF5C1241764B40A0096C4C9 /* FamousPeople.011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1151764B40A0096C4C9 /* FamousPeople.011.jpg */; };
+		DFF5C1251764B40A0096C4C9 /* FamousPeople.012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1161764B40A0096C4C9 /* FamousPeople.012.jpg */; };
+		DFF5C1261764B40A0096C4C9 /* FamousPeople.013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1171764B40A0096C4C9 /* FamousPeople.013.jpg */; };
+		DFF5C1271764B40A0096C4C9 /* FamousPeople.014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1181764B40A0096C4C9 /* FamousPeople.014.jpg */; };
+		DFF5C1281764B40A0096C4C9 /* FamousPeople.015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1191764B40A0096C4C9 /* FamousPeople.015.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF29F6D6174FB24000C44598 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icons/Icon.png; sourceTree = "<group>"; };
+		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
+		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
 		DF94F8001748E6CE008B9B65 /* deepImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deepImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF94F8031748E6CE008B9B65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF94F8051748E6CE008B9B65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +65,27 @@
 		DF94F81F1748E6CE008B9B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		DF94F8211748E6CE008B9B65 /* YHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
 		DF94F8221748E6CE008B9B65 /* YHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+		DFEC51C117686E3C0007FB86 /* pictureQuestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureQuestion.png; path = images/pictureQuestion.png; sourceTree = "<group>"; };
+		DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.016.jpg; path = images/Albums/FamousPeople/FamousPeople.016.jpg; sourceTree = "<group>"; };
+		DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.017.jpg; path = images/Albums/FamousPeople/FamousPeople.017.jpg; sourceTree = "<group>"; };
+		DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.018.jpg; path = images/Albums/FamousPeople/FamousPeople.018.jpg; sourceTree = "<group>"; };
+		DFF5C10617642EDA0096C4C9 /* YHMatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHMatchingViewController.h; path = ../YHMatchingViewController.h; sourceTree = "<group>"; };
+		DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHMatchingViewController.m; path = ../YHMatchingViewController.m; sourceTree = "<group>"; };
+		DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.001.jpg; path = images/Albums/FamousPeople/FamousPeople.001.jpg; sourceTree = "<group>"; };
+		DFF5C10C1764B40A0096C4C9 /* FamousPeople.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.002.jpg; path = images/Albums/FamousPeople/FamousPeople.002.jpg; sourceTree = "<group>"; };
+		DFF5C10D1764B40A0096C4C9 /* FamousPeople.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.003.jpg; path = images/Albums/FamousPeople/FamousPeople.003.jpg; sourceTree = "<group>"; };
+		DFF5C10E1764B40A0096C4C9 /* FamousPeople.004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.004.jpg; path = images/Albums/FamousPeople/FamousPeople.004.jpg; sourceTree = "<group>"; };
+		DFF5C10F1764B40A0096C4C9 /* FamousPeople.005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.005.jpg; path = images/Albums/FamousPeople/FamousPeople.005.jpg; sourceTree = "<group>"; };
+		DFF5C1101764B40A0096C4C9 /* FamousPeople.006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.006.jpg; path = images/Albums/FamousPeople/FamousPeople.006.jpg; sourceTree = "<group>"; };
+		DFF5C1111764B40A0096C4C9 /* FamousPeople.007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.007.jpg; path = images/Albums/FamousPeople/FamousPeople.007.jpg; sourceTree = "<group>"; };
+		DFF5C1121764B40A0096C4C9 /* FamousPeople.008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.008.jpg; path = images/Albums/FamousPeople/FamousPeople.008.jpg; sourceTree = "<group>"; };
+		DFF5C1131764B40A0096C4C9 /* FamousPeople.009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.009.jpg; path = images/Albums/FamousPeople/FamousPeople.009.jpg; sourceTree = "<group>"; };
+		DFF5C1141764B40A0096C4C9 /* FamousPeople.010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.010.jpg; path = images/Albums/FamousPeople/FamousPeople.010.jpg; sourceTree = "<group>"; };
+		DFF5C1151764B40A0096C4C9 /* FamousPeople.011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.011.jpg; path = images/Albums/FamousPeople/FamousPeople.011.jpg; sourceTree = "<group>"; };
+		DFF5C1161764B40A0096C4C9 /* FamousPeople.012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.012.jpg; path = images/Albums/FamousPeople/FamousPeople.012.jpg; sourceTree = "<group>"; };
+		DFF5C1171764B40A0096C4C9 /* FamousPeople.013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.013.jpg; path = images/Albums/FamousPeople/FamousPeople.013.jpg; sourceTree = "<group>"; };
+		DFF5C1181764B40A0096C4C9 /* FamousPeople.014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.014.jpg; path = images/Albums/FamousPeople/FamousPeople.014.jpg; sourceTree = "<group>"; };
+		DFF5C1191764B40A0096C4C9 /* FamousPeople.015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.015.jpg; path = images/Albums/FamousPeople/FamousPeople.015.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF29F6D2174FB04D00C44598 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EC66717677169008FE5F7 /* pictureFrame.png */,
+				DFEC51C117686E3C0007FB86 /* pictureQuestion.png */,
+				DFF5C1091764B21A0096C4C9 /* Albums */,
+				DF29F6D3174FB05C00C44598 /* icons */,
+			);
+			name = images;
+			path = deepImage;
+			sourceTree = "<group>";
+		};
+		DF29F6D3174FB05C00C44598 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				DF29F6D6174FB24000C44598 /* Icon.png */,
+				DF29F6D7174FB24000C44598 /* Icon@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
 		DF94F7F71748E6CE008B9B65 = {
 			isa = PBXGroup;
 			children = (
 				DF94F8091748E6CE008B9B65 /* deepImage */,
+				DF29F6D2174FB04D00C44598 /* images */,
 				DF94F8021748E6CE008B9B65 /* Frameworks */,
 				DF94F8011748E6CE008B9B65 /* Products */,
 			);
@@ -91,6 +160,8 @@
 				DF94F81E1748E6CE008B9B65 /* MainStoryboard_iPad.storyboard */,
 				DF94F8211748E6CE008B9B65 /* YHViewController.h */,
 				DF94F8221748E6CE008B9B65 /* YHViewController.m */,
+				DFF5C10617642EDA0096C4C9 /* YHMatchingViewController.h */,
+				DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */,
 				DF94F80A1748E6CE008B9B65 /* Supporting Files */,
 			);
 			path = deepImage;
@@ -108,6 +179,39 @@
 				DF94F8191748E6CE008B9B65 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF5C1091764B21A0096C4C9 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				DFF5C10A1764B24E0096C4C9 /* FamousPeople */,
+			);
+			name = Albums;
+			sourceTree = "<group>";
+		};
+		DFF5C10A1764B24E0096C4C9 /* FamousPeople */ = {
+			isa = PBXGroup;
+			children = (
+				DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */,
+				DFF5C10C1764B40A0096C4C9 /* FamousPeople.002.jpg */,
+				DFF5C10D1764B40A0096C4C9 /* FamousPeople.003.jpg */,
+				DFF5C10E1764B40A0096C4C9 /* FamousPeople.004.jpg */,
+				DFF5C10F1764B40A0096C4C9 /* FamousPeople.005.jpg */,
+				DFF5C1101764B40A0096C4C9 /* FamousPeople.006.jpg */,
+				DFF5C1111764B40A0096C4C9 /* FamousPeople.007.jpg */,
+				DFF5C1121764B40A0096C4C9 /* FamousPeople.008.jpg */,
+				DFF5C1131764B40A0096C4C9 /* FamousPeople.009.jpg */,
+				DFF5C1141764B40A0096C4C9 /* FamousPeople.010.jpg */,
+				DFF5C1151764B40A0096C4C9 /* FamousPeople.011.jpg */,
+				DFF5C1161764B40A0096C4C9 /* FamousPeople.012.jpg */,
+				DFF5C1171764B40A0096C4C9 /* FamousPeople.013.jpg */,
+				DFF5C1181764B40A0096C4C9 /* FamousPeople.014.jpg */,
+				DFF5C1191764B40A0096C4C9 /* FamousPeople.015.jpg */,
+				DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */,
+				DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */,
+				DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */,
+			);
+			name = FamousPeople;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +272,28 @@
 				DF94F81A1748E6CE008B9B65 /* Default-568h@2x.png in Resources */,
 				DF94F81D1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DF94F8201748E6CE008B9B65 /* MainStoryboard_iPad.storyboard in Resources */,
+				DF29F6D8174FB24000C44598 /* Icon.png in Resources */,
+				DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */,
+				DFF5C11A1764B40A0096C4C9 /* FamousPeople.001.jpg in Resources */,
+				DFF5C11B1764B40A0096C4C9 /* FamousPeople.002.jpg in Resources */,
+				DFF5C11C1764B40A0096C4C9 /* FamousPeople.003.jpg in Resources */,
+				DFF5C11D1764B40A0096C4C9 /* FamousPeople.004.jpg in Resources */,
+				DFF5C11E1764B40A0096C4C9 /* FamousPeople.005.jpg in Resources */,
+				DFF5C11F1764B40A0096C4C9 /* FamousPeople.006.jpg in Resources */,
+				DFF5C1201764B40A0096C4C9 /* FamousPeople.007.jpg in Resources */,
+				DFF5C1211764B40A0096C4C9 /* FamousPeople.008.jpg in Resources */,
+				DFF5C1221764B40A0096C4C9 /* FamousPeople.009.jpg in Resources */,
+				DFF5C1231764B40A0096C4C9 /* FamousPeople.010.jpg in Resources */,
+				DFF5C1241764B40A0096C4C9 /* FamousPeople.011.jpg in Resources */,
+				DFF5C1251764B40A0096C4C9 /* FamousPeople.012.jpg in Resources */,
+				DFF5C1261764B40A0096C4C9 /* FamousPeople.013.jpg in Resources */,
+				DFF5C1271764B40A0096C4C9 /* FamousPeople.014.jpg in Resources */,
+				DFF5C1281764B40A0096C4C9 /* FamousPeople.015.jpg in Resources */,
+				DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */,
+				DFEC51C217686E3C0007FB86 /* pictureQuestion.png in Resources */,
+				DFEC51C41768B2720007FB86 /* FamousPeople.016.jpg in Resources */,
+				DFEC51C71768CE630007FB86 /* FamousPeople.017.jpg in Resources */,
+				DFEC51C81768CE630007FB86 /* FamousPeople.018.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +307,7 @@
 				DF94F8101748E6CE008B9B65 /* main.m in Sources */,
 				DF94F8141748E6CE008B9B65 /* YHAppDelegate.m in Sources */,
 				DF94F8231748E6CE008B9B65 /* YHViewController.m in Sources */,
+				DFF5C10817642EDA0096C4C9 /* YHMatchingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +438,7 @@
 				DF94F8281748E6CE008B9B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

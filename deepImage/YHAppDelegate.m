@@ -42,6 +42,13 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Full size the background image
+    UIGraphicsBeginImageContext(self.window.frame.size);
+    [[UIImage imageNamed:@"Default@2x.png"] drawInRect:self.window.bounds];
+    UIImage *backgroundImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    self.window.viewForBaselineLayout.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
