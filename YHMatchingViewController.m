@@ -180,7 +180,7 @@
 
     if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_TO_OPEN )
     {
-        // Animate cell from close to open status
+        // TODO : Animate cell from close to open status
         UICollectionViewCell *cell = [m_collectionMatching cellForItemAtIndexPath:indexPath];
         UIImageView *imgView = [[UIImageView alloc] initWithFrame:cell.bounds];
         
