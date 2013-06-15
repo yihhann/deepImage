@@ -7,6 +7,11 @@
 //
 
 #import "YHMatchingViewController.h"
+// status of a cell
+#define YH_CELL_TO_OPEN -1
+#define YH_CELL_CLOSED 0
+#define YH_CELL_OPEN 1
+#define YH_CELL_MATCHED 2
 
 @interface YHMatchingViewController ()
 
@@ -103,14 +108,10 @@
     NSString *imageToLoad;
     if( idx >= 0 )
     {
-        if( [m_cellStatusList[indexPath.row] integerValue] > 0 )
-            imageToLoad = m_pictureNameList[idx];
-        else
-        {
-            // ==== DEBUG ====
-            // if not matched
+        if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED )
             imageToLoad = @"pictureQuestion.png";
-        }
+        else
+            imageToLoad = m_pictureNameList[idx];
     }
     else
         imageToLoad = Nil;  // odd mesh
@@ -125,50 +126,84 @@
     UIImage *backgroundImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     cell.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
-    
-    // Catch click event
-    
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height)];
-    [cell addSubview:btn];
-    [btn addTarget:self action:@selector(cellClicked:event:) forControlEvents:UIControlEventTouchUpInside];
+    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_TO_OPEN )
+    {
+        //cell.backgroundColor = [UIColor clearColor];
+    }
+
+    NSLog(@"cellForItemAtIndexPath: row = %d", indexPath.row );
 
     return cell;
 }
 
-// catch the evnet of cell clicked
-- (IBAction)cellClicked:(id)sender event:(id)event {
-    NSSet *touches = [event allTouches];
-    UITouch *touch = [touches anyObject];
-    CGPoint currentTouchPosition = [touch locationInView:m_collectionMatching];
-    NSIndexPath *indexPath = [m_collectionMatching indexPathForItemAtPoint: currentTouchPosition];
-    
+// implement to get the event before a cell is selected
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
     // click on the odd mesh
     if( [m_matchingList[indexPath.row] integerValue] < 0 )
-        return;     // do nothing
+        return NO;     // do nothing
     
     // click on a closed picture
-    if( [m_cellStatusList[indexPath.row] integerValue] == 0 )
+    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED )
     {
-        m_cellStatusList[indexPath.row] = @(1);
+        m_cellStatusList[indexPath.row] = @(YH_CELL_TO_OPEN);
+        [m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
         if( m_clickedCell2 >=0 )
-            if( [m_cellStatusList[m_clickedCell2] integerValue] == 1)
-                m_cellStatusList[m_clickedCell2] = @(0);
+            if( [m_cellStatusList[m_clickedCell2] integerValue] == YH_CELL_OPEN )
+            {
+                m_cellStatusList[m_clickedCell2] = @(YH_CELL_CLOSED);
+                [m_collectionMatching reloadItemsAtIndexPaths:@[
+                 [NSIndexPath indexPathForRow:m_clickedCell2 inSection:0]
+                 ]];
+            }
         if( m_clickedCell1 >= 0 )
             if( [m_matchingList[indexPath.row] integerValue] == [m_matchingList[m_clickedCell1] integerValue])
             {
-                m_cellStatusList[indexPath.row] = @(2);
-                m_cellStatusList[m_clickedCell1] = @(2);
+                m_cellStatusList[indexPath.row] = @(YH_CELL_MATCHED);
+                m_cellStatusList[m_clickedCell1] = @(YH_CELL_MATCHED);
+                [m_collectionMatching reloadItemsAtIndexPaths:@[
+                 [NSIndexPath indexPathForRow:m_clickedCell1 inSection:0]
+                 ]];
             }
         m_clickedCell2 = m_clickedCell1;
         m_clickedCell1 = indexPath.row;
-        [m_collectionMatching reloadData];
+        //[m_collectionMatching reloadData];
     }
-    //[m_collectionMatching reloadItemsAtIndexPaths:[NSArray arrayWithObject:indexPath]];
 
-    NSLog(@"indexPath.row = %d,  [m_matchingList[indexPath.row] integerValue]=%d", indexPath.row,  [m_matchingList[indexPath.row] integerValue] );
-    
+    NSLog(@"shouldSelectItemAtIndexPath:row = %d", indexPath.row );
+    return YES;
 }
 
+// implement to get the event after a cell is selected
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_TO_OPEN )
+    {
+        // Animate cell from close to open status
+        UICollectionViewCell *cell = [m_collectionMatching cellForItemAtIndexPath:indexPath];
+        UIImageView *imgView = [[UIImageView alloc] initWithFrame:cell.bounds];
+        
+        // Draw the frame
+        UIGraphicsBeginImageContext(cell.frame.size);
+        [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:imgView.bounds];
+        float dframe = cell.bounds.size.width / 15;
+        CGRect inRect = CGRectMake(imgView.bounds.origin.x + dframe, imgView.bounds.origin.y + dframe, imgView.bounds.size.width - dframe * 2, imgView.bounds.size.height - dframe * 2 );
+        // Draw the picture
+        [[UIImage imageNamed:@"pictureQuestion.png"] drawInRect:inRect];
+        UIImage *cellImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        [imgView initWithImage:cellImage];
+
+        
+        
+        m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
+        [m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
+    }
+
+    NSLog(@"didSelectItemAtIndexPath: row = %d", indexPath.row );
+
+}
 
 // Pick pictures randomly
 -(void) renewMatchingList
@@ -224,7 +259,7 @@
     // open all pictures
     [m_cellStatusList removeAllObjects];
     for( i = 0; i < totMatch; i++ )
-        [m_cellStatusList addObject:@(1)];
+        [m_cellStatusList addObject:@(YH_CELL_OPEN)];
     m_clickedCell1 = -1;
     m_clickedCell2 = -1;
 
@@ -287,7 +322,7 @@
         // close all pictures
         int i;
         for( i = 0; i < m_cellStatusList.count; i++ )
-            m_cellStatusList[i] = @(0);
+            m_cellStatusList[i] = @(YH_CELL_CLOSED);
         [m_collectionMatching reloadData];
         // stop timer
         [timer invalidate];
