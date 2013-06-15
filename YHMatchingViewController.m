@@ -7,8 +7,12 @@
 //
 
 #import "YHMatchingViewController.h"
+#import "YHMatchingCell.h"
+
+
 // status of a cell
-#define YH_CELL_TO_OPEN -1
+#define YH_CELL_CLOSED_TO_MATCHED -2
+#define YH_CELL_CLOSED_TO_OPEN -1
 #define YH_CELL_CLOSED 0
 #define YH_CELL_OPEN 1
 #define YH_CELL_MATCHED 2
@@ -101,14 +105,16 @@
 // Build in function for Collection View to return a cell object
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ACell" forIndexPath:indexPath];
+    YHMatchingCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ACell" forIndexPath:indexPath];
     
     // Get the picture
     int idx = [m_matchingList[indexPath.row] integerValue];
     NSString *imageToLoad;
     if( idx >= 0 )
     {
-        if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED )
+        if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED ||
+            [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN ||
+            [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_MATCHED )
             imageToLoad = @"pictureQuestion.png";
         else
             imageToLoad = m_pictureNameList[idx];
@@ -123,13 +129,9 @@
     // Draw the picture
     if( imageToLoad )
         [[UIImage imageNamed:imageToLoad] drawInRect:inRect];
-    UIImage *backgroundImage = UIGraphicsGetImageFromCurrentImageContext();
+    [cell.imageInside initWithImage:UIGraphicsGetImageFromCurrentImageContext()];
     UIGraphicsEndImageContext();
-    cell.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
-    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_TO_OPEN )
-    {
-        //cell.backgroundColor = [UIColor clearColor];
-    }
+    cell.backgroundColor = [UIColor clearColor];
 
     NSLog(@"cellForItemAtIndexPath: row = %d", indexPath.row );
 
@@ -146,8 +148,8 @@
     // click on a closed picture
     if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED )
     {
-        m_cellStatusList[indexPath.row] = @(YH_CELL_TO_OPEN);
-        [m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
+        m_cellStatusList[indexPath.row] = @(YH_CELL_CLOSED_TO_OPEN);
+        //[m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
         if( m_clickedCell2 >=0 )
             if( [m_cellStatusList[m_clickedCell2] integerValue] == YH_CELL_OPEN )
             {
@@ -159,11 +161,11 @@
         if( m_clickedCell1 >= 0 )
             if( [m_matchingList[indexPath.row] integerValue] == [m_matchingList[m_clickedCell1] integerValue])
             {
-                m_cellStatusList[indexPath.row] = @(YH_CELL_MATCHED);
+                m_cellStatusList[indexPath.row] = @(YH_CELL_CLOSED_TO_MATCHED);
                 m_cellStatusList[m_clickedCell1] = @(YH_CELL_MATCHED);
-                [m_collectionMatching reloadItemsAtIndexPaths:@[
-                 [NSIndexPath indexPathForRow:m_clickedCell1 inSection:0]
-                 ]];
+                //[m_collectionMatching reloadItemsAtIndexPaths:@[
+                // [NSIndexPath indexPathForRow:m_clickedCell1 inSection:0]
+                // ]];
             }
         m_clickedCell2 = m_clickedCell1;
         m_clickedCell1 = indexPath.row;
@@ -177,26 +179,39 @@
 // implement to get the event after a cell is selected
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-
-    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_TO_OPEN )
+    // Animate cell from close to open status
+    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN ||
+        [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_MATCHED )
     {
-        // TODO : Animate cell from close to open status
-        UICollectionViewCell *cell = [m_collectionMatching cellForItemAtIndexPath:indexPath];
-        UIImageView *imgView = [[UIImageView alloc] initWithFrame:cell.bounds];
+        __block YHMatchingCell *cell = (YHMatchingCell *)[m_collectionMatching cellForItemAtIndexPath:indexPath];
         
         // Draw the frame
         UIGraphicsBeginImageContext(cell.frame.size);
-        [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:imgView.bounds];
+        [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:cell.imageInside.bounds];
         float dframe = cell.bounds.size.width / 15;
-        CGRect inRect = CGRectMake(imgView.bounds.origin.x + dframe, imgView.bounds.origin.y + dframe, imgView.bounds.size.width - dframe * 2, imgView.bounds.size.height - dframe * 2 );
+        CGRect inRect = CGRectMake(cell.imageInside.bounds.origin.x + dframe, cell.imageInside.bounds.origin.y + dframe, cell.imageInside.bounds.size.width - dframe * 2, cell.imageInside.bounds.size.height - dframe * 2 );
         // Draw the picture
-        [[UIImage imageNamed:@"pictureQuestion.png"] drawInRect:inRect];
+        int idx = [m_matchingList[indexPath.row] integerValue];
+        NSString *imageToLoad = m_pictureNameList[idx];
+        [[UIImage imageNamed:imageToLoad] drawInRect:inRect];
         UIImage *cellImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
-        [imgView initWithImage:cellImage];
         
-        m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
-        [m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
+        // animate
+        [UIView animateWithDuration:0.5
+            animations:^{
+                cell.imageInside.frame = CGRectMake(0, cell.frame.size.height / 2, cell.frame.size.width, 0);
+            } completion:^(BOOL finished) {
+                cell.imageInside.frame = CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height );
+                [cell.imageInside initWithImage:cellImage];
+            }];
+        
+        
+        if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN )
+            m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
+        else if ( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_MATCHED )
+            m_cellStatusList[indexPath.row] = @(YH_CELL_MATCHED);
+        //[m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
     }
 
     NSLog(@"didSelectItemAtIndexPath: row = %d", indexPath.row );

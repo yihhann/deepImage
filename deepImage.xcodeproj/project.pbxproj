@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF03E0C4176C7E2100519336 /* YHMatchingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03E0C3176C7E2100519336 /* YHMatchingCell.m */; };
 		DF29F6D8174FB24000C44598 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D6174FB24000C44598 /* Icon.png */; };
 		DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D7174FB24000C44598 /* Icon@2x.png */; };
 		DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5EC66717677169008FE5F7 /* pictureFrame.png */; };
@@ -45,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF03E0C2176C7E2100519336 /* YHMatchingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMatchingCell.h; sourceTree = "<group>"; };
+		DF03E0C3176C7E2100519336 /* YHMatchingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMatchingCell.m; sourceTree = "<group>"; };
 		DF29F6D6174FB24000C44598 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icons/Icon.png; sourceTree = "<group>"; };
 		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
 		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				DF94F8221748E6CE008B9B65 /* YHViewController.m */,
 				DFF5C10617642EDA0096C4C9 /* YHMatchingViewController.h */,
 				DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */,
+				DF03E0C2176C7E2100519336 /* YHMatchingCell.h */,
+				DF03E0C3176C7E2100519336 /* YHMatchingCell.m */,
 				DF94F80A1748E6CE008B9B65 /* Supporting Files */,
 			);
 			path = deepImage;
@@ -308,6 +313,7 @@
 				DF94F8141748E6CE008B9B65 /* YHAppDelegate.m in Sources */,
 				DF94F8231748E6CE008B9B65 /* YHViewController.m in Sources */,
 				DFF5C10817642EDA0096C4C9 /* YHMatchingViewController.m in Sources */,
+				DF03E0C4176C7E2100519336 /* YHMatchingCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
