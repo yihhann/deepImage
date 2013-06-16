@@ -9,6 +9,17 @@
 #import "YHViewController.h"
 #import "YHMatchingViewController.h"
 
+// Album data structures
+typedef struct {
+    NSString *prefix;
+    NSString *titleName;
+    int totalImage;
+    NSMutableArray *imageTitleList;
+} YHAlbum;
+int TotalAlbums;
+YHAlbum AlbumList[1000];
+
+
 @interface YHViewController ()
 
 @end
@@ -20,7 +31,9 @@
 @synthesize m_MatrixColumn;
 @synthesize m_MatrixRow;
 @synthesize m_AlbumPicker;
+@synthesize m_SetupButton;
 @synthesize m_PlayButton;
+@synthesize m_ImageAlbum;
 
 - (void)viewDidLoad
 {
@@ -33,13 +46,12 @@
     UIImage *backgroundImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     self.view.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
-    
+       
     // Init Album Picker
-    m_albumNameList = [[NSMutableArray alloc] initWithObjects:
-        @"Fruits", @"Animals", @"Famous People", @"Japanese Fifty Sounds", @"English Alphabet", nil];
-    m_AlbumPicker.dataSource = self;
+    [self initAlbumList];
     [m_AlbumPicker selectRow:2 inComponent:0 animated:YES];
-    m_AlbumPicker.delegate = self;
+    // preview the default album
+    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(doPreviewDefaultAlbum:) userInfo:nil repeats:NO];
     
 }
 
@@ -56,6 +68,8 @@
     [m_RowStepper release];
     [m_AlbumPicker release];
     [m_PlayButton release];
+    [m_ImageAlbum release];
+    [m_SetupButton release];
     [super dealloc];
 }
 
@@ -95,15 +109,22 @@
 - (IBAction)PlayButtonClicked:(id)sender {
     YHMatchingViewController* matchingViewController =
         [self.storyboard instantiateViewControllerWithIdentifier:@"Matching"];
+    int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
+    iAlbum = 2; // ==== DEBUG ==== other Albums are not ready
     
     // Pass the picture list in the selected album
-    int total_picture = 18;
-    NSString *album_prefix = @"FamousPeople";
+    int total_picture = AlbumList[iAlbum].totalImage;
+    NSString *album_prefix = AlbumList[iAlbum].prefix;
     int i;
     matchingViewController.m_pictureNameList = [[NSMutableArray alloc] init];
+    matchingViewController.m_pictureTitleList = [[NSMutableArray alloc] init];
     for ( i = 0; i < total_picture; i++ )
+    {
         [matchingViewController.m_pictureNameList addObject:
             [NSString stringWithFormat:@"%@.%03d.jpg", album_prefix, i + 1] ];
+        [matchingViewController.m_pictureTitleList addObject:
+            AlbumList[iAlbum].imageTitleList[i]];
+    }
     matchingViewController.m_matchingColumns = [m_MatrixColumn.text integerValue];
     matchingViewController.m_matchingRows = [m_MatrixRow.text integerValue];
  
@@ -112,12 +133,12 @@
 }
 
 
-// Build in function to return the number of components
+// implement function to return the number of components
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
     return 1;
 }
 
-// Build in function
+// implement function to return the number of row
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     switch (component) {
         case 0:
@@ -131,7 +152,7 @@
     }
 }
 
-// Build in function
+// implement function the return the title for row
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     switch (component) {
         case 0:
@@ -145,9 +166,103 @@
     }
 }
 
-//選擇UIPickView中的項目時會出發的內建函式
+// implement function to catch the event of selecting a row
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    //plurkLabel.text = [NSString stringWithFormat:@"%@ :", [plurk objectAtIndex:row]];
+
+    [self previewAlbum:(NSString *)@"FamousPeople" withNumberOf:18];
 }
 
+-(void)doPreviewDefaultAlbum:(NSTimer *)timer {
+    [self previewAlbum:(NSString *)@"FamousPeople" withNumberOf:18];
+}
+
+// Draw a preview of selected album
+- (void) previewAlbum:(NSString *)prefix withNumberOf:(int)total_picture {
+    int i;
+    
+    UIGraphicsBeginImageContext( m_ImageAlbum.frame.size);
+    for ( i = total_picture; i >= 0 ; i-- )
+    {
+        NSString *imageToLoad;
+        CGRect rect;
+        int startX;
+        
+        if( i >= 4 )
+            startX = ( m_ImageAlbum.bounds.size.width - 160 ) / total_picture * (total_picture - i);
+        else
+            startX = ( m_ImageAlbum.bounds.size.width - 160 ) / total_picture * (total_picture - i) + (4 - i) * 16 + (5 - i ) * (5 - i ) - 5;
+        rect = CGRectMake(
+                          startX,
+                          m_ImageAlbum.bounds.size.height / total_picture * i,
+                          m_ImageAlbum.bounds.size.height / total_picture * ( total_picture - i ),
+                          m_ImageAlbum.bounds.size.height / total_picture * ( total_picture - i )
+                          );
+        
+        // Draw the frame
+        [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:rect];
+        float dframe = rect.size.width / 15;
+        CGRect inRect = CGRectMake(rect.origin.x + dframe, rect.origin.y + dframe, rect.size.width - dframe * 2, rect.size.height - dframe * 2 );
+        // Draw the picture
+        imageToLoad = [NSString stringWithFormat:@"%@.%03d.jpg", prefix, i + 1];
+        [[UIImage imageNamed:imageToLoad] drawInRect:inRect];
+    }
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    [m_ImageAlbum initWithImage:img];
+    
+}
+
+// Init the list of album
+- (void) initAlbumList
+{
+    int buildInAlbums = 5;
+    int userAlbums = 0;
+    int i;
+    
+    TotalAlbums = buildInAlbums + userAlbums;
+    if( TotalAlbums > sizeof(AlbumList) / sizeof(AlbumList[0]) )
+        TotalAlbums = sizeof(AlbumList) / sizeof(AlbumList[0]);
+    m_albumNameList = [[NSMutableArray alloc] init];
+    
+    // set unique prefix strings 
+    for( i = 0; i < TotalAlbums; i++ )
+    {
+        switch (i) {
+            case 0:
+                AlbumList[i].prefix = @"Fruits";
+                break;
+            case 1:
+                AlbumList[i].prefix = @"Animals";
+                break;
+            case 2:
+                AlbumList[i].prefix = @"FamousPeople";
+                break;
+            case 3:
+                AlbumList[i].prefix = @"JapaneseFiftySounds";
+                break;
+            case 4:
+                AlbumList[i].prefix = @"EnglishAlphabet";
+                break;
+                
+            default:
+                AlbumList[i].prefix = [NSString stringWithFormat:@"UserWork%03d", i - 4];
+                break;
+        }
+        // get other information from string files
+        NSString *stringFile = [NSString stringWithFormat:@"Album%@", AlbumList[i].prefix];
+        AlbumList[i].titleName = NSLocalizedStringFromTable( @"AlbumTitle", stringFile, @"Album Title Name to display" );
+        [m_albumNameList addObject:AlbumList[i].titleName];
+        AlbumList[i].totalImage = [NSLocalizedStringFromTable( @"totalImage", stringFile, @"total images in this album" ) integerValue];
+        // get image titles
+        NSString *key, *value;
+        AlbumList[i].imageTitleList = [[NSMutableArray alloc] init];
+        int j;
+        for( j = 0; j < AlbumList[i].totalImage; j++ )
+        {
+            key = [NSString stringWithFormat:@"ImageTitle%03d", j + 1];
+            value = NSLocalizedStringFromTable( key, stringFile, @"Image Title Name to display" );
+            [AlbumList[i].imageTitleList addObject:value];
+        }
+    }
+}
 @end

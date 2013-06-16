@@ -11,6 +11,11 @@
 		DF29F6D8174FB24000C44598 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D6174FB24000C44598 /* Icon.png */; };
 		DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D7174FB24000C44598 /* Icon@2x.png */; };
 		DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5EC66717677169008FE5F7 /* pictureFrame.png */; };
+		DF7A8417176DDDEE00FF0DBB /* AlbumFruits.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A8419176DDDEE00FF0DBB /* AlbumFruits.strings */; };
+		DF7A841B176DDE1700FF0DBB /* AlbumAnimals.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A841D176DDE1700FF0DBB /* AlbumAnimals.strings */; };
+		DF7A841F176DDE3300FF0DBB /* AlbumFamousPeople.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A8421176DDE3300FF0DBB /* AlbumFamousPeople.strings */; };
+		DF7A8423176DDE5C00FF0DBB /* AlbumJapaneseFiftySounds.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A8425176DDE5C00FF0DBB /* AlbumJapaneseFiftySounds.strings */; };
+		DF7A8427176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A8429176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings */; };
 		DF94F8041748E6CE008B9B65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF94F8031748E6CE008B9B65 /* UIKit.framework */; };
 		DF94F8061748E6CE008B9B65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF94F8051748E6CE008B9B65 /* Foundation.framework */; };
 		DF94F8081748E6CE008B9B65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF94F8071748E6CE008B9B65 /* CoreGraphics.framework */; };
@@ -23,6 +28,7 @@
 		DF94F81D1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF94F81B1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard */; };
 		DF94F8201748E6CE008B9B65 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF94F81E1748E6CE008B9B65 /* MainStoryboard_iPad.storyboard */; };
 		DF94F8231748E6CE008B9B65 /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF94F8221748E6CE008B9B65 /* YHViewController.m */; };
+		DFE888A3176D64F20073C67B /* common.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFE888A5176D64F20073C67B /* common.strings */; };
 		DFEC51C217686E3C0007FB86 /* pictureQuestion.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C117686E3C0007FB86 /* pictureQuestion.png */; };
 		DFEC51C41768B2720007FB86 /* FamousPeople.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */; };
 		DFEC51C71768CE630007FB86 /* FamousPeople.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */; };
@@ -51,6 +57,17 @@
 		DF29F6D6174FB24000C44598 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icons/Icon.png; sourceTree = "<group>"; };
 		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
 		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
+		DF7A840C176D916F00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
+		DF7A8418176DDDEE00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumFruits.strings; sourceTree = "<group>"; };
+		DF7A841A176DDDF700FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumFruits.strings"; sourceTree = "<group>"; };
+		DF7A841C176DDE1700FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumAnimals.strings; sourceTree = "<group>"; };
+		DF7A841E176DDE1D00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumAnimals.strings"; sourceTree = "<group>"; };
+		DF7A8420176DDE3300FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumFamousPeople.strings; sourceTree = "<group>"; };
+		DF7A8422176DDE3900FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumFamousPeople.strings"; sourceTree = "<group>"; };
+		DF7A8424176DDE5C00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumJapaneseFiftySounds.strings; sourceTree = "<group>"; };
+		DF7A8426176DDE6200FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumJapaneseFiftySounds.strings"; sourceTree = "<group>"; };
+		DF7A8428176DDEA900FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumEnglishAlphabet.strings; sourceTree = "<group>"; };
+		DF7A842A176DDEAE00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumEnglishAlphabet.strings"; sourceTree = "<group>"; };
 		DF94F8001748E6CE008B9B65 /* deepImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deepImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF94F8031748E6CE008B9B65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF94F8051748E6CE008B9B65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +85,9 @@
 		DF94F81F1748E6CE008B9B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		DF94F8211748E6CE008B9B65 /* YHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
 		DF94F8221748E6CE008B9B65 /* YHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+		DFE888A4176D64F20073C67B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/common.strings; sourceTree = "<group>"; };
+		DFE888A6176D65B80073C67B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/common.strings"; sourceTree = "<group>"; };
+		DFE888A7176D65B80073C67B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		DFEC51C117686E3C0007FB86 /* pictureQuestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureQuestion.png; path = images/pictureQuestion.png; sourceTree = "<group>"; };
 		DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.016.jpg; path = images/Albums/FamousPeople/FamousPeople.016.jpg; sourceTree = "<group>"; };
 		DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.017.jpg; path = images/Albums/FamousPeople/FamousPeople.017.jpg; sourceTree = "<group>"; };
@@ -182,6 +202,12 @@
 				DF94F8151748E6CE008B9B65 /* Default.png */,
 				DF94F8171748E6CE008B9B65 /* Default@2x.png */,
 				DF94F8191748E6CE008B9B65 /* Default-568h@2x.png */,
+				DFE888A5176D64F20073C67B /* common.strings */,
+				DF7A8419176DDDEE00FF0DBB /* AlbumFruits.strings */,
+				DF7A841D176DDE1700FF0DBB /* AlbumAnimals.strings */,
+				DF7A8421176DDE3300FF0DBB /* AlbumFamousPeople.strings */,
+				DF7A8425176DDE5C00FF0DBB /* AlbumJapaneseFiftySounds.strings */,
+				DF7A8429176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,6 +281,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
 			);
 			mainGroup = DF94F7F71748E6CE008B9B65;
 			productRefGroup = DF94F8011748E6CE008B9B65 /* Products */;
@@ -299,6 +326,12 @@
 				DFEC51C41768B2720007FB86 /* FamousPeople.016.jpg in Resources */,
 				DFEC51C71768CE630007FB86 /* FamousPeople.017.jpg in Resources */,
 				DFEC51C81768CE630007FB86 /* FamousPeople.018.jpg in Resources */,
+				DFE888A3176D64F20073C67B /* common.strings in Resources */,
+				DF7A8417176DDDEE00FF0DBB /* AlbumFruits.strings in Resources */,
+				DF7A841B176DDE1700FF0DBB /* AlbumAnimals.strings in Resources */,
+				DF7A841F176DDE3300FF0DBB /* AlbumFamousPeople.strings in Resources */,
+				DF7A8423176DDE5C00FF0DBB /* AlbumJapaneseFiftySounds.strings in Resources */,
+				DF7A8427176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,10 +353,56 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		DF7A8419176DDDEE00FF0DBB /* AlbumFruits.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A8418176DDDEE00FF0DBB /* en */,
+				DF7A841A176DDDF700FF0DBB /* zh-Hant */,
+			);
+			name = AlbumFruits.strings;
+			sourceTree = "<group>";
+		};
+		DF7A841D176DDE1700FF0DBB /* AlbumAnimals.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A841C176DDE1700FF0DBB /* en */,
+				DF7A841E176DDE1D00FF0DBB /* zh-Hant */,
+			);
+			name = AlbumAnimals.strings;
+			sourceTree = "<group>";
+		};
+		DF7A8421176DDE3300FF0DBB /* AlbumFamousPeople.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A8420176DDE3300FF0DBB /* en */,
+				DF7A8422176DDE3900FF0DBB /* zh-Hant */,
+			);
+			name = AlbumFamousPeople.strings;
+			sourceTree = "<group>";
+		};
+		DF7A8425176DDE5C00FF0DBB /* AlbumJapaneseFiftySounds.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A8424176DDE5C00FF0DBB /* en */,
+				DF7A8426176DDE6200FF0DBB /* zh-Hant */,
+			);
+			name = AlbumJapaneseFiftySounds.strings;
+			sourceTree = "<group>";
+		};
+		DF7A8429176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A8428176DDEA900FF0DBB /* en */,
+				DF7A842A176DDEAE00FF0DBB /* zh-Hant */,
+			);
+			name = AlbumEnglishAlphabet.strings;
+			sourceTree = "<group>";
+		};
 		DF94F80C1748E6CE008B9B65 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DF94F80D1748E6CE008B9B65 /* en */,
+				DFE888A7176D65B80073C67B /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -332,6 +411,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DF94F81C1748E6CE008B9B65 /* en */,
+				DF7A840C176D916F00FF0DBB /* zh-Hant */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -342,6 +422,15 @@
 				DF94F81F1748E6CE008B9B65 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE888A5176D64F20073C67B /* common.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE888A4176D64F20073C67B /* en */,
+				DFE888A6176D65B80073C67B /* zh-Hant */,
+			);
+			name = common.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

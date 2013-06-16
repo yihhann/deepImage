@@ -1,0 +1,32 @@
+/* 
+  AlbumFamousPeople.strings
+  deepImage
+
+  Created by Yihhann on 13/6/16.
+  Copyright (c) 2013年 Yihhann. All rights reserved.
+*/
+
+/* Album Title Name to display */
+"AlbumTitle" = "Famous People";
+/* total images in this album */
+"totalImage" = "18";
+/* Image Title Name to display */
+"ImageTitle001" = "Einstein";
+"ImageTitle002" = "Napoleon";
+"ImageTitle003" = "Mona Lisa";
+"ImageTitle004" = "Marilyn Monroe";
+"ImageTitle005" = "Bruce Lee";
+"ImageTitle006" = "Gandhi";
+"ImageTitle007" = "Elvis";
+"ImageTitle008" = "Audrey Hepburn";
+"ImageTitle009" = "Beethoven";
+"ImageTitle010" = "Lincoln";
+"ImageTitle011" = "Kennedy";
+"ImageTitle012" = "Chaplin";
+"ImageTitle013" = "Sun Yat-sen";
+"ImageTitle014" = "Van Gogh";
+"ImageTitle015" = "Washington";
+"ImageTitle016" = "Franklin";
+"ImageTitle017" = "Bach";
+"ImageTitle018" = "Tolstoy";
+

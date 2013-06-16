@@ -1,0 +1,32 @@
+/* 
+  AlbumFamousPeople.strings
+  deepImage
+
+  Created by Yihhann on 13/6/16.
+  Copyright (c) 2013年 Yihhann. All rights reserved.
+*/
+
+/* Album Title Name to display */
+"AlbumTitle" = "世界名人";
+/* total images in this album */
+"totalImage" = "18";
+/* Image Title Name to display */
+"ImageTitle001" = "愛因斯坦";
+"ImageTitle002" = "拿破崙";
+"ImageTitle003" = "蒙娜麗莎";
+"ImageTitle004" = "瑪麗蓮·夢露";
+"ImageTitle005" = "李小龍";
+"ImageTitle006" = "甘地";
+"ImageTitle007" = "貓王";
+"ImageTitle008" = "奧黛麗·赫本";
+"ImageTitle009" = "貝多芬";
+"ImageTitle010" = "林肯";
+"ImageTitle011" = "甘迺迪";
+"ImageTitle012" = "卓别林";
+"ImageTitle013" = "孫中山";
+"ImageTitle014" = "梵谷";
+"ImageTitle015" = "華盛頓";
+"ImageTitle016" = "富蘭克林";
+"ImageTitle017" = "巴哈";
+"ImageTitle018" = "托爾斯泰";
+

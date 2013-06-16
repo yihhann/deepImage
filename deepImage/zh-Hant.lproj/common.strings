@@ -1,0 +1,14 @@
+/* 
+  common.strings
+  deepImage
+
+  Created by Yihhann on 13/6/16.
+  Copyright (c) 2013年 Yihhann. All rights reserved.
+*/
+
+/* Product name */
+"Deep Image" = "憶難忘";
+
+/* Messages */
+"Pick the matched pictures..." = "挑選相同的圖片配對...";
+

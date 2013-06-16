@@ -1,0 +1,15 @@
+/* 
+  AlbumJapaneseFiftySounds.strings
+  deepImage
+
+  Created by Yihhann on 13/6/16.
+  Copyright (c) 2013年 Yihhann. All rights reserved.
+*/
+
+/* Album Title Name to display */
+"AlbumTitle" = "Japanese Fifty Sounds";
+/* total images in this album */
+"totalImage" = "1";
+/* Image Title Name to display */
+"ImageTitle001" = "あ";
+

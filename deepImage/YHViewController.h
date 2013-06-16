@@ -16,7 +16,9 @@
 @property (retain, nonatomic) IBOutlet UILabel *m_MatrixColumn;
 @property (retain, nonatomic) IBOutlet UILabel *m_MatrixRow;
 @property (retain, nonatomic) IBOutlet UIPickerView *m_AlbumPicker;
+@property (retain, nonatomic) IBOutlet UIButton *m_SetupButton;
 @property (retain, nonatomic) IBOutlet UIButton *m_PlayButton;
+@property (retain, nonatomic) IBOutlet UIImageView *m_ImageAlbum;
 
 - (IBAction)ColumnStep:(id)sender;
 - (IBAction)RowStep:(id)sender;

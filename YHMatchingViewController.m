@@ -23,10 +23,12 @@
 
 @implementation YHMatchingViewController
 
+@synthesize m_labelClickCount;
 @synthesize m_collectionMatching;
 @synthesize m_labelStatus;
 
 @synthesize m_pictureNameList;
+@synthesize m_pictureTitleList;
 @synthesize m_matchingRows;
 @synthesize m_matchingColumns;
 
@@ -82,19 +84,19 @@
     [m_collectionMatching reloadData];
 }
 
-// Build in function for Collection View
+// implement function for Collection View
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
     return 1;
 }
 
-// Build in function for Collection View
+// implement function for Collection View to return the number of cells
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return m_matchingColumns * m_matchingRows;
+    return m_matchingList.count;
 }
 
-// Build in function for Collection View to set the size of cells
+// implement function for Collection View to set the size of cells
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     int w = ( collectionView.frame.size.width - 4 ) / m_matchingColumns - 4;
@@ -102,7 +104,7 @@
     return CGSizeMake( w, h );
 }
 
-// Build in function for Collection View to return a cell object
+// implement function for Collection View to return a cell object
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     YHMatchingCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ACell" forIndexPath:indexPath];
@@ -129,11 +131,9 @@
     // Draw the picture
     if( imageToLoad )
         [[UIImage imageNamed:imageToLoad] drawInRect:inRect];
-    [cell.imageInside initWithImage:UIGraphicsGetImageFromCurrentImageContext()];
+    cell.imageInside.image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     cell.backgroundColor = [UIColor clearColor];
-
-    NSLog(@"cellForItemAtIndexPath: row = %d", indexPath.row );
 
     return cell;
 }
@@ -148,6 +148,10 @@
     // click on a closed picture
     if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED )
     {
+        // count the clicks
+        m_clickCount++;
+        m_labelClickCount.text = [NSString stringWithFormat:@"%d", m_clickCount];
+
         m_cellStatusList[indexPath.row] = @(YH_CELL_CLOSED_TO_OPEN);
         //[m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
         if( m_clickedCell2 >=0 )
@@ -172,7 +176,6 @@
         //[m_collectionMatching reloadData];
     }
 
-    NSLog(@"shouldSelectItemAtIndexPath:row = %d", indexPath.row );
     return YES;
 }
 
@@ -203,10 +206,13 @@
                 cell.imageInside.frame = CGRectMake(0, cell.frame.size.height / 2, cell.frame.size.width, 0);
             } completion:^(BOOL finished) {
                 cell.imageInside.frame = CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height );
-                [cell.imageInside initWithImage:cellImage];
+                cell.imageInside.image = cellImage;
             }];
         
+        // Display image title
+        m_labelStatus.text = m_pictureTitleList[idx];
         
+        // set the status to open / matched
         if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN )
             m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
         else if ( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_MATCHED )
@@ -214,9 +220,7 @@
         //[m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
     }
 
-    NSLog(@"didSelectItemAtIndexPath: row = %d", indexPath.row );
-
-}
+} // end of - (void)collectionView: didSelectItemAtIndexPath:
 
 // Pick pictures randomly
 -(void) renewMatchingList
@@ -275,6 +279,10 @@
         [m_cellStatusList addObject:@(YH_CELL_OPEN)];
     m_clickedCell1 = -1;
     m_clickedCell2 = -1;
+    
+    // init the counter of clicks
+    m_clickCount = 0;
+    m_labelClickCount.text = [NSString stringWithFormat:@"%d", m_clickCount];
 
     // Count down animation
     m_countDown = 5;
@@ -317,8 +325,8 @@
                  nextLabel.text = @" ";
              else
              {
-                 // end of count down
-                 nextLabel.text = @"Pick the matched pictures...";
+                 // Localize
+                 nextLabel.text = NSLocalizedStringFromTable(@"Pick the matched pictures...", @"common", nil);
                  nextLabel.font = [UIFont systemFontOfSize:22];
              }
              m_labelStatus = nextLabel;
@@ -347,6 +355,7 @@
     [m_collectionMatching release];
     [m_matchingList release];
     [m_labelStatus release];
+    [m_labelClickCount release];
     [super dealloc];
 }
 @end
