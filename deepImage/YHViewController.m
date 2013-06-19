@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 Yihhann. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import "YHViewController.h"
 #import "YHMatchingViewController.h"
 
@@ -52,6 +53,9 @@ YHAlbum AlbumList[1000];
     [m_AlbumPicker selectRow:2 inComponent:0 animated:YES];
     // preview the default album
     [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(doPreviewDefaultAlbum:) userInfo:nil repeats:NO];
+    
+    // play the theme music
+    [m_audioPlayer play];
     
 }
 
@@ -130,6 +134,9 @@ YHAlbum AlbumList[1000];
  
     matchingViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:matchingViewController animated:YES completion:nil];
+    
+    // stop the theme music
+    [m_audioPlayer stop];
 }
 
 
@@ -264,5 +271,19 @@ YHAlbum AlbumList[1000];
             [AlbumList[i].imageTitleList addObject:value];
         }
     }
+    
+} // end of (void) initAlbumList
+
+// implement to play music further
+-(id) initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    if( self )
+    {
+        NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"theme_piano" withExtension:@"mp3"];
+        m_audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_audioPlayer prepareToPlay];
+    }
+    return self;
 }
+
 @end

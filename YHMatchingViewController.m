@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 Yihhann. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import "YHMatchingViewController.h"
 #import "YHMatchingCell.h"
 
@@ -76,6 +77,7 @@
 // Back to main view
 - (IBAction)BackButtonClicked:(id)sender {
     [[self presentingViewController] dismissViewControllerAnimated:YES completion:Nil];
+    [m_audioPlayer play];
 }
 
 // Renew the game
@@ -207,6 +209,7 @@
             } completion:^(BOOL finished) {
                 cell.imageInside.frame = CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height );
                 cell.imageInside.image = cellImage;
+                [self checkGameCompletion];
             }];
         
         // Display image title
@@ -327,7 +330,8 @@
              {
                  // Localize
                  nextLabel.text = NSLocalizedStringFromTable(@"Pick the matched pictures...", @"common", nil);
-                 nextLabel.font = [UIFont systemFontOfSize:22];
+                 nextLabel.font = [UIFont systemFontOfSize:42];
+                 nextLabel.adjustsFontSizeToFitWidth = YES;
              }
              m_labelStatus = nextLabel;
          }
@@ -349,6 +353,34 @@
         [timer invalidate];
         m_timerCountDown = Nil;
     }
+} // end of (void) doCountDown:(NSTimer *)timer
+
+// check if the game is completed
+- (void) checkGameCompletion
+{
+    int i;
+
+    // check
+    for( i = 0; i < m_cellStatusList.count; i++ )
+        if( [m_cellStatusList[i] integerValue] != YH_CELL_MATCHED )
+            if ([m_matchingList[i] integerValue] >= 0 )
+                return;
+    
+    // Completed
+    m_labelStatus.text = NSLocalizedStringFromTable(@"Well Done!", @"common", @"Game is completed" );
+    
+}
+
+// implement to play music further
+-(id) initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    if( self )
+    {
+        NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"back_piano" withExtension:@"mp3"];
+        m_audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_audioPlayer prepareToPlay];
+    }
+    return self;
 }
 
 - (void)dealloc {

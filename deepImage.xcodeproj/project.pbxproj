@@ -49,6 +49,9 @@
 		DFF5C1261764B40A0096C4C9 /* FamousPeople.013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1171764B40A0096C4C9 /* FamousPeople.013.jpg */; };
 		DFF5C1271764B40A0096C4C9 /* FamousPeople.014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1181764B40A0096C4C9 /* FamousPeople.014.jpg */; };
 		DFF5C1281764B40A0096C4C9 /* FamousPeople.015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1191764B40A0096C4C9 /* FamousPeople.015.jpg */; };
+		DFFF2AFF1771EFAF005E09D0 /* back_piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */; };
+		DFFF2B001771EFAF005E09D0 /* theme_piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFFF2AFE1771EFAF005E09D0 /* theme_piano.mp3 */; };
+		DFFF2B021771F047005E09D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFF2B011771F047005E09D0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,16 +61,16 @@
 		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
 		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
 		DF7A840C176D916F00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
-		DF7A8418176DDDEE00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumFruits.strings; sourceTree = "<group>"; };
-		DF7A841A176DDDF700FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumFruits.strings"; sourceTree = "<group>"; };
-		DF7A841C176DDE1700FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumAnimals.strings; sourceTree = "<group>"; };
-		DF7A841E176DDE1D00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumAnimals.strings"; sourceTree = "<group>"; };
-		DF7A8420176DDE3300FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumFamousPeople.strings; sourceTree = "<group>"; };
-		DF7A8422176DDE3900FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumFamousPeople.strings"; sourceTree = "<group>"; };
-		DF7A8424176DDE5C00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumJapaneseFiftySounds.strings; sourceTree = "<group>"; };
-		DF7A8426176DDE6200FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumJapaneseFiftySounds.strings"; sourceTree = "<group>"; };
-		DF7A8428176DDEA900FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/AlbumEnglishAlphabet.strings; sourceTree = "<group>"; };
-		DF7A842A176DDEAE00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumEnglishAlphabet.strings"; sourceTree = "<group>"; };
+		DF7A8418176DDDEE00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AlbumFruits.strings; sourceTree = "<group>"; };
+		DF7A841A176DDDF700FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumFruits.strings"; sourceTree = "<group>"; };
+		DF7A841C176DDE1700FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AlbumAnimals.strings; sourceTree = "<group>"; };
+		DF7A841E176DDE1D00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumAnimals.strings"; sourceTree = "<group>"; };
+		DF7A8420176DDE3300FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AlbumFamousPeople.strings; sourceTree = "<group>"; };
+		DF7A8422176DDE3900FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumFamousPeople.strings"; sourceTree = "<group>"; };
+		DF7A8424176DDE5C00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AlbumJapaneseFiftySounds.strings; sourceTree = "<group>"; };
+		DF7A8426176DDE6200FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumJapaneseFiftySounds.strings"; sourceTree = "<group>"; };
+		DF7A8428176DDEA900FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AlbumEnglishAlphabet.strings; sourceTree = "<group>"; };
+		DF7A842A176DDEAE00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AlbumEnglishAlphabet.strings"; sourceTree = "<group>"; };
 		DF94F8001748E6CE008B9B65 /* deepImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deepImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF94F8031748E6CE008B9B65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF94F8051748E6CE008B9B65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +112,9 @@
 		DFF5C1171764B40A0096C4C9 /* FamousPeople.013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.013.jpg; path = images/Albums/FamousPeople/FamousPeople.013.jpg; sourceTree = "<group>"; };
 		DFF5C1181764B40A0096C4C9 /* FamousPeople.014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.014.jpg; path = images/Albums/FamousPeople/FamousPeople.014.jpg; sourceTree = "<group>"; };
 		DFF5C1191764B40A0096C4C9 /* FamousPeople.015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.015.jpg; path = images/Albums/FamousPeople/FamousPeople.015.jpg; sourceTree = "<group>"; };
+		DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = back_piano.mp3; path = deepImage/audio/back_piano.mp3; sourceTree = "<group>"; };
+		DFFF2AFE1771EFAF005E09D0 /* theme_piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = theme_piano.mp3; path = deepImage/audio/theme_piano.mp3; sourceTree = "<group>"; };
+		DFFF2B011771F047005E09D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFF2B021771F047005E09D0 /* AVFoundation.framework in Frameworks */,
 				DF94F8041748E6CE008B9B65 /* UIKit.framework in Frameworks */,
 				DF94F8061748E6CE008B9B65 /* Foundation.framework in Frameworks */,
 				DF94F8081748E6CE008B9B65 /* CoreGraphics.framework in Frameworks */,
@@ -149,8 +156,10 @@
 		DF94F7F71748E6CE008B9B65 = {
 			isa = PBXGroup;
 			children = (
+				DFFF2B011771F047005E09D0 /* AVFoundation.framework */,
 				DF94F8091748E6CE008B9B65 /* deepImage */,
 				DF29F6D2174FB04D00C44598 /* images */,
+				DFFF2AFC1771EF6D005E09D0 /* audio */,
 				DF94F8021748E6CE008B9B65 /* Frameworks */,
 				DF94F8011748E6CE008B9B65 /* Products */,
 			);
@@ -245,6 +254,15 @@
 			name = FamousPeople;
 			sourceTree = "<group>";
 		};
+		DFFF2AFC1771EF6D005E09D0 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */,
+				DFFF2AFE1771EFAF005E09D0 /* theme_piano.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,6 +350,8 @@
 				DF7A841F176DDE3300FF0DBB /* AlbumFamousPeople.strings in Resources */,
 				DF7A8423176DDE5C00FF0DBB /* AlbumJapaneseFiftySounds.strings in Resources */,
 				DF7A8427176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings in Resources */,
+				DFFF2AFF1771EFAF005E09D0 /* back_piano.mp3 in Resources */,
+				DFFF2B001771EFAF005E09D0 /* theme_piano.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

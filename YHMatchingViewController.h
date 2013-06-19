@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class AVAudioPlayer;
 
 @interface YHMatchingViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource> {
     NSMutableArray* m_matchingList;     // the index list of matching pictures
@@ -16,6 +17,7 @@
     // count down while the new game start
     int m_countDown;                    
     NSTimer* m_timerCountDown;
+    AVAudioPlayer * m_audioPlayer;      // to play the back music
 }
 @property (retain, nonatomic) IBOutlet UILabel *m_labelClickCount;
 @property (retain, nonatomic) IBOutlet UICollectionView *m_collectionMatching;
