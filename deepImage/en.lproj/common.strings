@@ -13,3 +13,10 @@
 "Pick the matched pictures..." = "Pick the matched pictures...";
 "Well Done!" = "Well Done!";
 
+/* Countdown voice file name */
+"count0" = "count0";
+"count1" = "count1";
+"count2" = "count2";
+"count3" = "count3";
+"count4" = "count4";
+"count5" = "count5";

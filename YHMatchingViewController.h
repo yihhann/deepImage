@@ -17,7 +17,8 @@
     // count down while the new game start
     int m_countDown;                    
     NSTimer* m_timerCountDown;
-    AVAudioPlayer * m_audioPlayer;      // to play the back music
+    AVAudioPlayer* m_musicPlayer;      // to play the back music
+    AVAudioPlayer* m_voicePlayer;      // to play sounds
 }
 @property (retain, nonatomic) IBOutlet UILabel *m_labelClickCount;
 @property (retain, nonatomic) IBOutlet UICollectionView *m_collectionMatching;

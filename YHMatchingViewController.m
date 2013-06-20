@@ -77,7 +77,7 @@
 // Back to main view
 - (IBAction)BackButtonClicked:(id)sender {
     [[self presentingViewController] dismissViewControllerAnimated:YES completion:Nil];
-    [m_audioPlayer play];
+    [m_musicPlayer play];
 }
 
 // Renew the game
@@ -338,6 +338,21 @@
          ];
     }
     
+    // Play countdown voice
+    if( m_voicePlayer != Nil )
+    {
+        if( m_voicePlayer.playing )
+            [m_voicePlayer stop];
+        [m_voicePlayer release];
+    }
+    NSString* key = [NSString stringWithFormat:@"count%d", m_countDown];
+    NSString* filename = NSLocalizedStringFromTable(key, @"common", @"voice file name" );
+    NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:filename withExtension:@"mp3"];
+    m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+    [m_voicePlayer prepareToPlay];
+    [m_voicePlayer play];
+
+    // next countdown
     if( m_countDown > 0 )
     {
         m_countDown--;
@@ -369,6 +384,19 @@
     // Completed
     m_labelStatus.text = NSLocalizedStringFromTable(@"Well Done!", @"common", @"Game is completed" );
     
+    // Play well done voice
+    if( m_voicePlayer != Nil )
+    {
+        if( m_voicePlayer.playing )
+            [m_voicePlayer stop];
+        [m_voicePlayer release];
+    }
+    NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
+    m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+    [m_voicePlayer prepareToPlay];
+    [m_voicePlayer play];
+
+    
 }
 
 // implement to play music further
@@ -376,9 +404,16 @@
     self = [super initWithCoder:aDecoder];
     if( self )
     {
+        if( m_musicPlayer != Nil )
+        {
+            if( m_musicPlayer.playing )
+                [m_musicPlayer stop];
+            [m_musicPlayer release];
+        }
         NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"back_piano" withExtension:@"mp3"];
-        m_audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_audioPlayer prepareToPlay];
+        m_musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_musicPlayer prepareToPlay];
+        m_voicePlayer = Nil;
     }
     return self;
 }

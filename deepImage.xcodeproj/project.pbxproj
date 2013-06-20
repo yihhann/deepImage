@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DF03E0C4176C7E2100519336 /* YHMatchingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03E0C3176C7E2100519336 /* YHMatchingCell.m */; };
+		DF1A7AAD1773418400D74773 /* count0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AA71773418400D74773 /* count0.mp3 */; };
+		DF1A7AAE1773418400D74773 /* count1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AA81773418400D74773 /* count1.mp3 */; };
+		DF1A7AAF1773418400D74773 /* count2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AA91773418400D74773 /* count2.mp3 */; };
+		DF1A7AB01773418400D74773 /* count3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAA1773418400D74773 /* count3.mp3 */; };
+		DF1A7AB11773418400D74773 /* count4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAB1773418400D74773 /* count4.mp3 */; };
+		DF1A7AB21773418400D74773 /* count5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAC1773418400D74773 /* count5.mp3 */; };
+		DF1A7AB417734D3000D74773 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AB317734D3000D74773 /* applause.mp3 */; };
 		DF29F6D8174FB24000C44598 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D6174FB24000C44598 /* Icon.png */; };
 		DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D7174FB24000C44598 /* Icon@2x.png */; };
 		DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5EC66717677169008FE5F7 /* pictureFrame.png */; };
@@ -57,6 +64,13 @@
 /* Begin PBXFileReference section */
 		DF03E0C2176C7E2100519336 /* YHMatchingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMatchingCell.h; sourceTree = "<group>"; };
 		DF03E0C3176C7E2100519336 /* YHMatchingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMatchingCell.m; sourceTree = "<group>"; };
+		DF1A7AA71773418400D74773 /* count0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count0.mp3; path = deepImage/audio/count0.mp3; sourceTree = "<group>"; };
+		DF1A7AA81773418400D74773 /* count1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count1.mp3; path = deepImage/audio/count1.mp3; sourceTree = "<group>"; };
+		DF1A7AA91773418400D74773 /* count2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count2.mp3; path = deepImage/audio/count2.mp3; sourceTree = "<group>"; };
+		DF1A7AAA1773418400D74773 /* count3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count3.mp3; path = deepImage/audio/count3.mp3; sourceTree = "<group>"; };
+		DF1A7AAB1773418400D74773 /* count4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count4.mp3; path = deepImage/audio/count4.mp3; sourceTree = "<group>"; };
+		DF1A7AAC1773418400D74773 /* count5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count5.mp3; path = deepImage/audio/count5.mp3; sourceTree = "<group>"; };
+		DF1A7AB317734D3000D74773 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = applause.mp3; path = deepImage/audio/applause.mp3; sourceTree = "<group>"; };
 		DF29F6D6174FB24000C44598 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icons/Icon.png; sourceTree = "<group>"; };
 		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
 		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
@@ -257,8 +271,15 @@
 		DFFF2AFC1771EF6D005E09D0 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				DF1A7AB317734D3000D74773 /* applause.mp3 */,
 				DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */,
 				DFFF2AFE1771EFAF005E09D0 /* theme_piano.mp3 */,
+				DF1A7AA71773418400D74773 /* count0.mp3 */,
+				DF1A7AA81773418400D74773 /* count1.mp3 */,
+				DF1A7AA91773418400D74773 /* count2.mp3 */,
+				DF1A7AAA1773418400D74773 /* count3.mp3 */,
+				DF1A7AAB1773418400D74773 /* count4.mp3 */,
+				DF1A7AAC1773418400D74773 /* count5.mp3 */,
 			);
 			name = audio;
 			sourceTree = "<group>";
@@ -352,6 +373,13 @@
 				DF7A8427176DDEA900FF0DBB /* AlbumEnglishAlphabet.strings in Resources */,
 				DFFF2AFF1771EFAF005E09D0 /* back_piano.mp3 in Resources */,
 				DFFF2B001771EFAF005E09D0 /* theme_piano.mp3 in Resources */,
+				DF1A7AAD1773418400D74773 /* count0.mp3 in Resources */,
+				DF1A7AAE1773418400D74773 /* count1.mp3 in Resources */,
+				DF1A7AAF1773418400D74773 /* count2.mp3 in Resources */,
+				DF1A7AB01773418400D74773 /* count3.mp3 in Resources */,
+				DF1A7AB11773418400D74773 /* count4.mp3 in Resources */,
+				DF1A7AB21773418400D74773 /* count5.mp3 in Resources */,
+				DF1A7AB417734D3000D74773 /* applause.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
