@@ -15,6 +15,34 @@
 		DF1A7AB11773418400D74773 /* count4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAB1773418400D74773 /* count4.mp3 */; };
 		DF1A7AB21773418400D74773 /* count5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAC1773418400D74773 /* count5.mp3 */; };
 		DF1A7AB417734D3000D74773 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AB317734D3000D74773 /* applause.mp3 */; };
+		DF217460177499FA007CCA67 /* Animals.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217444177499FA007CCA67 /* Animals.001.jpg */; };
+		DF217461177499FA007CCA67 /* Animals.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217445177499FA007CCA67 /* Animals.002.jpg */; };
+		DF217462177499FA007CCA67 /* Animals.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217446177499FA007CCA67 /* Animals.003.jpg */; };
+		DF217463177499FA007CCA67 /* Animals.004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217447177499FA007CCA67 /* Animals.004.jpg */; };
+		DF217464177499FA007CCA67 /* Animals.005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217448177499FA007CCA67 /* Animals.005.jpg */; };
+		DF217465177499FA007CCA67 /* Animals.006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217449177499FA007CCA67 /* Animals.006.jpg */; };
+		DF217466177499FA007CCA67 /* Animals.007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21744A177499FA007CCA67 /* Animals.007.jpg */; };
+		DF217467177499FA007CCA67 /* Animals.008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21744B177499FA007CCA67 /* Animals.008.jpg */; };
+		DF217468177499FA007CCA67 /* Animals.009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21744C177499FA007CCA67 /* Animals.009.jpg */; };
+		DF217469177499FA007CCA67 /* Animals.010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21744D177499FA007CCA67 /* Animals.010.jpg */; };
+		DF21746A177499FA007CCA67 /* Animals.011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21744E177499FA007CCA67 /* Animals.011.jpg */; };
+		DF21746B177499FA007CCA67 /* Animals.012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21744F177499FA007CCA67 /* Animals.012.jpg */; };
+		DF21746C177499FA007CCA67 /* Animals.013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217450177499FA007CCA67 /* Animals.013.jpg */; };
+		DF21746D177499FA007CCA67 /* Animals.014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217451177499FA007CCA67 /* Animals.014.jpg */; };
+		DF21746E177499FA007CCA67 /* Animals.015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217452177499FA007CCA67 /* Animals.015.jpg */; };
+		DF21746F177499FA007CCA67 /* Animals.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217453177499FA007CCA67 /* Animals.016.jpg */; };
+		DF217470177499FA007CCA67 /* Animals.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217454177499FA007CCA67 /* Animals.017.jpg */; };
+		DF217471177499FA007CCA67 /* Animals.018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217455177499FA007CCA67 /* Animals.018.jpg */; };
+		DF217472177499FA007CCA67 /* Animals.019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217456177499FA007CCA67 /* Animals.019.jpg */; };
+		DF217473177499FA007CCA67 /* Animals.020.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217457177499FA007CCA67 /* Animals.020.jpg */; };
+		DF217474177499FA007CCA67 /* Animals.021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217458177499FA007CCA67 /* Animals.021.jpg */; };
+		DF217475177499FA007CCA67 /* Animals.022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217459177499FA007CCA67 /* Animals.022.jpg */; };
+		DF217476177499FA007CCA67 /* Animals.023.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745A177499FA007CCA67 /* Animals.023.jpg */; };
+		DF217477177499FA007CCA67 /* Animals.024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745B177499FA007CCA67 /* Animals.024.jpg */; };
+		DF217478177499FA007CCA67 /* Animals.025.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745C177499FA007CCA67 /* Animals.025.jpg */; };
+		DF217479177499FA007CCA67 /* Animals.026.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745D177499FA007CCA67 /* Animals.026.jpg */; };
+		DF21747A177499FA007CCA67 /* Animals.027.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745E177499FA007CCA67 /* Animals.027.jpg */; };
+		DF21747B177499FA007CCA67 /* Animals.028.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745F177499FA007CCA67 /* Animals.028.jpg */; };
 		DF29F6D8174FB24000C44598 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D6174FB24000C44598 /* Icon.png */; };
 		DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D7174FB24000C44598 /* Icon@2x.png */; };
 		DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5EC66717677169008FE5F7 /* pictureFrame.png */; };
@@ -71,6 +99,34 @@
 		DF1A7AAB1773418400D74773 /* count4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count4.mp3; path = deepImage/audio/count4.mp3; sourceTree = "<group>"; };
 		DF1A7AAC1773418400D74773 /* count5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count5.mp3; path = deepImage/audio/count5.mp3; sourceTree = "<group>"; };
 		DF1A7AB317734D3000D74773 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = applause.mp3; path = deepImage/audio/applause.mp3; sourceTree = "<group>"; };
+		DF217444177499FA007CCA67 /* Animals.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.001.jpg; path = images/Albums/Animals/Animals.001.jpg; sourceTree = "<group>"; };
+		DF217445177499FA007CCA67 /* Animals.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.002.jpg; path = images/Albums/Animals/Animals.002.jpg; sourceTree = "<group>"; };
+		DF217446177499FA007CCA67 /* Animals.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.003.jpg; path = images/Albums/Animals/Animals.003.jpg; sourceTree = "<group>"; };
+		DF217447177499FA007CCA67 /* Animals.004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.004.jpg; path = images/Albums/Animals/Animals.004.jpg; sourceTree = "<group>"; };
+		DF217448177499FA007CCA67 /* Animals.005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.005.jpg; path = images/Albums/Animals/Animals.005.jpg; sourceTree = "<group>"; };
+		DF217449177499FA007CCA67 /* Animals.006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.006.jpg; path = images/Albums/Animals/Animals.006.jpg; sourceTree = "<group>"; };
+		DF21744A177499FA007CCA67 /* Animals.007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.007.jpg; path = images/Albums/Animals/Animals.007.jpg; sourceTree = "<group>"; };
+		DF21744B177499FA007CCA67 /* Animals.008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.008.jpg; path = images/Albums/Animals/Animals.008.jpg; sourceTree = "<group>"; };
+		DF21744C177499FA007CCA67 /* Animals.009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.009.jpg; path = images/Albums/Animals/Animals.009.jpg; sourceTree = "<group>"; };
+		DF21744D177499FA007CCA67 /* Animals.010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.010.jpg; path = images/Albums/Animals/Animals.010.jpg; sourceTree = "<group>"; };
+		DF21744E177499FA007CCA67 /* Animals.011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.011.jpg; path = images/Albums/Animals/Animals.011.jpg; sourceTree = "<group>"; };
+		DF21744F177499FA007CCA67 /* Animals.012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.012.jpg; path = images/Albums/Animals/Animals.012.jpg; sourceTree = "<group>"; };
+		DF217450177499FA007CCA67 /* Animals.013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.013.jpg; path = images/Albums/Animals/Animals.013.jpg; sourceTree = "<group>"; };
+		DF217451177499FA007CCA67 /* Animals.014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.014.jpg; path = images/Albums/Animals/Animals.014.jpg; sourceTree = "<group>"; };
+		DF217452177499FA007CCA67 /* Animals.015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.015.jpg; path = images/Albums/Animals/Animals.015.jpg; sourceTree = "<group>"; };
+		DF217453177499FA007CCA67 /* Animals.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.016.jpg; path = images/Albums/Animals/Animals.016.jpg; sourceTree = "<group>"; };
+		DF217454177499FA007CCA67 /* Animals.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.017.jpg; path = images/Albums/Animals/Animals.017.jpg; sourceTree = "<group>"; };
+		DF217455177499FA007CCA67 /* Animals.018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.018.jpg; path = images/Albums/Animals/Animals.018.jpg; sourceTree = "<group>"; };
+		DF217456177499FA007CCA67 /* Animals.019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.019.jpg; path = images/Albums/Animals/Animals.019.jpg; sourceTree = "<group>"; };
+		DF217457177499FA007CCA67 /* Animals.020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.020.jpg; path = images/Albums/Animals/Animals.020.jpg; sourceTree = "<group>"; };
+		DF217458177499FA007CCA67 /* Animals.021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.021.jpg; path = images/Albums/Animals/Animals.021.jpg; sourceTree = "<group>"; };
+		DF217459177499FA007CCA67 /* Animals.022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.022.jpg; path = images/Albums/Animals/Animals.022.jpg; sourceTree = "<group>"; };
+		DF21745A177499FA007CCA67 /* Animals.023.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.023.jpg; path = images/Albums/Animals/Animals.023.jpg; sourceTree = "<group>"; };
+		DF21745B177499FA007CCA67 /* Animals.024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.024.jpg; path = images/Albums/Animals/Animals.024.jpg; sourceTree = "<group>"; };
+		DF21745C177499FA007CCA67 /* Animals.025.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.025.jpg; path = images/Albums/Animals/Animals.025.jpg; sourceTree = "<group>"; };
+		DF21745D177499FA007CCA67 /* Animals.026.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.026.jpg; path = images/Albums/Animals/Animals.026.jpg; sourceTree = "<group>"; };
+		DF21745E177499FA007CCA67 /* Animals.027.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.027.jpg; path = images/Albums/Animals/Animals.027.jpg; sourceTree = "<group>"; };
+		DF21745F177499FA007CCA67 /* Animals.028.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.028.jpg; path = images/Albums/Animals/Animals.028.jpg; sourceTree = "<group>"; };
 		DF29F6D6174FB24000C44598 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icons/Icon.png; sourceTree = "<group>"; };
 		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
 		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
@@ -146,6 +202,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF21744317749955007CCA67 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				DF217444177499FA007CCA67 /* Animals.001.jpg */,
+				DF217445177499FA007CCA67 /* Animals.002.jpg */,
+				DF217446177499FA007CCA67 /* Animals.003.jpg */,
+				DF217447177499FA007CCA67 /* Animals.004.jpg */,
+				DF217448177499FA007CCA67 /* Animals.005.jpg */,
+				DF217449177499FA007CCA67 /* Animals.006.jpg */,
+				DF21744A177499FA007CCA67 /* Animals.007.jpg */,
+				DF21744B177499FA007CCA67 /* Animals.008.jpg */,
+				DF21744C177499FA007CCA67 /* Animals.009.jpg */,
+				DF21744D177499FA007CCA67 /* Animals.010.jpg */,
+				DF21744E177499FA007CCA67 /* Animals.011.jpg */,
+				DF21744F177499FA007CCA67 /* Animals.012.jpg */,
+				DF217450177499FA007CCA67 /* Animals.013.jpg */,
+				DF217451177499FA007CCA67 /* Animals.014.jpg */,
+				DF217452177499FA007CCA67 /* Animals.015.jpg */,
+				DF217453177499FA007CCA67 /* Animals.016.jpg */,
+				DF217454177499FA007CCA67 /* Animals.017.jpg */,
+				DF217455177499FA007CCA67 /* Animals.018.jpg */,
+				DF217456177499FA007CCA67 /* Animals.019.jpg */,
+				DF217457177499FA007CCA67 /* Animals.020.jpg */,
+				DF217458177499FA007CCA67 /* Animals.021.jpg */,
+				DF217459177499FA007CCA67 /* Animals.022.jpg */,
+				DF21745A177499FA007CCA67 /* Animals.023.jpg */,
+				DF21745B177499FA007CCA67 /* Animals.024.jpg */,
+				DF21745C177499FA007CCA67 /* Animals.025.jpg */,
+				DF21745D177499FA007CCA67 /* Animals.026.jpg */,
+				DF21745E177499FA007CCA67 /* Animals.027.jpg */,
+				DF21745F177499FA007CCA67 /* Animals.028.jpg */,
+			);
+			name = Animals;
+			sourceTree = "<group>";
+		};
 		DF29F6D2174FB04D00C44598 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +329,7 @@
 		DFF5C1091764B21A0096C4C9 /* Albums */ = {
 			isa = PBXGroup;
 			children = (
+				DF21744317749955007CCA67 /* Animals */,
 				DFF5C10A1764B24E0096C4C9 /* FamousPeople */,
 			);
 			name = Albums;
@@ -380,6 +472,34 @@
 				DF1A7AB11773418400D74773 /* count4.mp3 in Resources */,
 				DF1A7AB21773418400D74773 /* count5.mp3 in Resources */,
 				DF1A7AB417734D3000D74773 /* applause.mp3 in Resources */,
+				DF217460177499FA007CCA67 /* Animals.001.jpg in Resources */,
+				DF217461177499FA007CCA67 /* Animals.002.jpg in Resources */,
+				DF217462177499FA007CCA67 /* Animals.003.jpg in Resources */,
+				DF217463177499FA007CCA67 /* Animals.004.jpg in Resources */,
+				DF217464177499FA007CCA67 /* Animals.005.jpg in Resources */,
+				DF217465177499FA007CCA67 /* Animals.006.jpg in Resources */,
+				DF217466177499FA007CCA67 /* Animals.007.jpg in Resources */,
+				DF217467177499FA007CCA67 /* Animals.008.jpg in Resources */,
+				DF217468177499FA007CCA67 /* Animals.009.jpg in Resources */,
+				DF217469177499FA007CCA67 /* Animals.010.jpg in Resources */,
+				DF21746A177499FA007CCA67 /* Animals.011.jpg in Resources */,
+				DF21746B177499FA007CCA67 /* Animals.012.jpg in Resources */,
+				DF21746C177499FA007CCA67 /* Animals.013.jpg in Resources */,
+				DF21746D177499FA007CCA67 /* Animals.014.jpg in Resources */,
+				DF21746E177499FA007CCA67 /* Animals.015.jpg in Resources */,
+				DF21746F177499FA007CCA67 /* Animals.016.jpg in Resources */,
+				DF217470177499FA007CCA67 /* Animals.017.jpg in Resources */,
+				DF217471177499FA007CCA67 /* Animals.018.jpg in Resources */,
+				DF217472177499FA007CCA67 /* Animals.019.jpg in Resources */,
+				DF217473177499FA007CCA67 /* Animals.020.jpg in Resources */,
+				DF217474177499FA007CCA67 /* Animals.021.jpg in Resources */,
+				DF217475177499FA007CCA67 /* Animals.022.jpg in Resources */,
+				DF217476177499FA007CCA67 /* Animals.023.jpg in Resources */,
+				DF217477177499FA007CCA67 /* Animals.024.jpg in Resources */,
+				DF217478177499FA007CCA67 /* Animals.025.jpg in Resources */,
+				DF217479177499FA007CCA67 /* Animals.026.jpg in Resources */,
+				DF21747A177499FA007CCA67 /* Animals.027.jpg in Resources */,
+				DF21747B177499FA007CCA67 /* Animals.028.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
