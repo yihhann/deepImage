@@ -114,7 +114,10 @@ YHAlbum AlbumList[1000];
     YHMatchingViewController* matchingViewController =
         [self.storyboard instantiateViewControllerWithIdentifier:@"Matching"];
     int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
-    iAlbum = 2; // ==== DEBUG ==== other Albums are not ready
+    
+    // ==== DEBUG ==== other Albums are not ready
+    if( iAlbum != 1 )
+        iAlbum = 2;
     
     // Pass the picture list in the selected album
     int total_picture = AlbumList[iAlbum].totalImage;
@@ -175,12 +178,27 @@ YHAlbum AlbumList[1000];
 
 // implement function to catch the event of selecting a row
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-
-    [self previewAlbum:(NSString *)@"FamousPeople" withNumberOf:18];
+    int iAlbum = row;
+    
+    // ==== DEBUG ==== other Albums are not ready
+    if( iAlbum != 1 )
+        iAlbum = 2;
+    
+    int total_picture = AlbumList[iAlbum].totalImage;
+    NSString *album_prefix = AlbumList[iAlbum].prefix;
+    [self previewAlbum:album_prefix withNumberOf:total_picture];
 }
 
 -(void)doPreviewDefaultAlbum:(NSTimer *)timer {
-    [self previewAlbum:(NSString *)@"FamousPeople" withNumberOf:18];
+    int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
+    
+    // ==== DEBUG ==== other Albums are not ready
+    if( iAlbum != 1 )
+        iAlbum = 2;
+
+    int total_picture = AlbumList[iAlbum].totalImage;
+    NSString *album_prefix = AlbumList[iAlbum].prefix;
+    [self previewAlbum:album_prefix withNumberOf:total_picture];
 }
 
 // Draw a preview of selected album
