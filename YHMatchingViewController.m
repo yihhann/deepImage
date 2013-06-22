@@ -3,8 +3,9 @@
 //  deepImage
 //
 //  Created by Yihhann on 13/6/9.
-//  Copyright (c) 2013年 Yihhann. All rights reserved.
-//
+//  Copyright (c) 2013 Yihhann. All rights reserved.
+//  Remark:
+//    This is the gaming view controller.
 
 #import <AVFoundation/AVFoundation.h>
 #import "YHMatchingViewController.h"
@@ -321,7 +322,7 @@
         [UIView
          transitionFromView:m_labelStatus
          toView:nextLabel
-         duration:0.8
+         duration:0.7
          options:UIViewAnimationOptionTransitionCrossDissolve
          completion:^(BOOL finished) {
              if( nextLabel.text.integerValue > 0 )
@@ -382,7 +383,11 @@
                 return;
     
     // Completed
-    m_labelStatus.text = NSLocalizedStringFromTable(@"Well Done!", @"common", @"Game is completed" );
+    int leastClick = (m_matchingRows * m_matchingColumns) / 2 * 2;
+    if( m_clickCount > leastClick )
+        m_labelStatus.text = NSLocalizedStringFromTable(@"Well Done!", @"common", @"Game is completed" );
+    else
+        m_labelStatus.text = NSLocalizedStringFromTable(@"You are so amazing!", @"common", @"Game is completed in the least clicks" );
     
     // Play well done voice
     if( m_voicePlayer != Nil )
@@ -391,7 +396,11 @@
             [m_voicePlayer stop];
         [m_voicePlayer release];
     }
-    NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
+    NSURL* fileURL;
+    if( m_clickCount > leastClick )
+        fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
+    else
+        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
     m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
     [m_voicePlayer prepareToPlay];
     [m_voicePlayer play];

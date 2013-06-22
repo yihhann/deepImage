@@ -3,13 +3,35 @@
   deepImage
 
   Created by Yihhann on 13/6/16.
-  Copyright (c) 2013年 Yihhann. All rights reserved.
+  Copyright (c) 2013 Yihhann. All rights reserved.
 */
 
 /* Album Title Name to display */
 "AlbumTitle" = "Fruits";
 /* total images in this album */
-"totalImage" = "1";
+"totalImage" = "23";
 /* Image Title Name to display */
-"ImageTitle001" = "Water Melon";
+"ImageTitle001" = "Apple";
+"ImageTitle002" = "Banana";
+"ImageTitle003" = "Kiwi Fruit";
+"ImageTitle004" = "Cherry";
+"ImageTitle005" = "Carambola";
+"ImageTitle006" = "Avocado";
+"ImageTitle007" = "Blueberry";
+"ImageTitle008" = "Cantaloupe";
+"ImageTitle009" = "Coconuts";
+"ImageTitle010" = "Durian";
+"ImageTitle011" = "Grape";
+"ImageTitle012" = "Lychee";
+"ImageTitle013" = "Mandarin Orange";
+"ImageTitle014" = "Orange";
+"ImageTitle015" = "papaya";
+"ImageTitle016" = "Peach";
+"ImageTitle017" = "Persimmon";
+"ImageTitle018" = "Pineapple";
+"ImageTitle019" = "Plum";
+"ImageTitle020" = "Pomelo";
+"ImageTitle021" = "Psidium guajava";
+"ImageTitle022" = "Strawberry";
+"ImageTitle023" = "Watermelon";
 

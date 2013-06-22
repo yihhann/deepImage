@@ -3,8 +3,9 @@
 //  deepImage
 //
 //  Created by Yihhann on 13/6/9.
-//  Copyright (c) 2013年 Yihhann. All rights reserved.
-//
+//  Copyright (c) 2013 Yihhann. All rights reserved.
+//  Remark:
+//    This is the gaming view controller.
 
 #import <UIKit/UIKit.h>
 @class AVAudioPlayer;

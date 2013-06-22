@@ -3,13 +3,35 @@
   deepImage
 
   Created by Yihhann on 13/6/16.
-  Copyright (c) 2013年 Yihhann. All rights reserved.
+  Copyright (c) 2013 Yihhann. All rights reserved.
 */
 
 /* Album Title Name to display */
 "AlbumTitle" = "水果";
 /* total images in this album */
-"totalImage" = "1";
+"totalImage" = "23";
 /* Image Title Name to display */
-"ImageTitle001" = "Water Melon";
+"ImageTitle001" = "蘋果";
+"ImageTitle002" = "香蕉";
+"ImageTitle003" = "奇異果";
+"ImageTitle004" = "櫻桃";
+"ImageTitle005" = "楊桃";
+"ImageTitle006" = "酪梨";
+"ImageTitle007" = "藍莓";
+"ImageTitle008" = "哈蜜瓜";
+"ImageTitle009" = "椰子";
+"ImageTitle010" = "榴槤";
+"ImageTitle011" = "葡萄";
+"ImageTitle012" = "荔枝";
+"ImageTitle013" = "橘子";
+"ImageTitle014" = "柳橙";
+"ImageTitle015" = "木瓜";
+"ImageTitle016" = "桃子";
+"ImageTitle017" = "柿子";
+"ImageTitle018" = "鳳梨";
+"ImageTitle019" = "李子";
+"ImageTitle020" = "柚子";
+"ImageTitle021" = "番石榴";
+"ImageTitle022" = "草莓";
+"ImageTitle023" = "西瓜";﻿
 

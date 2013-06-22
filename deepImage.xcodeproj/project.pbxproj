@@ -68,6 +68,30 @@
 		DFEC51C41768B2720007FB86 /* FamousPeople.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */; };
 		DFEC51C71768CE630007FB86 /* FamousPeople.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */; };
 		DFEC51C81768CE630007FB86 /* FamousPeople.018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */; };
+		DFF4E584177543A0003FF70A /* amazing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E583177543A0003FF70A /* amazing.mp3 */; };
+		DFF4E59D177579BA003FF70A /* Fruits.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E586177579BA003FF70A /* Fruits.001.jpg */; };
+		DFF4E59E177579BA003FF70A /* Fruits.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E587177579BA003FF70A /* Fruits.002.jpg */; };
+		DFF4E59F177579BA003FF70A /* Fruits.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E588177579BA003FF70A /* Fruits.003.jpg */; };
+		DFF4E5A0177579BA003FF70A /* Fruits.004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E589177579BA003FF70A /* Fruits.004.jpg */; };
+		DFF4E5A1177579BA003FF70A /* Fruits.005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E58A177579BA003FF70A /* Fruits.005.jpg */; };
+		DFF4E5A2177579BA003FF70A /* Fruits.006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E58B177579BA003FF70A /* Fruits.006.jpg */; };
+		DFF4E5A3177579BA003FF70A /* Fruits.007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E58C177579BA003FF70A /* Fruits.007.jpg */; };
+		DFF4E5A4177579BA003FF70A /* Fruits.008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E58D177579BA003FF70A /* Fruits.008.jpg */; };
+		DFF4E5A5177579BA003FF70A /* Fruits.009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E58E177579BA003FF70A /* Fruits.009.jpg */; };
+		DFF4E5A6177579BA003FF70A /* Fruits.010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E58F177579BA003FF70A /* Fruits.010.jpg */; };
+		DFF4E5A7177579BA003FF70A /* Fruits.011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E590177579BA003FF70A /* Fruits.011.jpg */; };
+		DFF4E5A8177579BA003FF70A /* Fruits.012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E591177579BA003FF70A /* Fruits.012.jpg */; };
+		DFF4E5A9177579BA003FF70A /* Fruits.013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E592177579BA003FF70A /* Fruits.013.jpg */; };
+		DFF4E5AA177579BA003FF70A /* Fruits.014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E593177579BA003FF70A /* Fruits.014.jpg */; };
+		DFF4E5AB177579BA003FF70A /* Fruits.015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E594177579BA003FF70A /* Fruits.015.jpg */; };
+		DFF4E5AC177579BA003FF70A /* Fruits.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E595177579BA003FF70A /* Fruits.016.jpg */; };
+		DFF4E5AD177579BA003FF70A /* Fruits.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E596177579BA003FF70A /* Fruits.017.jpg */; };
+		DFF4E5AE177579BA003FF70A /* Fruits.018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E597177579BA003FF70A /* Fruits.018.jpg */; };
+		DFF4E5AF177579BA003FF70A /* Fruits.019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E598177579BA003FF70A /* Fruits.019.jpg */; };
+		DFF4E5B0177579BA003FF70A /* Fruits.020.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E599177579BA003FF70A /* Fruits.020.jpg */; };
+		DFF4E5B1177579BA003FF70A /* Fruits.021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E59A177579BA003FF70A /* Fruits.021.jpg */; };
+		DFF4E5B2177579BA003FF70A /* Fruits.022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E59B177579BA003FF70A /* Fruits.022.jpg */; };
+		DFF4E5B3177579BA003FF70A /* Fruits.023.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E59C177579BA003FF70A /* Fruits.023.jpg */; };
 		DFF5C10817642EDA0096C4C9 /* YHMatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */; };
 		DFF5C11A1764B40A0096C4C9 /* FamousPeople.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */; };
 		DFF5C11B1764B40A0096C4C9 /* FamousPeople.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10C1764B40A0096C4C9 /* FamousPeople.002.jpg */; };
@@ -165,6 +189,30 @@
 		DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.016.jpg; path = images/Albums/FamousPeople/FamousPeople.016.jpg; sourceTree = "<group>"; };
 		DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.017.jpg; path = images/Albums/FamousPeople/FamousPeople.017.jpg; sourceTree = "<group>"; };
 		DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.018.jpg; path = images/Albums/FamousPeople/FamousPeople.018.jpg; sourceTree = "<group>"; };
+		DFF4E583177543A0003FF70A /* amazing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amazing.mp3; path = deepImage/audio/amazing.mp3; sourceTree = "<group>"; };
+		DFF4E586177579BA003FF70A /* Fruits.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.001.jpg; path = images/Albums/Fruits/Fruits.001.jpg; sourceTree = "<group>"; };
+		DFF4E587177579BA003FF70A /* Fruits.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.002.jpg; path = images/Albums/Fruits/Fruits.002.jpg; sourceTree = "<group>"; };
+		DFF4E588177579BA003FF70A /* Fruits.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.003.jpg; path = images/Albums/Fruits/Fruits.003.jpg; sourceTree = "<group>"; };
+		DFF4E589177579BA003FF70A /* Fruits.004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.004.jpg; path = images/Albums/Fruits/Fruits.004.jpg; sourceTree = "<group>"; };
+		DFF4E58A177579BA003FF70A /* Fruits.005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.005.jpg; path = images/Albums/Fruits/Fruits.005.jpg; sourceTree = "<group>"; };
+		DFF4E58B177579BA003FF70A /* Fruits.006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.006.jpg; path = images/Albums/Fruits/Fruits.006.jpg; sourceTree = "<group>"; };
+		DFF4E58C177579BA003FF70A /* Fruits.007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.007.jpg; path = images/Albums/Fruits/Fruits.007.jpg; sourceTree = "<group>"; };
+		DFF4E58D177579BA003FF70A /* Fruits.008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.008.jpg; path = images/Albums/Fruits/Fruits.008.jpg; sourceTree = "<group>"; };
+		DFF4E58E177579BA003FF70A /* Fruits.009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.009.jpg; path = images/Albums/Fruits/Fruits.009.jpg; sourceTree = "<group>"; };
+		DFF4E58F177579BA003FF70A /* Fruits.010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.010.jpg; path = images/Albums/Fruits/Fruits.010.jpg; sourceTree = "<group>"; };
+		DFF4E590177579BA003FF70A /* Fruits.011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.011.jpg; path = images/Albums/Fruits/Fruits.011.jpg; sourceTree = "<group>"; };
+		DFF4E591177579BA003FF70A /* Fruits.012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.012.jpg; path = images/Albums/Fruits/Fruits.012.jpg; sourceTree = "<group>"; };
+		DFF4E592177579BA003FF70A /* Fruits.013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.013.jpg; path = images/Albums/Fruits/Fruits.013.jpg; sourceTree = "<group>"; };
+		DFF4E593177579BA003FF70A /* Fruits.014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.014.jpg; path = images/Albums/Fruits/Fruits.014.jpg; sourceTree = "<group>"; };
+		DFF4E594177579BA003FF70A /* Fruits.015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.015.jpg; path = images/Albums/Fruits/Fruits.015.jpg; sourceTree = "<group>"; };
+		DFF4E595177579BA003FF70A /* Fruits.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.016.jpg; path = images/Albums/Fruits/Fruits.016.jpg; sourceTree = "<group>"; };
+		DFF4E596177579BA003FF70A /* Fruits.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.017.jpg; path = images/Albums/Fruits/Fruits.017.jpg; sourceTree = "<group>"; };
+		DFF4E597177579BA003FF70A /* Fruits.018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.018.jpg; path = images/Albums/Fruits/Fruits.018.jpg; sourceTree = "<group>"; };
+		DFF4E598177579BA003FF70A /* Fruits.019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.019.jpg; path = images/Albums/Fruits/Fruits.019.jpg; sourceTree = "<group>"; };
+		DFF4E599177579BA003FF70A /* Fruits.020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.020.jpg; path = images/Albums/Fruits/Fruits.020.jpg; sourceTree = "<group>"; };
+		DFF4E59A177579BA003FF70A /* Fruits.021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.021.jpg; path = images/Albums/Fruits/Fruits.021.jpg; sourceTree = "<group>"; };
+		DFF4E59B177579BA003FF70A /* Fruits.022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.022.jpg; path = images/Albums/Fruits/Fruits.022.jpg; sourceTree = "<group>"; };
+		DFF4E59C177579BA003FF70A /* Fruits.023.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.023.jpg; path = images/Albums/Fruits/Fruits.023.jpg; sourceTree = "<group>"; };
 		DFF5C10617642EDA0096C4C9 /* YHMatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHMatchingViewController.h; path = ../YHMatchingViewController.h; sourceTree = "<group>"; };
 		DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHMatchingViewController.m; path = ../YHMatchingViewController.m; sourceTree = "<group>"; };
 		DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.001.jpg; path = images/Albums/FamousPeople/FamousPeople.001.jpg; sourceTree = "<group>"; };
@@ -326,9 +374,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DFF4E5851775792F003FF70A /* Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				DFF4E586177579BA003FF70A /* Fruits.001.jpg */,
+				DFF4E587177579BA003FF70A /* Fruits.002.jpg */,
+				DFF4E588177579BA003FF70A /* Fruits.003.jpg */,
+				DFF4E589177579BA003FF70A /* Fruits.004.jpg */,
+				DFF4E58A177579BA003FF70A /* Fruits.005.jpg */,
+				DFF4E58B177579BA003FF70A /* Fruits.006.jpg */,
+				DFF4E58C177579BA003FF70A /* Fruits.007.jpg */,
+				DFF4E58D177579BA003FF70A /* Fruits.008.jpg */,
+				DFF4E58E177579BA003FF70A /* Fruits.009.jpg */,
+				DFF4E58F177579BA003FF70A /* Fruits.010.jpg */,
+				DFF4E590177579BA003FF70A /* Fruits.011.jpg */,
+				DFF4E591177579BA003FF70A /* Fruits.012.jpg */,
+				DFF4E592177579BA003FF70A /* Fruits.013.jpg */,
+				DFF4E593177579BA003FF70A /* Fruits.014.jpg */,
+				DFF4E594177579BA003FF70A /* Fruits.015.jpg */,
+				DFF4E595177579BA003FF70A /* Fruits.016.jpg */,
+				DFF4E596177579BA003FF70A /* Fruits.017.jpg */,
+				DFF4E597177579BA003FF70A /* Fruits.018.jpg */,
+				DFF4E598177579BA003FF70A /* Fruits.019.jpg */,
+				DFF4E599177579BA003FF70A /* Fruits.020.jpg */,
+				DFF4E59A177579BA003FF70A /* Fruits.021.jpg */,
+				DFF4E59B177579BA003FF70A /* Fruits.022.jpg */,
+				DFF4E59C177579BA003FF70A /* Fruits.023.jpg */,
+			);
+			name = Fruits;
+			sourceTree = "<group>";
+		};
 		DFF5C1091764B21A0096C4C9 /* Albums */ = {
 			isa = PBXGroup;
 			children = (
+				DFF4E5851775792F003FF70A /* Fruits */,
 				DF21744317749955007CCA67 /* Animals */,
 				DFF5C10A1764B24E0096C4C9 /* FamousPeople */,
 			);
@@ -364,6 +443,7 @@
 			isa = PBXGroup;
 			children = (
 				DF1A7AB317734D3000D74773 /* applause.mp3 */,
+				DFF4E583177543A0003FF70A /* amazing.mp3 */,
 				DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */,
 				DFFF2AFE1771EFAF005E09D0 /* theme_piano.mp3 */,
 				DF1A7AA71773418400D74773 /* count0.mp3 */,
@@ -500,6 +580,30 @@
 				DF217479177499FA007CCA67 /* Animals.026.jpg in Resources */,
 				DF21747A177499FA007CCA67 /* Animals.027.jpg in Resources */,
 				DF21747B177499FA007CCA67 /* Animals.028.jpg in Resources */,
+				DFF4E584177543A0003FF70A /* amazing.mp3 in Resources */,
+				DFF4E59D177579BA003FF70A /* Fruits.001.jpg in Resources */,
+				DFF4E59E177579BA003FF70A /* Fruits.002.jpg in Resources */,
+				DFF4E59F177579BA003FF70A /* Fruits.003.jpg in Resources */,
+				DFF4E5A0177579BA003FF70A /* Fruits.004.jpg in Resources */,
+				DFF4E5A1177579BA003FF70A /* Fruits.005.jpg in Resources */,
+				DFF4E5A2177579BA003FF70A /* Fruits.006.jpg in Resources */,
+				DFF4E5A3177579BA003FF70A /* Fruits.007.jpg in Resources */,
+				DFF4E5A4177579BA003FF70A /* Fruits.008.jpg in Resources */,
+				DFF4E5A5177579BA003FF70A /* Fruits.009.jpg in Resources */,
+				DFF4E5A6177579BA003FF70A /* Fruits.010.jpg in Resources */,
+				DFF4E5A7177579BA003FF70A /* Fruits.011.jpg in Resources */,
+				DFF4E5A8177579BA003FF70A /* Fruits.012.jpg in Resources */,
+				DFF4E5A9177579BA003FF70A /* Fruits.013.jpg in Resources */,
+				DFF4E5AA177579BA003FF70A /* Fruits.014.jpg in Resources */,
+				DFF4E5AB177579BA003FF70A /* Fruits.015.jpg in Resources */,
+				DFF4E5AC177579BA003FF70A /* Fruits.016.jpg in Resources */,
+				DFF4E5AD177579BA003FF70A /* Fruits.017.jpg in Resources */,
+				DFF4E5AE177579BA003FF70A /* Fruits.018.jpg in Resources */,
+				DFF4E5AF177579BA003FF70A /* Fruits.019.jpg in Resources */,
+				DFF4E5B0177579BA003FF70A /* Fruits.020.jpg in Resources */,
+				DFF4E5B1177579BA003FF70A /* Fruits.021.jpg in Resources */,
+				DFF4E5B2177579BA003FF70A /* Fruits.022.jpg in Resources */,
+				DFF4E5B3177579BA003FF70A /* Fruits.023.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

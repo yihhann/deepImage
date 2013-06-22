@@ -3,7 +3,7 @@
   deepImage
 
   Created by Yihhann on 13/6/16.
-  Copyright (c) 2013年 Yihhann. All rights reserved.
+  Copyright (c) 2013 Yihhann. All rights reserved.
 */
 
 /* Product name */
@@ -12,6 +12,7 @@
 /* Messages */
 "Pick the matched pictures..." = "Pick the matched pictures...";
 "Well Done!" = "Well Done!";
+"You are so amazing!" = "You are so amazing!";
 
 /* Countdown voice file name */
 "count0" = "count0";

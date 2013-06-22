@@ -3,7 +3,7 @@
 //  deepImage
 //
 //  Created by Yihhann on 13/5/19.
-//  Copyright (c) 2013年 Yihhann. All rights reserved.
+//  Copyright (c) 2013 Yihhann. All rights reserved.
 //
 
 #import "YHAppDelegate.h"

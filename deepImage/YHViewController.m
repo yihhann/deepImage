@@ -3,8 +3,9 @@
 //  deepImage
 //
 //  Created by Yihhann on 13/5/19.
-//  Copyright (c) 2013年 Yihhann. All rights reserved.
-//
+//  Copyright (c) 2013 Yihhann. All rights reserved.
+//  Remark:
+//    This is the main view controller.
 
 #import <AVFoundation/AVFoundation.h>
 #import "YHViewController.h"
@@ -116,7 +117,7 @@ YHAlbum AlbumList[1000];
     int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
     
     // ==== DEBUG ==== other Albums are not ready
-    if( iAlbum != 1 )
+    if( iAlbum > 2 )
         iAlbum = 2;
     
     // Pass the picture list in the selected album
@@ -181,7 +182,7 @@ YHAlbum AlbumList[1000];
     int iAlbum = row;
     
     // ==== DEBUG ==== other Albums are not ready
-    if( iAlbum != 1 )
+    if( iAlbum > 2 )
         iAlbum = 2;
     
     int total_picture = AlbumList[iAlbum].totalImage;
@@ -193,7 +194,7 @@ YHAlbum AlbumList[1000];
     int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
     
     // ==== DEBUG ==== other Albums are not ready
-    if( iAlbum != 1 )
+    if( iAlbum > 2 )
         iAlbum = 2;
 
     int total_picture = AlbumList[iAlbum].totalImage;
