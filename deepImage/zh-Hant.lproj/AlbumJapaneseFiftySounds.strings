@@ -3,13 +3,58 @@
   deepImage
 
   Created by Yihhann on 13/6/16.
-  Copyright (c) 2013年 Yihhann. All rights reserved.
+  Copyright (c) 2013 Yihhann. All rights reserved.
 */
 
 /* Album Title Name to display */
 "AlbumTitle" = "日語五十音";
 /* total images in this album */
-"totalImage" = "1";
+"totalImage" = "46";
 /* Image Title Name to display */
-"ImageTitle001" = "あ";
+"ImageTitle001" = "あ /a/";
+"ImageTitle002" = "い /i/";
+"ImageTitle003" = "う /u/";
+"ImageTitle004" = "え /e/";
+"ImageTitle005" = "お /o/";
+"ImageTitle006" = "か /ka/";
+"ImageTitle007" = "き /ki/";
+"ImageTitle008" = "く /ku/";
+"ImageTitle009" = "け /ke/";
+"ImageTitle010" = "こ /ko/";
+"ImageTitle011" = "さ /sa/";
+"ImageTitle012" = "し /shi/";
+"ImageTitle013" = "す /su/";
+"ImageTitle014" = "せ /se/";
+"ImageTitle015" = "そ /so/";
+"ImageTitle016" = "た /ta/";
+"ImageTitle017" = "ち /chi/";
+"ImageTitle018" = "つ /tsu/";
+"ImageTitle019" = "て /te/";
+"ImageTitle020" = "と /to/";
+"ImageTitle021" = "な /na/";
+"ImageTitle022" = "に /ni/";
+"ImageTitle023" = "ぬ /nu/";
+"ImageTitle024" = "ね /ne/";
+"ImageTitle025" = "の /no/";
+"ImageTitle026" = "は /ha/";
+"ImageTitle027" = "ひ /hi/";
+"ImageTitle028" = "ふ /fu/";
+"ImageTitle029" = "へ /he/";
+"ImageTitle030" = "ほ /ho/";
+"ImageTitle031" = "ま /ma/";
+"ImageTitle032" = "み /mi/";
+"ImageTitle033" = "む /mu/";
+"ImageTitle034" = "め /me/";
+"ImageTitle035" = "も /mo/";
+"ImageTitle036" = "や /ya/";
+"ImageTitle037" = "ゆ /yu/";
+"ImageTitle038" = "よ /yo/";
+"ImageTitle039" = "ら /ra/";
+"ImageTitle040" = "り /ri/";
+"ImageTitle041" = "る /ru/";
+"ImageTitle042" = "れ /re/";
+"ImageTitle043" = "ろ /ro/";
+"ImageTitle044" = "わ /wa/";
+"ImageTitle045" = "を /wo/";
+"ImageTitle046" = "ん /n/";
 

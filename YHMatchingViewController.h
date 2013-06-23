@@ -20,6 +20,7 @@
     NSTimer* m_timerCountDown;
     AVAudioPlayer* m_musicPlayer;      // to play the back music
     AVAudioPlayer* m_voicePlayer;      // to play sounds
+    AVAudioPlayer* m_amazingPlayer;    // to play amazing sounds
 }
 @property (retain, nonatomic) IBOutlet UILabel *m_labelClickCount;
 @property (retain, nonatomic) IBOutlet UICollectionView *m_collectionMatching;

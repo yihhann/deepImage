@@ -390,21 +390,21 @@
         m_labelStatus.text = NSLocalizedStringFromTable(@"You are so amazing!", @"common", @"Game is completed in the least clicks" );
     
     // Play well done voice
-    if( m_voicePlayer != Nil )
-    {
-        if( m_voicePlayer.playing )
-            [m_voicePlayer stop];
-        [m_voicePlayer release];
-    }
-    NSURL* fileURL;
     if( m_clickCount > leastClick )
-        fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
+    {
+        if( m_voicePlayer != Nil )
+        {
+            if( m_voicePlayer.playing )
+                [m_voicePlayer stop];
+            [m_voicePlayer release];
+        }
+        NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
+        m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_voicePlayer prepareToPlay];
+        [m_voicePlayer play];
+    }
     else
-        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
-    m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-    [m_voicePlayer prepareToPlay];
-    [m_voicePlayer play];
-
+        [m_amazingPlayer play];
     
 }
 
@@ -422,6 +422,17 @@
         NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"back_piano" withExtension:@"mp3"];
         m_musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
         [m_musicPlayer prepareToPlay];
+        
+        if( m_amazingPlayer != Nil )
+        {
+            if( m_amazingPlayer.playing )
+                [m_amazingPlayer stop];
+            [m_amazingPlayer release];
+        }
+        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
+        m_amazingPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_amazingPlayer prepareToPlay];
+
         m_voicePlayer = Nil;
     }
     return self;

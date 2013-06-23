@@ -117,7 +117,7 @@ YHAlbum AlbumList[1000];
     int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
     
     // ==== DEBUG ==== other Albums are not ready
-    if( iAlbum > 2 )
+    if( iAlbum > 3 )
         iAlbum = 2;
     
     // Pass the picture list in the selected album
@@ -182,7 +182,7 @@ YHAlbum AlbumList[1000];
     int iAlbum = row;
     
     // ==== DEBUG ==== other Albums are not ready
-    if( iAlbum > 2 )
+    if( iAlbum > 3 )
         iAlbum = 2;
     
     int total_picture = AlbumList[iAlbum].totalImage;
@@ -194,7 +194,7 @@ YHAlbum AlbumList[1000];
     int iAlbum = [m_AlbumPicker selectedRowInComponent:0];
     
     // ==== DEBUG ==== other Albums are not ready
-    if( iAlbum > 2 )
+    if( iAlbum > 3 )
         iAlbum = 2;
 
     int total_picture = AlbumList[iAlbum].totalImage;

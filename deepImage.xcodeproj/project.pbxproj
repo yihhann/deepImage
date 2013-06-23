@@ -68,6 +68,52 @@
 		DFEC51C41768B2720007FB86 /* FamousPeople.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */; };
 		DFEC51C71768CE630007FB86 /* FamousPeople.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */; };
 		DFEC51C81768CE630007FB86 /* FamousPeople.018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */; };
+		DFEEAA961777100500C1481A /* JapaneseFiftySounds.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA681777100500C1481A /* JapaneseFiftySounds.001.jpg */; };
+		DFEEAA971777100500C1481A /* JapaneseFiftySounds.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA691777100500C1481A /* JapaneseFiftySounds.002.jpg */; };
+		DFEEAA981777100500C1481A /* JapaneseFiftySounds.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA6A1777100500C1481A /* JapaneseFiftySounds.003.jpg */; };
+		DFEEAA991777100500C1481A /* JapaneseFiftySounds.004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA6B1777100500C1481A /* JapaneseFiftySounds.004.jpg */; };
+		DFEEAA9A1777100500C1481A /* JapaneseFiftySounds.005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA6C1777100500C1481A /* JapaneseFiftySounds.005.jpg */; };
+		DFEEAA9B1777100500C1481A /* JapaneseFiftySounds.006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA6D1777100500C1481A /* JapaneseFiftySounds.006.jpg */; };
+		DFEEAA9C1777100500C1481A /* JapaneseFiftySounds.007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA6E1777100500C1481A /* JapaneseFiftySounds.007.jpg */; };
+		DFEEAA9D1777100500C1481A /* JapaneseFiftySounds.008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA6F1777100500C1481A /* JapaneseFiftySounds.008.jpg */; };
+		DFEEAA9E1777100500C1481A /* JapaneseFiftySounds.009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA701777100500C1481A /* JapaneseFiftySounds.009.jpg */; };
+		DFEEAA9F1777100500C1481A /* JapaneseFiftySounds.010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA711777100500C1481A /* JapaneseFiftySounds.010.jpg */; };
+		DFEEAAA01777100500C1481A /* JapaneseFiftySounds.011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA721777100500C1481A /* JapaneseFiftySounds.011.jpg */; };
+		DFEEAAA11777100500C1481A /* JapaneseFiftySounds.012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA731777100500C1481A /* JapaneseFiftySounds.012.jpg */; };
+		DFEEAAA21777100500C1481A /* JapaneseFiftySounds.013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA741777100500C1481A /* JapaneseFiftySounds.013.jpg */; };
+		DFEEAAA31777100500C1481A /* JapaneseFiftySounds.014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA751777100500C1481A /* JapaneseFiftySounds.014.jpg */; };
+		DFEEAAA41777100500C1481A /* JapaneseFiftySounds.015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA761777100500C1481A /* JapaneseFiftySounds.015.jpg */; };
+		DFEEAAA51777100500C1481A /* JapaneseFiftySounds.016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA771777100500C1481A /* JapaneseFiftySounds.016.jpg */; };
+		DFEEAAA61777100500C1481A /* JapaneseFiftySounds.017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA781777100500C1481A /* JapaneseFiftySounds.017.jpg */; };
+		DFEEAAA71777100500C1481A /* JapaneseFiftySounds.018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA791777100500C1481A /* JapaneseFiftySounds.018.jpg */; };
+		DFEEAAA81777100500C1481A /* JapaneseFiftySounds.019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA7A1777100500C1481A /* JapaneseFiftySounds.019.jpg */; };
+		DFEEAAA91777100500C1481A /* JapaneseFiftySounds.020.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA7B1777100500C1481A /* JapaneseFiftySounds.020.jpg */; };
+		DFEEAAAA1777100500C1481A /* JapaneseFiftySounds.021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA7C1777100500C1481A /* JapaneseFiftySounds.021.jpg */; };
+		DFEEAAAB1777100500C1481A /* JapaneseFiftySounds.022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA7D1777100500C1481A /* JapaneseFiftySounds.022.jpg */; };
+		DFEEAAAC1777100500C1481A /* JapaneseFiftySounds.023.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA7E1777100500C1481A /* JapaneseFiftySounds.023.jpg */; };
+		DFEEAAAD1777100500C1481A /* JapaneseFiftySounds.024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA7F1777100500C1481A /* JapaneseFiftySounds.024.jpg */; };
+		DFEEAAAE1777100500C1481A /* JapaneseFiftySounds.025.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA801777100500C1481A /* JapaneseFiftySounds.025.jpg */; };
+		DFEEAAAF1777100500C1481A /* JapaneseFiftySounds.026.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA811777100500C1481A /* JapaneseFiftySounds.026.jpg */; };
+		DFEEAAB01777100500C1481A /* JapaneseFiftySounds.027.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA821777100500C1481A /* JapaneseFiftySounds.027.jpg */; };
+		DFEEAAB11777100500C1481A /* JapaneseFiftySounds.028.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA831777100500C1481A /* JapaneseFiftySounds.028.jpg */; };
+		DFEEAAB21777100500C1481A /* JapaneseFiftySounds.029.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA841777100500C1481A /* JapaneseFiftySounds.029.jpg */; };
+		DFEEAAB31777100500C1481A /* JapaneseFiftySounds.030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA851777100500C1481A /* JapaneseFiftySounds.030.jpg */; };
+		DFEEAAB41777100500C1481A /* JapaneseFiftySounds.031.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA861777100500C1481A /* JapaneseFiftySounds.031.jpg */; };
+		DFEEAAB51777100500C1481A /* JapaneseFiftySounds.032.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA871777100500C1481A /* JapaneseFiftySounds.032.jpg */; };
+		DFEEAAB61777100500C1481A /* JapaneseFiftySounds.033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA881777100500C1481A /* JapaneseFiftySounds.033.jpg */; };
+		DFEEAAB71777100500C1481A /* JapaneseFiftySounds.034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA891777100500C1481A /* JapaneseFiftySounds.034.jpg */; };
+		DFEEAAB81777100500C1481A /* JapaneseFiftySounds.035.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA8A1777100500C1481A /* JapaneseFiftySounds.035.jpg */; };
+		DFEEAAB91777100500C1481A /* JapaneseFiftySounds.036.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA8B1777100500C1481A /* JapaneseFiftySounds.036.jpg */; };
+		DFEEAABA1777100500C1481A /* JapaneseFiftySounds.037.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA8C1777100500C1481A /* JapaneseFiftySounds.037.jpg */; };
+		DFEEAABB1777100500C1481A /* JapaneseFiftySounds.038.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA8D1777100500C1481A /* JapaneseFiftySounds.038.jpg */; };
+		DFEEAABC1777100500C1481A /* JapaneseFiftySounds.039.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA8E1777100500C1481A /* JapaneseFiftySounds.039.jpg */; };
+		DFEEAABD1777100500C1481A /* JapaneseFiftySounds.040.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA8F1777100500C1481A /* JapaneseFiftySounds.040.jpg */; };
+		DFEEAABE1777100500C1481A /* JapaneseFiftySounds.041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA901777100500C1481A /* JapaneseFiftySounds.041.jpg */; };
+		DFEEAABF1777100500C1481A /* JapaneseFiftySounds.042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA911777100500C1481A /* JapaneseFiftySounds.042.jpg */; };
+		DFEEAAC01777100500C1481A /* JapaneseFiftySounds.043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA921777100500C1481A /* JapaneseFiftySounds.043.jpg */; };
+		DFEEAAC11777100500C1481A /* JapaneseFiftySounds.044.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA931777100500C1481A /* JapaneseFiftySounds.044.jpg */; };
+		DFEEAAC21777100500C1481A /* JapaneseFiftySounds.045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA941777100500C1481A /* JapaneseFiftySounds.045.jpg */; };
+		DFEEAAC31777100500C1481A /* JapaneseFiftySounds.046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEEAA951777100500C1481A /* JapaneseFiftySounds.046.jpg */; };
 		DFF4E584177543A0003FF70A /* amazing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E583177543A0003FF70A /* amazing.mp3 */; };
 		DFF4E59D177579BA003FF70A /* Fruits.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E586177579BA003FF70A /* Fruits.001.jpg */; };
 		DFF4E59E177579BA003FF70A /* Fruits.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E587177579BA003FF70A /* Fruits.002.jpg */; };
@@ -189,6 +235,52 @@
 		DFEC51C31768B2720007FB86 /* FamousPeople.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.016.jpg; path = images/Albums/FamousPeople/FamousPeople.016.jpg; sourceTree = "<group>"; };
 		DFEC51C51768CE630007FB86 /* FamousPeople.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.017.jpg; path = images/Albums/FamousPeople/FamousPeople.017.jpg; sourceTree = "<group>"; };
 		DFEC51C61768CE630007FB86 /* FamousPeople.018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.018.jpg; path = images/Albums/FamousPeople/FamousPeople.018.jpg; sourceTree = "<group>"; };
+		DFEEAA681777100500C1481A /* JapaneseFiftySounds.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.001.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.001.jpg; sourceTree = "<group>"; };
+		DFEEAA691777100500C1481A /* JapaneseFiftySounds.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.002.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.002.jpg; sourceTree = "<group>"; };
+		DFEEAA6A1777100500C1481A /* JapaneseFiftySounds.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.003.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.003.jpg; sourceTree = "<group>"; };
+		DFEEAA6B1777100500C1481A /* JapaneseFiftySounds.004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.004.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.004.jpg; sourceTree = "<group>"; };
+		DFEEAA6C1777100500C1481A /* JapaneseFiftySounds.005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.005.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.005.jpg; sourceTree = "<group>"; };
+		DFEEAA6D1777100500C1481A /* JapaneseFiftySounds.006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.006.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.006.jpg; sourceTree = "<group>"; };
+		DFEEAA6E1777100500C1481A /* JapaneseFiftySounds.007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.007.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.007.jpg; sourceTree = "<group>"; };
+		DFEEAA6F1777100500C1481A /* JapaneseFiftySounds.008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.008.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.008.jpg; sourceTree = "<group>"; };
+		DFEEAA701777100500C1481A /* JapaneseFiftySounds.009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.009.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.009.jpg; sourceTree = "<group>"; };
+		DFEEAA711777100500C1481A /* JapaneseFiftySounds.010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.010.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.010.jpg; sourceTree = "<group>"; };
+		DFEEAA721777100500C1481A /* JapaneseFiftySounds.011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.011.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.011.jpg; sourceTree = "<group>"; };
+		DFEEAA731777100500C1481A /* JapaneseFiftySounds.012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.012.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.012.jpg; sourceTree = "<group>"; };
+		DFEEAA741777100500C1481A /* JapaneseFiftySounds.013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.013.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.013.jpg; sourceTree = "<group>"; };
+		DFEEAA751777100500C1481A /* JapaneseFiftySounds.014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.014.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.014.jpg; sourceTree = "<group>"; };
+		DFEEAA761777100500C1481A /* JapaneseFiftySounds.015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.015.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.015.jpg; sourceTree = "<group>"; };
+		DFEEAA771777100500C1481A /* JapaneseFiftySounds.016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.016.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.016.jpg; sourceTree = "<group>"; };
+		DFEEAA781777100500C1481A /* JapaneseFiftySounds.017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.017.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.017.jpg; sourceTree = "<group>"; };
+		DFEEAA791777100500C1481A /* JapaneseFiftySounds.018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.018.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.018.jpg; sourceTree = "<group>"; };
+		DFEEAA7A1777100500C1481A /* JapaneseFiftySounds.019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.019.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.019.jpg; sourceTree = "<group>"; };
+		DFEEAA7B1777100500C1481A /* JapaneseFiftySounds.020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.020.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.020.jpg; sourceTree = "<group>"; };
+		DFEEAA7C1777100500C1481A /* JapaneseFiftySounds.021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.021.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.021.jpg; sourceTree = "<group>"; };
+		DFEEAA7D1777100500C1481A /* JapaneseFiftySounds.022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.022.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.022.jpg; sourceTree = "<group>"; };
+		DFEEAA7E1777100500C1481A /* JapaneseFiftySounds.023.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.023.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.023.jpg; sourceTree = "<group>"; };
+		DFEEAA7F1777100500C1481A /* JapaneseFiftySounds.024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.024.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.024.jpg; sourceTree = "<group>"; };
+		DFEEAA801777100500C1481A /* JapaneseFiftySounds.025.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.025.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.025.jpg; sourceTree = "<group>"; };
+		DFEEAA811777100500C1481A /* JapaneseFiftySounds.026.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.026.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.026.jpg; sourceTree = "<group>"; };
+		DFEEAA821777100500C1481A /* JapaneseFiftySounds.027.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.027.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.027.jpg; sourceTree = "<group>"; };
+		DFEEAA831777100500C1481A /* JapaneseFiftySounds.028.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.028.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.028.jpg; sourceTree = "<group>"; };
+		DFEEAA841777100500C1481A /* JapaneseFiftySounds.029.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.029.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.029.jpg; sourceTree = "<group>"; };
+		DFEEAA851777100500C1481A /* JapaneseFiftySounds.030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.030.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.030.jpg; sourceTree = "<group>"; };
+		DFEEAA861777100500C1481A /* JapaneseFiftySounds.031.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.031.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.031.jpg; sourceTree = "<group>"; };
+		DFEEAA871777100500C1481A /* JapaneseFiftySounds.032.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.032.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.032.jpg; sourceTree = "<group>"; };
+		DFEEAA881777100500C1481A /* JapaneseFiftySounds.033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.033.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.033.jpg; sourceTree = "<group>"; };
+		DFEEAA891777100500C1481A /* JapaneseFiftySounds.034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.034.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.034.jpg; sourceTree = "<group>"; };
+		DFEEAA8A1777100500C1481A /* JapaneseFiftySounds.035.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.035.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.035.jpg; sourceTree = "<group>"; };
+		DFEEAA8B1777100500C1481A /* JapaneseFiftySounds.036.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.036.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.036.jpg; sourceTree = "<group>"; };
+		DFEEAA8C1777100500C1481A /* JapaneseFiftySounds.037.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.037.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.037.jpg; sourceTree = "<group>"; };
+		DFEEAA8D1777100500C1481A /* JapaneseFiftySounds.038.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.038.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.038.jpg; sourceTree = "<group>"; };
+		DFEEAA8E1777100500C1481A /* JapaneseFiftySounds.039.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.039.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.039.jpg; sourceTree = "<group>"; };
+		DFEEAA8F1777100500C1481A /* JapaneseFiftySounds.040.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.040.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.040.jpg; sourceTree = "<group>"; };
+		DFEEAA901777100500C1481A /* JapaneseFiftySounds.041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.041.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.041.jpg; sourceTree = "<group>"; };
+		DFEEAA911777100500C1481A /* JapaneseFiftySounds.042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.042.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.042.jpg; sourceTree = "<group>"; };
+		DFEEAA921777100500C1481A /* JapaneseFiftySounds.043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.043.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.043.jpg; sourceTree = "<group>"; };
+		DFEEAA931777100500C1481A /* JapaneseFiftySounds.044.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.044.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.044.jpg; sourceTree = "<group>"; };
+		DFEEAA941777100500C1481A /* JapaneseFiftySounds.045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.045.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.045.jpg; sourceTree = "<group>"; };
+		DFEEAA951777100500C1481A /* JapaneseFiftySounds.046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JapaneseFiftySounds.046.jpg; path = images/Albums/JapaneseFiftySounds/JapaneseFiftySounds.046.jpg; sourceTree = "<group>"; };
 		DFF4E583177543A0003FF70A /* amazing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amazing.mp3; path = deepImage/audio/amazing.mp3; sourceTree = "<group>"; };
 		DFF4E586177579BA003FF70A /* Fruits.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.001.jpg; path = images/Albums/Fruits/Fruits.001.jpg; sourceTree = "<group>"; };
 		DFF4E587177579BA003FF70A /* Fruits.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.002.jpg; path = images/Albums/Fruits/Fruits.002.jpg; sourceTree = "<group>"; };
@@ -374,6 +466,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DFEEAA6717770EED00C1481A /* JapaneseFiftySounds */ = {
+			isa = PBXGroup;
+			children = (
+				DFEEAA681777100500C1481A /* JapaneseFiftySounds.001.jpg */,
+				DFEEAA691777100500C1481A /* JapaneseFiftySounds.002.jpg */,
+				DFEEAA6A1777100500C1481A /* JapaneseFiftySounds.003.jpg */,
+				DFEEAA6B1777100500C1481A /* JapaneseFiftySounds.004.jpg */,
+				DFEEAA6C1777100500C1481A /* JapaneseFiftySounds.005.jpg */,
+				DFEEAA6D1777100500C1481A /* JapaneseFiftySounds.006.jpg */,
+				DFEEAA6E1777100500C1481A /* JapaneseFiftySounds.007.jpg */,
+				DFEEAA6F1777100500C1481A /* JapaneseFiftySounds.008.jpg */,
+				DFEEAA701777100500C1481A /* JapaneseFiftySounds.009.jpg */,
+				DFEEAA711777100500C1481A /* JapaneseFiftySounds.010.jpg */,
+				DFEEAA721777100500C1481A /* JapaneseFiftySounds.011.jpg */,
+				DFEEAA731777100500C1481A /* JapaneseFiftySounds.012.jpg */,
+				DFEEAA741777100500C1481A /* JapaneseFiftySounds.013.jpg */,
+				DFEEAA751777100500C1481A /* JapaneseFiftySounds.014.jpg */,
+				DFEEAA761777100500C1481A /* JapaneseFiftySounds.015.jpg */,
+				DFEEAA771777100500C1481A /* JapaneseFiftySounds.016.jpg */,
+				DFEEAA781777100500C1481A /* JapaneseFiftySounds.017.jpg */,
+				DFEEAA791777100500C1481A /* JapaneseFiftySounds.018.jpg */,
+				DFEEAA7A1777100500C1481A /* JapaneseFiftySounds.019.jpg */,
+				DFEEAA7B1777100500C1481A /* JapaneseFiftySounds.020.jpg */,
+				DFEEAA7C1777100500C1481A /* JapaneseFiftySounds.021.jpg */,
+				DFEEAA7D1777100500C1481A /* JapaneseFiftySounds.022.jpg */,
+				DFEEAA7E1777100500C1481A /* JapaneseFiftySounds.023.jpg */,
+				DFEEAA7F1777100500C1481A /* JapaneseFiftySounds.024.jpg */,
+				DFEEAA801777100500C1481A /* JapaneseFiftySounds.025.jpg */,
+				DFEEAA811777100500C1481A /* JapaneseFiftySounds.026.jpg */,
+				DFEEAA821777100500C1481A /* JapaneseFiftySounds.027.jpg */,
+				DFEEAA831777100500C1481A /* JapaneseFiftySounds.028.jpg */,
+				DFEEAA841777100500C1481A /* JapaneseFiftySounds.029.jpg */,
+				DFEEAA851777100500C1481A /* JapaneseFiftySounds.030.jpg */,
+				DFEEAA861777100500C1481A /* JapaneseFiftySounds.031.jpg */,
+				DFEEAA871777100500C1481A /* JapaneseFiftySounds.032.jpg */,
+				DFEEAA881777100500C1481A /* JapaneseFiftySounds.033.jpg */,
+				DFEEAA891777100500C1481A /* JapaneseFiftySounds.034.jpg */,
+				DFEEAA8A1777100500C1481A /* JapaneseFiftySounds.035.jpg */,
+				DFEEAA8B1777100500C1481A /* JapaneseFiftySounds.036.jpg */,
+				DFEEAA8C1777100500C1481A /* JapaneseFiftySounds.037.jpg */,
+				DFEEAA8D1777100500C1481A /* JapaneseFiftySounds.038.jpg */,
+				DFEEAA8E1777100500C1481A /* JapaneseFiftySounds.039.jpg */,
+				DFEEAA8F1777100500C1481A /* JapaneseFiftySounds.040.jpg */,
+				DFEEAA901777100500C1481A /* JapaneseFiftySounds.041.jpg */,
+				DFEEAA911777100500C1481A /* JapaneseFiftySounds.042.jpg */,
+				DFEEAA921777100500C1481A /* JapaneseFiftySounds.043.jpg */,
+				DFEEAA931777100500C1481A /* JapaneseFiftySounds.044.jpg */,
+				DFEEAA941777100500C1481A /* JapaneseFiftySounds.045.jpg */,
+				DFEEAA951777100500C1481A /* JapaneseFiftySounds.046.jpg */,
+			);
+			name = JapaneseFiftySounds;
+			sourceTree = "<group>";
+		};
 		DFF4E5851775792F003FF70A /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +552,7 @@
 		DFF5C1091764B21A0096C4C9 /* Albums */ = {
 			isa = PBXGroup;
 			children = (
+				DFEEAA6717770EED00C1481A /* JapaneseFiftySounds */,
 				DFF4E5851775792F003FF70A /* Fruits */,
 				DF21744317749955007CCA67 /* Animals */,
 				DFF5C10A1764B24E0096C4C9 /* FamousPeople */,
@@ -604,6 +750,52 @@
 				DFF4E5B1177579BA003FF70A /* Fruits.021.jpg in Resources */,
 				DFF4E5B2177579BA003FF70A /* Fruits.022.jpg in Resources */,
 				DFF4E5B3177579BA003FF70A /* Fruits.023.jpg in Resources */,
+				DFEEAA961777100500C1481A /* JapaneseFiftySounds.001.jpg in Resources */,
+				DFEEAA971777100500C1481A /* JapaneseFiftySounds.002.jpg in Resources */,
+				DFEEAA981777100500C1481A /* JapaneseFiftySounds.003.jpg in Resources */,
+				DFEEAA991777100500C1481A /* JapaneseFiftySounds.004.jpg in Resources */,
+				DFEEAA9A1777100500C1481A /* JapaneseFiftySounds.005.jpg in Resources */,
+				DFEEAA9B1777100500C1481A /* JapaneseFiftySounds.006.jpg in Resources */,
+				DFEEAA9C1777100500C1481A /* JapaneseFiftySounds.007.jpg in Resources */,
+				DFEEAA9D1777100500C1481A /* JapaneseFiftySounds.008.jpg in Resources */,
+				DFEEAA9E1777100500C1481A /* JapaneseFiftySounds.009.jpg in Resources */,
+				DFEEAA9F1777100500C1481A /* JapaneseFiftySounds.010.jpg in Resources */,
+				DFEEAAA01777100500C1481A /* JapaneseFiftySounds.011.jpg in Resources */,
+				DFEEAAA11777100500C1481A /* JapaneseFiftySounds.012.jpg in Resources */,
+				DFEEAAA21777100500C1481A /* JapaneseFiftySounds.013.jpg in Resources */,
+				DFEEAAA31777100500C1481A /* JapaneseFiftySounds.014.jpg in Resources */,
+				DFEEAAA41777100500C1481A /* JapaneseFiftySounds.015.jpg in Resources */,
+				DFEEAAA51777100500C1481A /* JapaneseFiftySounds.016.jpg in Resources */,
+				DFEEAAA61777100500C1481A /* JapaneseFiftySounds.017.jpg in Resources */,
+				DFEEAAA71777100500C1481A /* JapaneseFiftySounds.018.jpg in Resources */,
+				DFEEAAA81777100500C1481A /* JapaneseFiftySounds.019.jpg in Resources */,
+				DFEEAAA91777100500C1481A /* JapaneseFiftySounds.020.jpg in Resources */,
+				DFEEAAAA1777100500C1481A /* JapaneseFiftySounds.021.jpg in Resources */,
+				DFEEAAAB1777100500C1481A /* JapaneseFiftySounds.022.jpg in Resources */,
+				DFEEAAAC1777100500C1481A /* JapaneseFiftySounds.023.jpg in Resources */,
+				DFEEAAAD1777100500C1481A /* JapaneseFiftySounds.024.jpg in Resources */,
+				DFEEAAAE1777100500C1481A /* JapaneseFiftySounds.025.jpg in Resources */,
+				DFEEAAAF1777100500C1481A /* JapaneseFiftySounds.026.jpg in Resources */,
+				DFEEAAB01777100500C1481A /* JapaneseFiftySounds.027.jpg in Resources */,
+				DFEEAAB11777100500C1481A /* JapaneseFiftySounds.028.jpg in Resources */,
+				DFEEAAB21777100500C1481A /* JapaneseFiftySounds.029.jpg in Resources */,
+				DFEEAAB31777100500C1481A /* JapaneseFiftySounds.030.jpg in Resources */,
+				DFEEAAB41777100500C1481A /* JapaneseFiftySounds.031.jpg in Resources */,
+				DFEEAAB51777100500C1481A /* JapaneseFiftySounds.032.jpg in Resources */,
+				DFEEAAB61777100500C1481A /* JapaneseFiftySounds.033.jpg in Resources */,
+				DFEEAAB71777100500C1481A /* JapaneseFiftySounds.034.jpg in Resources */,
+				DFEEAAB81777100500C1481A /* JapaneseFiftySounds.035.jpg in Resources */,
+				DFEEAAB91777100500C1481A /* JapaneseFiftySounds.036.jpg in Resources */,
+				DFEEAABA1777100500C1481A /* JapaneseFiftySounds.037.jpg in Resources */,
+				DFEEAABB1777100500C1481A /* JapaneseFiftySounds.038.jpg in Resources */,
+				DFEEAABC1777100500C1481A /* JapaneseFiftySounds.039.jpg in Resources */,
+				DFEEAABD1777100500C1481A /* JapaneseFiftySounds.040.jpg in Resources */,
+				DFEEAABE1777100500C1481A /* JapaneseFiftySounds.041.jpg in Resources */,
+				DFEEAABF1777100500C1481A /* JapaneseFiftySounds.042.jpg in Resources */,
+				DFEEAAC01777100500C1481A /* JapaneseFiftySounds.043.jpg in Resources */,
+				DFEEAAC11777100500C1481A /* JapaneseFiftySounds.044.jpg in Resources */,
+				DFEEAAC21777100500C1481A /* JapaneseFiftySounds.045.jpg in Resources */,
+				DFEEAAC31777100500C1481A /* JapaneseFiftySounds.046.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
