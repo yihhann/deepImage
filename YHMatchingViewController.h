@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 @class AVAudioPlayer;
 
+#define YH_TT_PLAYERS 8
+
 @interface YHMatchingViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource> {
     NSMutableArray* m_matchingList;     // the index list of matching pictures
     NSMutableArray* m_cellStatusList;   // the status list of cells
@@ -21,12 +23,14 @@
     AVAudioPlayer* m_musicPlayer;      // to play the back music
     AVAudioPlayer* m_voicePlayer;      // to play sounds
     AVAudioPlayer* m_amazingPlayer;    // to play amazing sounds
+    AVAudioPlayer* m_titlePlayers[YH_TT_PLAYERS];  // to play image titles in the same time
 }
 @property (retain, nonatomic) IBOutlet UILabel *m_labelClickCount;
 @property (retain, nonatomic) IBOutlet UICollectionView *m_collectionMatching;
 @property (retain, nonatomic) IBOutlet UILabel *m_labelStatus;
 
 // pass from maim page
+@property (retain, nonatomic) NSString* m_albumPrefix;
 //   the list of picture names
 @property (retain, nonatomic) NSMutableArray* m_pictureNameList;
 //   the list of picture titles to display

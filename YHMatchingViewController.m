@@ -29,6 +29,7 @@
 @synthesize m_collectionMatching;
 @synthesize m_labelStatus;
 
+@synthesize m_albumPrefix;
 @synthesize m_pictureNameList;
 @synthesize m_pictureTitleList;
 @synthesize m_matchingRows;
@@ -176,7 +177,10 @@
             }
         m_clickedCell2 = m_clickedCell1;
         m_clickedCell1 = indexPath.row;
-        //[m_collectionMatching reloadData];
+        // close previous previous cell after 2 seconds
+        [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(doCloseCell2:) userInfo:nil repeats:NO];
+
+        
     }
 
     return YES;
@@ -216,6 +220,9 @@
         // Display image title
         m_labelStatus.text = m_pictureTitleList[idx];
         
+        // Speak image title
+        [self speakImageTitle:idx];
+        
         // set the status to open / matched
         if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN )
             m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
@@ -225,6 +232,29 @@
     }
 
 } // end of - (void)collectionView: didSelectItemAtIndexPath:
+
+-(void) speakImageTitle:(int)idx
+{
+    static int iPlayer = 0;
+    
+    if( m_titlePlayers[iPlayer] != Nil )
+    {
+        if( m_titlePlayers[iPlayer].playing )
+            [m_titlePlayers[iPlayer] stop];
+        [m_titlePlayers[iPlayer] release];
+    }
+    NSString* filename = [NSString stringWithFormat:@"%@.%03d", m_albumPrefix, idx + 1];
+    NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:filename withExtension:@"mp3"];
+    m_titlePlayers[iPlayer] = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+    [m_titlePlayers[iPlayer] prepareToPlay];
+    [m_titlePlayers[iPlayer] play];
+
+    // next time next player
+    iPlayer++;
+    if( iPlayer >= YH_TT_PLAYERS )
+        iPlayer = 0;
+    
+}
 
 // Pick pictures randomly
 -(void) renewMatchingList
@@ -371,6 +401,19 @@
     }
 } // end of (void) doCountDown:(NSTimer *)timer
 
+// close previous previous cell
+-(void) doCloseCell2:(NSTimer *)timer
+{
+    if( m_clickedCell2 >=0 )
+        if( [m_cellStatusList[m_clickedCell2] integerValue] == YH_CELL_OPEN )
+        {
+            m_cellStatusList[m_clickedCell2] = @(YH_CELL_CLOSED);
+            [m_collectionMatching reloadItemsAtIndexPaths:@[
+             [NSIndexPath indexPathForRow:m_clickedCell2 inSection:0]
+             ]];
+        }
+}
+
 // check if the game is completed
 - (void) checkGameCompletion
 {
@@ -434,6 +477,12 @@
         [m_amazingPlayer prepareToPlay];
 
         m_voicePlayer = Nil;
+        
+        // to play image titles in the same time
+        int i;
+        for( i = 0; i < YH_TT_PLAYERS; i++ )
+            m_titlePlayers[i] = Nil;
+        
     }
     return self;
 }

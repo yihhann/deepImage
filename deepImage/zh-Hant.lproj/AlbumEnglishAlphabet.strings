@@ -9,7 +9,32 @@
 /* Album Title Name to display */
 "AlbumTitle" = "英文字母";
 /* total images in this album */
-"totalImage" = "1";
+"totalImage" = "26";
 /* Image Title Name to display */
 "ImageTitle001" = "A";
+"ImageTitle002" = "B";
+"ImageTitle003" = "C";
+"ImageTitle004" = "D";
+"ImageTitle005" = "E";
+"ImageTitle006" = "F";
+"ImageTitle007" = "G";
+"ImageTitle008" = "H";
+"ImageTitle009" = "I";
+"ImageTitle010" = "J";
+"ImageTitle011" = "K";
+"ImageTitle012" = "L";
+"ImageTitle013" = "M";
+"ImageTitle014" = "N";
+"ImageTitle015" = "O";
+"ImageTitle016" = "P";
+"ImageTitle017" = "Q";
+"ImageTitle018" = "R";
+"ImageTitle019" = "S";
+"ImageTitle020" = "T";
+"ImageTitle021" = "U";
+"ImageTitle022" = "V";
+"ImageTitle023" = "W";
+"ImageTitle024" = "X";
+"ImageTitle025" = "Y";
+"ImageTitle026" = "Z";
 
