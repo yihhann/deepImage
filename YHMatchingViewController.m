@@ -233,6 +233,7 @@
 
 } // end of - (void)collectionView: didSelectItemAtIndexPath:
 
+// speak image titles in the same time
 -(void) speakImageTitle:(int)idx
 {
     static int iPlayer = 0;
@@ -253,7 +254,6 @@
     iPlayer++;
     if( iPlayer >= YH_TT_PLAYERS )
         iPlayer = 0;
-    
 }
 
 // Pick pictures randomly
