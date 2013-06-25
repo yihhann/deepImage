@@ -29,9 +29,9 @@
 @synthesize m_collectionMatching;
 @synthesize m_labelStatus;
 
-@synthesize m_albumPrefix;
 @synthesize m_pictureNameList;
 @synthesize m_pictureTitleList;
+@synthesize m_pictureAudioList;
 @synthesize m_matchingRows;
 @synthesize m_matchingColumns;
 
@@ -63,7 +63,7 @@
 
     
     // Init the matching list from the list of pictures
-    m_matchingList = [[NSMutableArray alloc] init];
+    m_cellPictureList = [[NSMutableArray alloc] init];
     m_cellStatusList = [[NSMutableArray alloc] init];
     srandom(time(NULL));
     [self renewMatchingList];
@@ -97,7 +97,7 @@
 // implement function for Collection View to return the number of cells
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return m_matchingList.count;
+    return m_cellPictureList.count;
 }
 
 // implement function for Collection View to set the size of cells
@@ -114,7 +114,7 @@
     YHMatchingCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ACell" forIndexPath:indexPath];
     
     // Get the picture
-    int idx = [m_matchingList[indexPath.row] integerValue];
+    int idx = [m_cellPictureList[indexPath.row] integerValue];
     NSString *imageToLoad;
     if( idx >= 0 )
     {
@@ -146,7 +146,7 @@
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     // click on the odd mesh
-    if( [m_matchingList[indexPath.row] integerValue] < 0 )
+    if( [m_cellPictureList[indexPath.row] integerValue] < 0 )
         return NO;     // do nothing
     
     // click on a closed picture
@@ -167,7 +167,7 @@
                  ]];
             }
         if( m_clickedCell1 >= 0 )
-            if( [m_matchingList[indexPath.row] integerValue] == [m_matchingList[m_clickedCell1] integerValue])
+            if( [m_cellPictureList[indexPath.row] integerValue] == [m_cellPictureList[m_clickedCell1] integerValue])
             {
                 m_cellStatusList[indexPath.row] = @(YH_CELL_CLOSED_TO_MATCHED);
                 m_cellStatusList[m_clickedCell1] = @(YH_CELL_MATCHED);
@@ -201,7 +201,7 @@
         float dframe = cell.bounds.size.width / 15;
         CGRect inRect = CGRectMake(cell.imageInside.bounds.origin.x + dframe, cell.imageInside.bounds.origin.y + dframe, cell.imageInside.bounds.size.width - dframe * 2, cell.imageInside.bounds.size.height - dframe * 2 );
         // Draw the picture
-        int idx = [m_matchingList[indexPath.row] integerValue];
+        int idx = [m_cellPictureList[indexPath.row] integerValue];
         NSString *imageToLoad = m_pictureNameList[idx];
         [[UIImage imageNamed:imageToLoad] drawInRect:inRect];
         UIImage *cellImage = UIGraphicsGetImageFromCurrentImageContext();
@@ -244,8 +244,7 @@
             [m_titlePlayers[iPlayer] stop];
         [m_titlePlayers[iPlayer] release];
     }
-    NSString* filename = [NSString stringWithFormat:@"%@.%03d", m_albumPrefix, idx + 1];
-    NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:filename withExtension:@"mp3"];
+    NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:m_pictureAudioList[idx] withExtension:@"mp3"];
     m_titlePlayers[iPlayer] = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
     [m_titlePlayers[iPlayer] prepareToPlay];
     [m_titlePlayers[iPlayer] play];
@@ -281,30 +280,30 @@
     }
     
     // pick pictures by the front of random list
-    [m_matchingList removeAllObjects];
+    [m_cellPictureList removeAllObjects];
     for( i = 0; i < totMatch / 2; i++ )
     {
-        [m_matchingList addObject:[NSNumber numberWithInt:randList[i]]];
-        [m_matchingList addObject:[NSNumber numberWithInt:randList[i]]];
+        [m_cellPictureList addObject:[NSNumber numberWithInt:randList[i]]];
+        [m_cellPictureList addObject:[NSNumber numberWithInt:randList[i]]];
     }
     // shuffle the cards
     for( i = 0; i < 1000; i++ )
     {
         int r, s;
         NSNumber *t;
-        r = random() % m_matchingList.count;
-        s = random() % m_matchingList.count;
-        t = m_matchingList[r];
-        m_matchingList[r] = m_matchingList[s];
-        m_matchingList[s] = t;
+        r = random() % m_cellPictureList.count;
+        s = random() % m_cellPictureList.count;
+        t = m_cellPictureList[r];
+        m_cellPictureList[r] = m_cellPictureList[s];
+        m_cellPictureList[s] = t;
     }
     
     // odd mesh
     if( ( totMatch % 2 ) == 1 )
     {
         for( i = totMatch - 1; i > totMatch / 2; i-- )
-            m_matchingList[i] = m_matchingList[i - 1];
-        m_matchingList[totMatch/2] = [NSNumber numberWithInt:-1];
+            m_cellPictureList[i] = m_cellPictureList[i - 1];
+        m_cellPictureList[totMatch/2] = [NSNumber numberWithInt:-1];
     }
 
     // open all pictures
@@ -422,7 +421,7 @@
     // check
     for( i = 0; i < m_cellStatusList.count; i++ )
         if( [m_cellStatusList[i] integerValue] != YH_CELL_MATCHED )
-            if ([m_matchingList[i] integerValue] >= 0 )
+            if ([m_cellPictureList[i] integerValue] >= 0 )
                 return;
     
     // Completed
@@ -489,7 +488,7 @@
 
 - (void)dealloc {
     [m_collectionMatching release];
-    [m_matchingList release];
+    [m_cellPictureList release];
     [m_labelStatus release];
     [m_labelClickCount release];
     [super dealloc];

@@ -8,6 +8,79 @@
 
 /* Begin PBXBuildFile section */
 		DF03E0C4176C7E2100519336 /* YHMatchingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03E0C3176C7E2100519336 /* YHMatchingCell.m */; };
+		DF0DCCB71779C9E800A63024 /* Fruits.001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCB91779C9E800A63024 /* Fruits.001.mp3 */; };
+		DF0DCCBB1779CA0300A63024 /* Fruits.002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCBD1779CA0300A63024 /* Fruits.002.mp3 */; };
+		DF0DCCBF1779CA0F00A63024 /* Fruits.003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCC11779CA0F00A63024 /* Fruits.003.mp3 */; };
+		DF0DCCC31779CA1E00A63024 /* Fruits.004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCC51779CA1E00A63024 /* Fruits.004.mp3 */; };
+		DF0DCCC71779CA2B00A63024 /* Fruits.005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCC91779CA2B00A63024 /* Fruits.005.mp3 */; };
+		DF0DCCCB1779CA3800A63024 /* Fruits.006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCCD1779CA3800A63024 /* Fruits.006.mp3 */; };
+		DF0DCCCF1779CA4300A63024 /* Fruits.007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCD11779CA4300A63024 /* Fruits.007.mp3 */; };
+		DF0DCCD31779CA4F00A63024 /* Fruits.008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCD51779CA4F00A63024 /* Fruits.008.mp3 */; };
+		DF0DCCD71779CA5C00A63024 /* Fruits.009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCD91779CA5C00A63024 /* Fruits.009.mp3 */; };
+		DF0DCCDB1779CA6700A63024 /* Fruits.010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCDD1779CA6700A63024 /* Fruits.010.mp3 */; };
+		DF0DCCDF1779CA7200A63024 /* Fruits.011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCE11779CA7200A63024 /* Fruits.011.mp3 */; };
+		DF0DCCE31779CA7D00A63024 /* Fruits.012.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCE51779CA7D00A63024 /* Fruits.012.mp3 */; };
+		DF0DCCE71779CA8800A63024 /* Fruits.013.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCE91779CA8800A63024 /* Fruits.013.mp3 */; };
+		DF0DCCEB1779CA9400A63024 /* Fruits.014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCED1779CA9400A63024 /* Fruits.014.mp3 */; };
+		DF0DCCEF1779CA9F00A63024 /* Fruits.015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCF11779CA9F00A63024 /* Fruits.015.mp3 */; };
+		DF0DCCF31779CAAB00A63024 /* Fruits.016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCF51779CAAB00A63024 /* Fruits.016.mp3 */; };
+		DF0DCCF71779CAB500A63024 /* Fruits.017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCF91779CAB500A63024 /* Fruits.017.mp3 */; };
+		DF0DCCFB1779CABF00A63024 /* Fruits.018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCFD1779CABF00A63024 /* Fruits.018.mp3 */; };
+		DF0DCCFF1779CAC900A63024 /* Fruits.019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD011779CAC900A63024 /* Fruits.019.mp3 */; };
+		DF0DCD3C1779CD5A00A63024 /* Animals.001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD3E1779CD5A00A63024 /* Animals.001.mp3 */; };
+		DF0DCD401779CD6A00A63024 /* Animals.002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD421779CD6A00A63024 /* Animals.002.mp3 */; };
+		DF0DCD441779CD7400A63024 /* Animals.003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD461779CD7400A63024 /* Animals.003.mp3 */; };
+		DF0DCD481779CD7E00A63024 /* Animals.004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD4A1779CD7E00A63024 /* Animals.004.mp3 */; };
+		DF0DCD4C1779CD8A00A63024 /* Animals.005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD4E1779CD8A00A63024 /* Animals.005.mp3 */; };
+		DF0DCD501779CD9300A63024 /* Animals.006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD521779CD9300A63024 /* Animals.006.mp3 */; };
+		DF0DCD541779CD9E00A63024 /* Animals.007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD561779CD9E00A63024 /* Animals.007.mp3 */; };
+		DF0DCD581779CDA800A63024 /* Animals.008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD5A1779CDA800A63024 /* Animals.008.mp3 */; };
+		DF0DCD5C1779CDB000A63024 /* Animals.009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD5E1779CDB000A63024 /* Animals.009.mp3 */; };
+		DF0DCD601779CDBA00A63024 /* Animals.010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD621779CDBA00A63024 /* Animals.010.mp3 */; };
+		DF0DCD641779CDCF00A63024 /* Animals.011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD661779CDCF00A63024 /* Animals.011.mp3 */; };
+		DF0DCD681779CDD900A63024 /* Animals.012.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD6A1779CDD900A63024 /* Animals.012.mp3 */; };
+		DF0DCD6C1779CDE200A63024 /* Animals.013.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD6E1779CDE200A63024 /* Animals.013.mp3 */; };
+		DF0DCD701779CDEA00A63024 /* Animals.014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD721779CDEA00A63024 /* Animals.014.mp3 */; };
+		DF0DCD741779CDF400A63024 /* Animals.015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD761779CDF400A63024 /* Animals.015.mp3 */; };
+		DF0DCD781779CDFD00A63024 /* Animals.016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD7A1779CDFD00A63024 /* Animals.016.mp3 */; };
+		DF0DCD7C1779CE0700A63024 /* Animals.017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD7E1779CE0700A63024 /* Animals.017.mp3 */; };
+		DF0DCD801779CE1000A63024 /* Animals.018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD821779CE1000A63024 /* Animals.018.mp3 */; };
+		DF0DCD841779CE1900A63024 /* Animals.019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD861779CE1900A63024 /* Animals.019.mp3 */; };
+		DF0DCD881779CE2300A63024 /* Animals.020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD8A1779CE2300A63024 /* Animals.020.mp3 */; };
+		DF0DCD8C1779CE2E00A63024 /* Animals.021.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD8E1779CE2E00A63024 /* Animals.021.mp3 */; };
+		DF0DCD901779CE3700A63024 /* Animals.022.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD921779CE3700A63024 /* Animals.022.mp3 */; };
+		DF0DCD941779CE4700A63024 /* Animals.023.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD961779CE4700A63024 /* Animals.023.mp3 */; };
+		DF0DCD981779CE5300A63024 /* Animals.024.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD9A1779CE5300A63024 /* Animals.024.mp3 */; };
+		DF0DCD9C1779CE5E00A63024 /* Animals.025.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCD9E1779CE5E00A63024 /* Animals.025.mp3 */; };
+		DF0DCDA01779CE6A00A63024 /* Animals.026.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDA21779CE6A00A63024 /* Animals.026.mp3 */; };
+		DF0DCDA41779CE7500A63024 /* Animals.027.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDA61779CE7500A63024 /* Animals.027.mp3 */; };
+		DF0DCDA81779CE9200A63024 /* Animals.028.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDAA1779CE9200A63024 /* Animals.028.mp3 */; };
+		DF0DCDC71779D14000A63024 /* EnglishAlphabet.001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDAD1779D14000A63024 /* EnglishAlphabet.001.mp3 */; };
+		DF0DCDC81779D14000A63024 /* EnglishAlphabet.002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDAE1779D14000A63024 /* EnglishAlphabet.002.mp3 */; };
+		DF0DCDC91779D14000A63024 /* EnglishAlphabet.003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDAF1779D14000A63024 /* EnglishAlphabet.003.mp3 */; };
+		DF0DCDCA1779D14000A63024 /* EnglishAlphabet.004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB01779D14000A63024 /* EnglishAlphabet.004.mp3 */; };
+		DF0DCDCB1779D14000A63024 /* EnglishAlphabet.005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB11779D14000A63024 /* EnglishAlphabet.005.mp3 */; };
+		DF0DCDCC1779D14000A63024 /* EnglishAlphabet.006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB21779D14000A63024 /* EnglishAlphabet.006.mp3 */; };
+		DF0DCDCD1779D14000A63024 /* EnglishAlphabet.007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB31779D14000A63024 /* EnglishAlphabet.007.mp3 */; };
+		DF0DCDCE1779D14000A63024 /* EnglishAlphabet.008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB41779D14000A63024 /* EnglishAlphabet.008.mp3 */; };
+		DF0DCDCF1779D14000A63024 /* EnglishAlphabet.009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB51779D14000A63024 /* EnglishAlphabet.009.mp3 */; };
+		DF0DCDD01779D14000A63024 /* EnglishAlphabet.010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB61779D14000A63024 /* EnglishAlphabet.010.mp3 */; };
+		DF0DCDD11779D14000A63024 /* EnglishAlphabet.011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB71779D14000A63024 /* EnglishAlphabet.011.mp3 */; };
+		DF0DCDD21779D14000A63024 /* EnglishAlphabet.012.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB81779D14000A63024 /* EnglishAlphabet.012.mp3 */; };
+		DF0DCDD31779D14000A63024 /* EnglishAlphabet.013.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDB91779D14000A63024 /* EnglishAlphabet.013.mp3 */; };
+		DF0DCDD41779D14000A63024 /* EnglishAlphabet.014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDBA1779D14000A63024 /* EnglishAlphabet.014.mp3 */; };
+		DF0DCDD51779D14000A63024 /* EnglishAlphabet.015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDBB1779D14000A63024 /* EnglishAlphabet.015.mp3 */; };
+		DF0DCDD61779D14000A63024 /* EnglishAlphabet.016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDBC1779D14000A63024 /* EnglishAlphabet.016.mp3 */; };
+		DF0DCDD71779D14000A63024 /* EnglishAlphabet.017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDBD1779D14000A63024 /* EnglishAlphabet.017.mp3 */; };
+		DF0DCDD81779D14000A63024 /* EnglishAlphabet.018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDBE1779D14000A63024 /* EnglishAlphabet.018.mp3 */; };
+		DF0DCDD91779D14000A63024 /* EnglishAlphabet.019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDBF1779D14000A63024 /* EnglishAlphabet.019.mp3 */; };
+		DF0DCDDA1779D14000A63024 /* EnglishAlphabet.020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC01779D14000A63024 /* EnglishAlphabet.020.mp3 */; };
+		DF0DCDDB1779D14000A63024 /* EnglishAlphabet.021.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC11779D14000A63024 /* EnglishAlphabet.021.mp3 */; };
+		DF0DCDDC1779D14000A63024 /* EnglishAlphabet.022.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC21779D14000A63024 /* EnglishAlphabet.022.mp3 */; };
+		DF0DCDDD1779D14000A63024 /* EnglishAlphabet.023.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC31779D14000A63024 /* EnglishAlphabet.023.mp3 */; };
+		DF0DCDDE1779D14000A63024 /* EnglishAlphabet.024.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC41779D14000A63024 /* EnglishAlphabet.024.mp3 */; };
+		DF0DCDDF1779D14000A63024 /* EnglishAlphabet.025.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC51779D14000A63024 /* EnglishAlphabet.025.mp3 */; };
+		DF0DCDE01779D14000A63024 /* EnglishAlphabet.026.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCDC61779D14000A63024 /* EnglishAlphabet.026.mp3 */; };
 		DF0FF29717787B9A00C25AC3 /* EnglishAlphabet.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF27D17787B9A00C25AC3 /* EnglishAlphabet.001.jpg */; };
 		DF0FF29817787B9A00C25AC3 /* EnglishAlphabet.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF27E17787B9A00C25AC3 /* EnglishAlphabet.002.jpg */; };
 		DF0FF29917787B9A00C25AC3 /* EnglishAlphabet.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF27F17787B9A00C25AC3 /* EnglishAlphabet.003.jpg */; };
@@ -206,6 +279,126 @@
 /* Begin PBXFileReference section */
 		DF03E0C2176C7E2100519336 /* YHMatchingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMatchingCell.h; sourceTree = "<group>"; };
 		DF03E0C3176C7E2100519336 /* YHMatchingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMatchingCell.m; sourceTree = "<group>"; };
+		DF0DCCB81779C9E800A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.001.mp3; sourceTree = "<group>"; };
+		DF0DCCBA1779C9F300A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.001.mp3"; sourceTree = "<group>"; };
+		DF0DCCBC1779CA0300A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.002.mp3; sourceTree = "<group>"; };
+		DF0DCCBE1779CA0700A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.002.mp3"; sourceTree = "<group>"; };
+		DF0DCCC01779CA0F00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.003.mp3; sourceTree = "<group>"; };
+		DF0DCCC21779CA1300A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.003.mp3"; sourceTree = "<group>"; };
+		DF0DCCC41779CA1E00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.004.mp3; sourceTree = "<group>"; };
+		DF0DCCC61779CA2400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.004.mp3"; sourceTree = "<group>"; };
+		DF0DCCC81779CA2B00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.005.mp3; sourceTree = "<group>"; };
+		DF0DCCCA1779CA3000A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.005.mp3"; sourceTree = "<group>"; };
+		DF0DCCCC1779CA3800A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.006.mp3; sourceTree = "<group>"; };
+		DF0DCCCE1779CA3C00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.006.mp3"; sourceTree = "<group>"; };
+		DF0DCCD01779CA4300A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.007.mp3; sourceTree = "<group>"; };
+		DF0DCCD21779CA4800A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.007.mp3"; sourceTree = "<group>"; };
+		DF0DCCD41779CA4F00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.008.mp3; sourceTree = "<group>"; };
+		DF0DCCD61779CA5400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.008.mp3"; sourceTree = "<group>"; };
+		DF0DCCD81779CA5C00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.009.mp3; sourceTree = "<group>"; };
+		DF0DCCDA1779CA6100A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.009.mp3"; sourceTree = "<group>"; };
+		DF0DCCDC1779CA6700A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.010.mp3; sourceTree = "<group>"; };
+		DF0DCCDE1779CA6C00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.010.mp3"; sourceTree = "<group>"; };
+		DF0DCCE01779CA7200A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.011.mp3; sourceTree = "<group>"; };
+		DF0DCCE21779CA7700A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.011.mp3"; sourceTree = "<group>"; };
+		DF0DCCE41779CA7D00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.012.mp3; sourceTree = "<group>"; };
+		DF0DCCE61779CA8100A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.012.mp3"; sourceTree = "<group>"; };
+		DF0DCCE81779CA8800A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.013.mp3; sourceTree = "<group>"; };
+		DF0DCCEA1779CA8C00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.013.mp3"; sourceTree = "<group>"; };
+		DF0DCCEC1779CA9400A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.014.mp3; sourceTree = "<group>"; };
+		DF0DCCEE1779CA9800A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.014.mp3"; sourceTree = "<group>"; };
+		DF0DCCF01779CA9F00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.015.mp3; sourceTree = "<group>"; };
+		DF0DCCF21779CAA400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.015.mp3"; sourceTree = "<group>"; };
+		DF0DCCF41779CAAB00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.016.mp3; sourceTree = "<group>"; };
+		DF0DCCF61779CAAF00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.016.mp3"; sourceTree = "<group>"; };
+		DF0DCCF81779CAB500A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.017.mp3; sourceTree = "<group>"; };
+		DF0DCCFA1779CAB900A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.017.mp3"; sourceTree = "<group>"; };
+		DF0DCCFC1779CABF00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.018.mp3; sourceTree = "<group>"; };
+		DF0DCCFE1779CAC300A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.018.mp3"; sourceTree = "<group>"; };
+		DF0DCD001779CAC900A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Fruits.019.mp3; sourceTree = "<group>"; };
+		DF0DCD021779CACD00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.019.mp3"; sourceTree = "<group>"; };
+		DF0DCD3D1779CD5A00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.001.mp3; sourceTree = "<group>"; };
+		DF0DCD3F1779CD6300A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.001.mp3"; sourceTree = "<group>"; };
+		DF0DCD411779CD6A00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.002.mp3; sourceTree = "<group>"; };
+		DF0DCD431779CD6E00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.002.mp3"; sourceTree = "<group>"; };
+		DF0DCD451779CD7400A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.003.mp3; sourceTree = "<group>"; };
+		DF0DCD471779CD7800A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.003.mp3"; sourceTree = "<group>"; };
+		DF0DCD491779CD7E00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.004.mp3; sourceTree = "<group>"; };
+		DF0DCD4B1779CD8300A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.004.mp3"; sourceTree = "<group>"; };
+		DF0DCD4D1779CD8A00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.005.mp3; sourceTree = "<group>"; };
+		DF0DCD4F1779CD8E00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.005.mp3"; sourceTree = "<group>"; };
+		DF0DCD511779CD9300A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.006.mp3; sourceTree = "<group>"; };
+		DF0DCD531779CD9700A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.006.mp3"; sourceTree = "<group>"; };
+		DF0DCD551779CD9E00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.007.mp3; sourceTree = "<group>"; };
+		DF0DCD571779CDA200A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.007.mp3"; sourceTree = "<group>"; };
+		DF0DCD591779CDA800A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.008.mp3; sourceTree = "<group>"; };
+		DF0DCD5B1779CDAB00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.008.mp3"; sourceTree = "<group>"; };
+		DF0DCD5D1779CDB000A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.009.mp3; sourceTree = "<group>"; };
+		DF0DCD5F1779CDB400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.009.mp3"; sourceTree = "<group>"; };
+		DF0DCD611779CDBA00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.010.mp3; sourceTree = "<group>"; };
+		DF0DCD631779CDBE00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.010.mp3"; sourceTree = "<group>"; };
+		DF0DCD651779CDCF00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.011.mp3; sourceTree = "<group>"; };
+		DF0DCD671779CDD400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.011.mp3"; sourceTree = "<group>"; };
+		DF0DCD691779CDD900A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.012.mp3; sourceTree = "<group>"; };
+		DF0DCD6B1779CDDC00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.012.mp3"; sourceTree = "<group>"; };
+		DF0DCD6D1779CDE200A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.013.mp3; sourceTree = "<group>"; };
+		DF0DCD6F1779CDE500A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.013.mp3"; sourceTree = "<group>"; };
+		DF0DCD711779CDEA00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.014.mp3; sourceTree = "<group>"; };
+		DF0DCD731779CDEE00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.014.mp3"; sourceTree = "<group>"; };
+		DF0DCD751779CDF400A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.015.mp3; sourceTree = "<group>"; };
+		DF0DCD771779CDF800A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.015.mp3"; sourceTree = "<group>"; };
+		DF0DCD791779CDFD00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.016.mp3; sourceTree = "<group>"; };
+		DF0DCD7B1779CE0100A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.016.mp3"; sourceTree = "<group>"; };
+		DF0DCD7D1779CE0700A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.017.mp3; sourceTree = "<group>"; };
+		DF0DCD7F1779CE0A00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.017.mp3"; sourceTree = "<group>"; };
+		DF0DCD811779CE1000A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.018.mp3; sourceTree = "<group>"; };
+		DF0DCD831779CE1400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.018.mp3"; sourceTree = "<group>"; };
+		DF0DCD851779CE1900A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.019.mp3; sourceTree = "<group>"; };
+		DF0DCD871779CE1D00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.019.mp3"; sourceTree = "<group>"; };
+		DF0DCD891779CE2300A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.020.mp3; sourceTree = "<group>"; };
+		DF0DCD8B1779CE2900A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.020.mp3"; sourceTree = "<group>"; };
+		DF0DCD8D1779CE2E00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.021.mp3; sourceTree = "<group>"; };
+		DF0DCD8F1779CE3200A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.021.mp3"; sourceTree = "<group>"; };
+		DF0DCD911779CE3700A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.022.mp3; sourceTree = "<group>"; };
+		DF0DCD931779CE4100A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.022.mp3"; sourceTree = "<group>"; };
+		DF0DCD951779CE4700A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.023.mp3; sourceTree = "<group>"; };
+		DF0DCD971779CE4C00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.023.mp3"; sourceTree = "<group>"; };
+		DF0DCD991779CE5300A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.024.mp3; sourceTree = "<group>"; };
+		DF0DCD9B1779CE5800A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.024.mp3"; sourceTree = "<group>"; };
+		DF0DCD9D1779CE5E00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.025.mp3; sourceTree = "<group>"; };
+		DF0DCD9F1779CE6400A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.025.mp3"; sourceTree = "<group>"; };
+		DF0DCDA11779CE6A00A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.026.mp3; sourceTree = "<group>"; };
+		DF0DCDA31779CE6F00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.026.mp3"; sourceTree = "<group>"; };
+		DF0DCDA51779CE7500A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.027.mp3; sourceTree = "<group>"; };
+		DF0DCDA71779CE8800A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.027.mp3"; sourceTree = "<group>"; };
+		DF0DCDA91779CE9200A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Animals.028.mp3; sourceTree = "<group>"; };
+		DF0DCDAB1779CECD00A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/Animals.028.mp3"; sourceTree = "<group>"; };
+		DF0DCDAD1779D14000A63024 /* EnglishAlphabet.001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.001.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.001.mp3; sourceTree = "<group>"; };
+		DF0DCDAE1779D14000A63024 /* EnglishAlphabet.002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.002.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.002.mp3; sourceTree = "<group>"; };
+		DF0DCDAF1779D14000A63024 /* EnglishAlphabet.003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.003.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.003.mp3; sourceTree = "<group>"; };
+		DF0DCDB01779D14000A63024 /* EnglishAlphabet.004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.004.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.004.mp3; sourceTree = "<group>"; };
+		DF0DCDB11779D14000A63024 /* EnglishAlphabet.005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.005.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.005.mp3; sourceTree = "<group>"; };
+		DF0DCDB21779D14000A63024 /* EnglishAlphabet.006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.006.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.006.mp3; sourceTree = "<group>"; };
+		DF0DCDB31779D14000A63024 /* EnglishAlphabet.007.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.007.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.007.mp3; sourceTree = "<group>"; };
+		DF0DCDB41779D14000A63024 /* EnglishAlphabet.008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.008.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.008.mp3; sourceTree = "<group>"; };
+		DF0DCDB51779D14000A63024 /* EnglishAlphabet.009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.009.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.009.mp3; sourceTree = "<group>"; };
+		DF0DCDB61779D14000A63024 /* EnglishAlphabet.010.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.010.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.010.mp3; sourceTree = "<group>"; };
+		DF0DCDB71779D14000A63024 /* EnglishAlphabet.011.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.011.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.011.mp3; sourceTree = "<group>"; };
+		DF0DCDB81779D14000A63024 /* EnglishAlphabet.012.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.012.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.012.mp3; sourceTree = "<group>"; };
+		DF0DCDB91779D14000A63024 /* EnglishAlphabet.013.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.013.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.013.mp3; sourceTree = "<group>"; };
+		DF0DCDBA1779D14000A63024 /* EnglishAlphabet.014.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.014.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.014.mp3; sourceTree = "<group>"; };
+		DF0DCDBB1779D14000A63024 /* EnglishAlphabet.015.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.015.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.015.mp3; sourceTree = "<group>"; };
+		DF0DCDBC1779D14000A63024 /* EnglishAlphabet.016.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.016.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.016.mp3; sourceTree = "<group>"; };
+		DF0DCDBD1779D14000A63024 /* EnglishAlphabet.017.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.017.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.017.mp3; sourceTree = "<group>"; };
+		DF0DCDBE1779D14000A63024 /* EnglishAlphabet.018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.018.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.018.mp3; sourceTree = "<group>"; };
+		DF0DCDBF1779D14000A63024 /* EnglishAlphabet.019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.019.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.019.mp3; sourceTree = "<group>"; };
+		DF0DCDC01779D14000A63024 /* EnglishAlphabet.020.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.020.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.020.mp3; sourceTree = "<group>"; };
+		DF0DCDC11779D14000A63024 /* EnglishAlphabet.021.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.021.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.021.mp3; sourceTree = "<group>"; };
+		DF0DCDC21779D14000A63024 /* EnglishAlphabet.022.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.022.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.022.mp3; sourceTree = "<group>"; };
+		DF0DCDC31779D14000A63024 /* EnglishAlphabet.023.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.023.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.023.mp3; sourceTree = "<group>"; };
+		DF0DCDC41779D14000A63024 /* EnglishAlphabet.024.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.024.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.024.mp3; sourceTree = "<group>"; };
+		DF0DCDC51779D14000A63024 /* EnglishAlphabet.025.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.025.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.025.mp3; sourceTree = "<group>"; };
+		DF0DCDC61779D14000A63024 /* EnglishAlphabet.026.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EnglishAlphabet.026.mp3; path = deepImage/audio/EnglishAlphabet/EnglishAlphabet.026.mp3; sourceTree = "<group>"; };
 		DF0FF27D17787B9A00C25AC3 /* EnglishAlphabet.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnglishAlphabet.001.jpg; path = images/Albums/EnglishAlphabet/EnglishAlphabet.001.jpg; sourceTree = "<group>"; };
 		DF0FF27E17787B9A00C25AC3 /* EnglishAlphabet.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnglishAlphabet.002.jpg; path = images/Albums/EnglishAlphabet/EnglishAlphabet.002.jpg; sourceTree = "<group>"; };
 		DF0FF27F17787B9A00C25AC3 /* EnglishAlphabet.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnglishAlphabet.003.jpg; path = images/Albums/EnglishAlphabet/EnglishAlphabet.003.jpg; sourceTree = "<group>"; };
@@ -232,42 +425,42 @@
 		DF0FF29417787B9A00C25AC3 /* EnglishAlphabet.024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnglishAlphabet.024.jpg; path = images/Albums/EnglishAlphabet/EnglishAlphabet.024.jpg; sourceTree = "<group>"; };
 		DF0FF29517787B9A00C25AC3 /* EnglishAlphabet.025.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnglishAlphabet.025.jpg; path = images/Albums/EnglishAlphabet/EnglishAlphabet.025.jpg; sourceTree = "<group>"; };
 		DF0FF29617787B9A00C25AC3 /* EnglishAlphabet.026.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EnglishAlphabet.026.jpg; path = images/Albums/EnglishAlphabet/EnglishAlphabet.026.jpg; sourceTree = "<group>"; };
-		DF0FF2D717788C3500C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.001.mp3; sourceTree = "<group>"; };
+		DF0FF2D717788C3500C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.001.mp3; sourceTree = "<group>"; };
 		DF0FF2DA17788C9F00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.001.mp3"; sourceTree = "<group>"; };
-		DF0FF2DC17788CE600C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.002.mp3; sourceTree = "<group>"; };
-		DF0FF2DE17788CEB00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.002.mp3"; sourceTree = "<group>"; };
-		DF0FF2E017788CFA00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.003.mp3; sourceTree = "<group>"; };
-		DF0FF2E217788CFF00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.003.mp3"; sourceTree = "<group>"; };
-		DF0FF2E417788D0800C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.004.mp3; sourceTree = "<group>"; };
-		DF0FF2E617788D0D00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.004.mp3"; sourceTree = "<group>"; };
-		DF0FF2E817788D1500C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.005.mp3; sourceTree = "<group>"; };
-		DF0FF2EA17788D1D00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.005.mp3"; sourceTree = "<group>"; };
-		DF0FF2EC17788D2500C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.006.mp3; sourceTree = "<group>"; };
-		DF0FF2EE17788D2B00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.006.mp3"; sourceTree = "<group>"; };
-		DF0FF2F017788D3200C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.007.mp3; sourceTree = "<group>"; };
-		DF0FF2F217788D3700C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.007.mp3"; sourceTree = "<group>"; };
-		DF0FF2F417788D4000C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.008.mp3; sourceTree = "<group>"; };
-		DF0FF2F617788D4400C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.008.mp3"; sourceTree = "<group>"; };
-		DF0FF2F817788D4B00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.009.mp3; sourceTree = "<group>"; };
-		DF0FF2FA17788D4F00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.009.mp3"; sourceTree = "<group>"; };
-		DF0FF2FC17788D5600C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.010.mp3; sourceTree = "<group>"; };
-		DF0FF2FE17788D5C00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.010.mp3"; sourceTree = "<group>"; };
-		DF0FF30017788D6300C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.011.mp3; sourceTree = "<group>"; };
-		DF0FF30217788D6900C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.011.mp3"; sourceTree = "<group>"; };
-		DF0FF30417788D7000C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.012.mp3; sourceTree = "<group>"; };
-		DF0FF30617788D7600C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.012.mp3"; sourceTree = "<group>"; };
-		DF0FF30817788D7C00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.013.mp3; sourceTree = "<group>"; };
-		DF0FF30A17788D9800C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.013.mp3"; sourceTree = "<group>"; };
-		DF0FF30C17788D9F00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.014.mp3; sourceTree = "<group>"; };
-		DF0FF30E17788DA400C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.014.mp3"; sourceTree = "<group>"; };
-		DF0FF31017788DAB00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.015.mp3; sourceTree = "<group>"; };
-		DF0FF31217788DB300C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.015.mp3"; sourceTree = "<group>"; };
-		DF0FF31417788DBB00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.016.mp3; sourceTree = "<group>"; };
-		DF0FF31617788DC000C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.016.mp3"; sourceTree = "<group>"; };
-		DF0FF31817788DC700C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.017.mp3; sourceTree = "<group>"; };
-		DF0FF31A17788DCC00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.017.mp3"; sourceTree = "<group>"; };
-		DF0FF31C17788DD400C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/FamousPeople.018.mp3; sourceTree = "<group>"; };
-		DF0FF31E17788DDA00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.018.mp3"; sourceTree = "<group>"; };
+		DF0FF2DC17788CE600C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.002.mp3; sourceTree = "<group>"; };
+		DF0FF2DE17788CEB00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.002.mp3"; sourceTree = "<group>"; };
+		DF0FF2E017788CFA00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.003.mp3; sourceTree = "<group>"; };
+		DF0FF2E217788CFF00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.003.mp3"; sourceTree = "<group>"; };
+		DF0FF2E417788D0800C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.004.mp3; sourceTree = "<group>"; };
+		DF0FF2E617788D0D00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.004.mp3"; sourceTree = "<group>"; };
+		DF0FF2E817788D1500C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.005.mp3; sourceTree = "<group>"; };
+		DF0FF2EA17788D1D00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.005.mp3"; sourceTree = "<group>"; };
+		DF0FF2EC17788D2500C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.006.mp3; sourceTree = "<group>"; };
+		DF0FF2EE17788D2B00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.006.mp3"; sourceTree = "<group>"; };
+		DF0FF2F017788D3200C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.007.mp3; sourceTree = "<group>"; };
+		DF0FF2F217788D3700C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.007.mp3"; sourceTree = "<group>"; };
+		DF0FF2F417788D4000C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.008.mp3; sourceTree = "<group>"; };
+		DF0FF2F617788D4400C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.008.mp3"; sourceTree = "<group>"; };
+		DF0FF2F817788D4B00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.009.mp3; sourceTree = "<group>"; };
+		DF0FF2FA17788D4F00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.009.mp3"; sourceTree = "<group>"; };
+		DF0FF2FC17788D5600C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.010.mp3; sourceTree = "<group>"; };
+		DF0FF2FE17788D5C00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.010.mp3"; sourceTree = "<group>"; };
+		DF0FF30017788D6300C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.011.mp3; sourceTree = "<group>"; };
+		DF0FF30217788D6900C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.011.mp3"; sourceTree = "<group>"; };
+		DF0FF30417788D7000C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.012.mp3; sourceTree = "<group>"; };
+		DF0FF30617788D7600C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.012.mp3"; sourceTree = "<group>"; };
+		DF0FF30817788D7C00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.013.mp3; sourceTree = "<group>"; };
+		DF0FF30A17788D9800C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.013.mp3"; sourceTree = "<group>"; };
+		DF0FF30C17788D9F00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.014.mp3; sourceTree = "<group>"; };
+		DF0FF30E17788DA400C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.014.mp3"; sourceTree = "<group>"; };
+		DF0FF31017788DAB00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.015.mp3; sourceTree = "<group>"; };
+		DF0FF31217788DB300C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.015.mp3"; sourceTree = "<group>"; };
+		DF0FF31417788DBB00C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.016.mp3; sourceTree = "<group>"; };
+		DF0FF31617788DC000C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.016.mp3"; sourceTree = "<group>"; };
+		DF0FF31817788DC700C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.017.mp3; sourceTree = "<group>"; };
+		DF0FF31A17788DCC00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.017.mp3"; sourceTree = "<group>"; };
+		DF0FF31C17788DD400C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.018.mp3; sourceTree = "<group>"; };
+		DF0FF31E17788DDA00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.018.mp3"; sourceTree = "<group>"; };
 		DF1A7AA71773418400D74773 /* count0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count0.mp3; path = deepImage/audio/count0.mp3; sourceTree = "<group>"; };
 		DF1A7AA81773418400D74773 /* count1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count1.mp3; path = deepImage/audio/count1.mp3; sourceTree = "<group>"; };
 		DF1A7AA91773418400D74773 /* count2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count2.mp3; path = deepImage/audio/count2.mp3; sourceTree = "<group>"; };
@@ -448,6 +641,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF0DCC901779C99300A63024 /* Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				DF0DCCB91779C9E800A63024 /* Fruits.001.mp3 */,
+				DF0DCCBD1779CA0300A63024 /* Fruits.002.mp3 */,
+				DF0DCCC11779CA0F00A63024 /* Fruits.003.mp3 */,
+				DF0DCCC51779CA1E00A63024 /* Fruits.004.mp3 */,
+				DF0DCCC91779CA2B00A63024 /* Fruits.005.mp3 */,
+				DF0DCCCD1779CA3800A63024 /* Fruits.006.mp3 */,
+				DF0DCCD11779CA4300A63024 /* Fruits.007.mp3 */,
+				DF0DCCD51779CA4F00A63024 /* Fruits.008.mp3 */,
+				DF0DCCD91779CA5C00A63024 /* Fruits.009.mp3 */,
+				DF0DCCDD1779CA6700A63024 /* Fruits.010.mp3 */,
+				DF0DCCE11779CA7200A63024 /* Fruits.011.mp3 */,
+				DF0DCCE51779CA7D00A63024 /* Fruits.012.mp3 */,
+				DF0DCCE91779CA8800A63024 /* Fruits.013.mp3 */,
+				DF0DCCED1779CA9400A63024 /* Fruits.014.mp3 */,
+				DF0DCCF11779CA9F00A63024 /* Fruits.015.mp3 */,
+				DF0DCCF51779CAAB00A63024 /* Fruits.016.mp3 */,
+				DF0DCCF91779CAB500A63024 /* Fruits.017.mp3 */,
+				DF0DCCFD1779CABF00A63024 /* Fruits.018.mp3 */,
+				DF0DCD011779CAC900A63024 /* Fruits.019.mp3 */,
+			);
+			name = Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCD031779CD2D00A63024 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				DF0DCD3E1779CD5A00A63024 /* Animals.001.mp3 */,
+				DF0DCD421779CD6A00A63024 /* Animals.002.mp3 */,
+				DF0DCD461779CD7400A63024 /* Animals.003.mp3 */,
+				DF0DCD4A1779CD7E00A63024 /* Animals.004.mp3 */,
+				DF0DCD4E1779CD8A00A63024 /* Animals.005.mp3 */,
+				DF0DCD521779CD9300A63024 /* Animals.006.mp3 */,
+				DF0DCD561779CD9E00A63024 /* Animals.007.mp3 */,
+				DF0DCD5A1779CDA800A63024 /* Animals.008.mp3 */,
+				DF0DCD5E1779CDB000A63024 /* Animals.009.mp3 */,
+				DF0DCD621779CDBA00A63024 /* Animals.010.mp3 */,
+				DF0DCD661779CDCF00A63024 /* Animals.011.mp3 */,
+				DF0DCD6A1779CDD900A63024 /* Animals.012.mp3 */,
+				DF0DCD6E1779CDE200A63024 /* Animals.013.mp3 */,
+				DF0DCD721779CDEA00A63024 /* Animals.014.mp3 */,
+				DF0DCD761779CDF400A63024 /* Animals.015.mp3 */,
+				DF0DCD7A1779CDFD00A63024 /* Animals.016.mp3 */,
+				DF0DCD7E1779CE0700A63024 /* Animals.017.mp3 */,
+				DF0DCD821779CE1000A63024 /* Animals.018.mp3 */,
+				DF0DCD861779CE1900A63024 /* Animals.019.mp3 */,
+				DF0DCD8A1779CE2300A63024 /* Animals.020.mp3 */,
+				DF0DCD8E1779CE2E00A63024 /* Animals.021.mp3 */,
+				DF0DCD921779CE3700A63024 /* Animals.022.mp3 */,
+				DF0DCD961779CE4700A63024 /* Animals.023.mp3 */,
+				DF0DCD9A1779CE5300A63024 /* Animals.024.mp3 */,
+				DF0DCD9E1779CE5E00A63024 /* Animals.025.mp3 */,
+				DF0DCDA21779CE6A00A63024 /* Animals.026.mp3 */,
+				DF0DCDA61779CE7500A63024 /* Animals.027.mp3 */,
+				DF0DCDAA1779CE9200A63024 /* Animals.028.mp3 */,
+			);
+			name = Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCDAC1779D08300A63024 /* EnglishAlphabet */ = {
+			isa = PBXGroup;
+			children = (
+				DF0DCDAD1779D14000A63024 /* EnglishAlphabet.001.mp3 */,
+				DF0DCDAE1779D14000A63024 /* EnglishAlphabet.002.mp3 */,
+				DF0DCDAF1779D14000A63024 /* EnglishAlphabet.003.mp3 */,
+				DF0DCDB01779D14000A63024 /* EnglishAlphabet.004.mp3 */,
+				DF0DCDB11779D14000A63024 /* EnglishAlphabet.005.mp3 */,
+				DF0DCDB21779D14000A63024 /* EnglishAlphabet.006.mp3 */,
+				DF0DCDB31779D14000A63024 /* EnglishAlphabet.007.mp3 */,
+				DF0DCDB41779D14000A63024 /* EnglishAlphabet.008.mp3 */,
+				DF0DCDB51779D14000A63024 /* EnglishAlphabet.009.mp3 */,
+				DF0DCDB61779D14000A63024 /* EnglishAlphabet.010.mp3 */,
+				DF0DCDB71779D14000A63024 /* EnglishAlphabet.011.mp3 */,
+				DF0DCDB81779D14000A63024 /* EnglishAlphabet.012.mp3 */,
+				DF0DCDB91779D14000A63024 /* EnglishAlphabet.013.mp3 */,
+				DF0DCDBA1779D14000A63024 /* EnglishAlphabet.014.mp3 */,
+				DF0DCDBB1779D14000A63024 /* EnglishAlphabet.015.mp3 */,
+				DF0DCDBC1779D14000A63024 /* EnglishAlphabet.016.mp3 */,
+				DF0DCDBD1779D14000A63024 /* EnglishAlphabet.017.mp3 */,
+				DF0DCDBE1779D14000A63024 /* EnglishAlphabet.018.mp3 */,
+				DF0DCDBF1779D14000A63024 /* EnglishAlphabet.019.mp3 */,
+				DF0DCDC01779D14000A63024 /* EnglishAlphabet.020.mp3 */,
+				DF0DCDC11779D14000A63024 /* EnglishAlphabet.021.mp3 */,
+				DF0DCDC21779D14000A63024 /* EnglishAlphabet.022.mp3 */,
+				DF0DCDC31779D14000A63024 /* EnglishAlphabet.023.mp3 */,
+				DF0DCDC41779D14000A63024 /* EnglishAlphabet.024.mp3 */,
+				DF0DCDC51779D14000A63024 /* EnglishAlphabet.025.mp3 */,
+				DF0DCDC61779D14000A63024 /* EnglishAlphabet.026.mp3 */,
+			);
+			name = EnglishAlphabet;
+			sourceTree = "<group>";
+		};
+		DF0DCDE11779D7AE00A63024 /* JapaneseFiftySounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JapaneseFiftySounds;
+			sourceTree = "<group>";
+		};
 		DF0FF27C17787A9F00C25AC3 /* EnglishAlphabet */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,11 +1010,11 @@
 		DFF5C1091764B21A0096C4C9 /* Albums */ = {
 			isa = PBXGroup;
 			children = (
-				DF0FF27C17787A9F00C25AC3 /* EnglishAlphabet */,
-				DFEEAA6717770EED00C1481A /* JapaneseFiftySounds */,
 				DFF4E5851775792F003FF70A /* Fruits */,
 				DF21744317749955007CCA67 /* Animals */,
 				DFF5C10A1764B24E0096C4C9 /* FamousPeople */,
+				DFEEAA6717770EED00C1481A /* JapaneseFiftySounds */,
+				DF0FF27C17787A9F00C25AC3 /* EnglishAlphabet */,
 			);
 			name = Albums;
 			sourceTree = "<group>";
@@ -753,7 +1047,11 @@
 		DFFF2AFC1771EF6D005E09D0 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				DF0DCC901779C99300A63024 /* Fruits */,
+				DF0DCD031779CD2D00A63024 /* Animals */,
 				DF0FF2B117788AA800C25AC3 /* FamousPeople */,
+				DF0DCDE11779D7AE00A63024 /* JapaneseFiftySounds */,
+				DF0DCDAC1779D08300A63024 /* EnglishAlphabet */,
 				DF1A7AB317734D3000D74773 /* applause.mp3 */,
 				DFF4E583177543A0003FF70A /* amazing.mp3 */,
 				DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */,
@@ -1006,6 +1304,79 @@
 				DF0FF31317788DBB00C25AC3 /* FamousPeople.016.mp3 in Resources */,
 				DF0FF31717788DC700C25AC3 /* FamousPeople.017.mp3 in Resources */,
 				DF0FF31B17788DD400C25AC3 /* FamousPeople.018.mp3 in Resources */,
+				DF0DCCB71779C9E800A63024 /* Fruits.001.mp3 in Resources */,
+				DF0DCCBB1779CA0300A63024 /* Fruits.002.mp3 in Resources */,
+				DF0DCCBF1779CA0F00A63024 /* Fruits.003.mp3 in Resources */,
+				DF0DCCC31779CA1E00A63024 /* Fruits.004.mp3 in Resources */,
+				DF0DCCC71779CA2B00A63024 /* Fruits.005.mp3 in Resources */,
+				DF0DCCCB1779CA3800A63024 /* Fruits.006.mp3 in Resources */,
+				DF0DCCCF1779CA4300A63024 /* Fruits.007.mp3 in Resources */,
+				DF0DCCD31779CA4F00A63024 /* Fruits.008.mp3 in Resources */,
+				DF0DCCD71779CA5C00A63024 /* Fruits.009.mp3 in Resources */,
+				DF0DCCDB1779CA6700A63024 /* Fruits.010.mp3 in Resources */,
+				DF0DCCDF1779CA7200A63024 /* Fruits.011.mp3 in Resources */,
+				DF0DCCE31779CA7D00A63024 /* Fruits.012.mp3 in Resources */,
+				DF0DCCE71779CA8800A63024 /* Fruits.013.mp3 in Resources */,
+				DF0DCCEB1779CA9400A63024 /* Fruits.014.mp3 in Resources */,
+				DF0DCCEF1779CA9F00A63024 /* Fruits.015.mp3 in Resources */,
+				DF0DCCF31779CAAB00A63024 /* Fruits.016.mp3 in Resources */,
+				DF0DCCF71779CAB500A63024 /* Fruits.017.mp3 in Resources */,
+				DF0DCCFB1779CABF00A63024 /* Fruits.018.mp3 in Resources */,
+				DF0DCCFF1779CAC900A63024 /* Fruits.019.mp3 in Resources */,
+				DF0DCD3C1779CD5A00A63024 /* Animals.001.mp3 in Resources */,
+				DF0DCD401779CD6A00A63024 /* Animals.002.mp3 in Resources */,
+				DF0DCD441779CD7400A63024 /* Animals.003.mp3 in Resources */,
+				DF0DCD481779CD7E00A63024 /* Animals.004.mp3 in Resources */,
+				DF0DCD4C1779CD8A00A63024 /* Animals.005.mp3 in Resources */,
+				DF0DCD501779CD9300A63024 /* Animals.006.mp3 in Resources */,
+				DF0DCD541779CD9E00A63024 /* Animals.007.mp3 in Resources */,
+				DF0DCD581779CDA800A63024 /* Animals.008.mp3 in Resources */,
+				DF0DCD5C1779CDB000A63024 /* Animals.009.mp3 in Resources */,
+				DF0DCD601779CDBA00A63024 /* Animals.010.mp3 in Resources */,
+				DF0DCD641779CDCF00A63024 /* Animals.011.mp3 in Resources */,
+				DF0DCD681779CDD900A63024 /* Animals.012.mp3 in Resources */,
+				DF0DCD6C1779CDE200A63024 /* Animals.013.mp3 in Resources */,
+				DF0DCD701779CDEA00A63024 /* Animals.014.mp3 in Resources */,
+				DF0DCD741779CDF400A63024 /* Animals.015.mp3 in Resources */,
+				DF0DCD781779CDFD00A63024 /* Animals.016.mp3 in Resources */,
+				DF0DCD7C1779CE0700A63024 /* Animals.017.mp3 in Resources */,
+				DF0DCD801779CE1000A63024 /* Animals.018.mp3 in Resources */,
+				DF0DCD841779CE1900A63024 /* Animals.019.mp3 in Resources */,
+				DF0DCD881779CE2300A63024 /* Animals.020.mp3 in Resources */,
+				DF0DCD8C1779CE2E00A63024 /* Animals.021.mp3 in Resources */,
+				DF0DCD901779CE3700A63024 /* Animals.022.mp3 in Resources */,
+				DF0DCD941779CE4700A63024 /* Animals.023.mp3 in Resources */,
+				DF0DCD981779CE5300A63024 /* Animals.024.mp3 in Resources */,
+				DF0DCD9C1779CE5E00A63024 /* Animals.025.mp3 in Resources */,
+				DF0DCDA01779CE6A00A63024 /* Animals.026.mp3 in Resources */,
+				DF0DCDA41779CE7500A63024 /* Animals.027.mp3 in Resources */,
+				DF0DCDA81779CE9200A63024 /* Animals.028.mp3 in Resources */,
+				DF0DCDC71779D14000A63024 /* EnglishAlphabet.001.mp3 in Resources */,
+				DF0DCDC81779D14000A63024 /* EnglishAlphabet.002.mp3 in Resources */,
+				DF0DCDC91779D14000A63024 /* EnglishAlphabet.003.mp3 in Resources */,
+				DF0DCDCA1779D14000A63024 /* EnglishAlphabet.004.mp3 in Resources */,
+				DF0DCDCB1779D14000A63024 /* EnglishAlphabet.005.mp3 in Resources */,
+				DF0DCDCC1779D14000A63024 /* EnglishAlphabet.006.mp3 in Resources */,
+				DF0DCDCD1779D14000A63024 /* EnglishAlphabet.007.mp3 in Resources */,
+				DF0DCDCE1779D14000A63024 /* EnglishAlphabet.008.mp3 in Resources */,
+				DF0DCDCF1779D14000A63024 /* EnglishAlphabet.009.mp3 in Resources */,
+				DF0DCDD01779D14000A63024 /* EnglishAlphabet.010.mp3 in Resources */,
+				DF0DCDD11779D14000A63024 /* EnglishAlphabet.011.mp3 in Resources */,
+				DF0DCDD21779D14000A63024 /* EnglishAlphabet.012.mp3 in Resources */,
+				DF0DCDD31779D14000A63024 /* EnglishAlphabet.013.mp3 in Resources */,
+				DF0DCDD41779D14000A63024 /* EnglishAlphabet.014.mp3 in Resources */,
+				DF0DCDD51779D14000A63024 /* EnglishAlphabet.015.mp3 in Resources */,
+				DF0DCDD61779D14000A63024 /* EnglishAlphabet.016.mp3 in Resources */,
+				DF0DCDD71779D14000A63024 /* EnglishAlphabet.017.mp3 in Resources */,
+				DF0DCDD81779D14000A63024 /* EnglishAlphabet.018.mp3 in Resources */,
+				DF0DCDD91779D14000A63024 /* EnglishAlphabet.019.mp3 in Resources */,
+				DF0DCDDA1779D14000A63024 /* EnglishAlphabet.020.mp3 in Resources */,
+				DF0DCDDB1779D14000A63024 /* EnglishAlphabet.021.mp3 in Resources */,
+				DF0DCDDC1779D14000A63024 /* EnglishAlphabet.022.mp3 in Resources */,
+				DF0DCDDD1779D14000A63024 /* EnglishAlphabet.023.mp3 in Resources */,
+				DF0DCDDE1779D14000A63024 /* EnglishAlphabet.024.mp3 in Resources */,
+				DF0DCDDF1779D14000A63024 /* EnglishAlphabet.025.mp3 in Resources */,
+				DF0DCDE01779D14000A63024 /* EnglishAlphabet.026.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,6 +1398,476 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		DF0DCCB91779C9E800A63024 /* Fruits.001.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCB81779C9E800A63024 /* en */,
+				DF0DCCBA1779C9F300A63024 /* zh-Hant */,
+			);
+			name = Fruits.001.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCBD1779CA0300A63024 /* Fruits.002.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCBC1779CA0300A63024 /* en */,
+				DF0DCCBE1779CA0700A63024 /* zh-Hant */,
+			);
+			name = Fruits.002.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCC11779CA0F00A63024 /* Fruits.003.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCC01779CA0F00A63024 /* en */,
+				DF0DCCC21779CA1300A63024 /* zh-Hant */,
+			);
+			name = Fruits.003.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCC51779CA1E00A63024 /* Fruits.004.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCC41779CA1E00A63024 /* en */,
+				DF0DCCC61779CA2400A63024 /* zh-Hant */,
+			);
+			name = Fruits.004.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCC91779CA2B00A63024 /* Fruits.005.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCC81779CA2B00A63024 /* en */,
+				DF0DCCCA1779CA3000A63024 /* zh-Hant */,
+			);
+			name = Fruits.005.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCCD1779CA3800A63024 /* Fruits.006.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCCC1779CA3800A63024 /* en */,
+				DF0DCCCE1779CA3C00A63024 /* zh-Hant */,
+			);
+			name = Fruits.006.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCD11779CA4300A63024 /* Fruits.007.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCD01779CA4300A63024 /* en */,
+				DF0DCCD21779CA4800A63024 /* zh-Hant */,
+			);
+			name = Fruits.007.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCD51779CA4F00A63024 /* Fruits.008.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCD41779CA4F00A63024 /* en */,
+				DF0DCCD61779CA5400A63024 /* zh-Hant */,
+			);
+			name = Fruits.008.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCD91779CA5C00A63024 /* Fruits.009.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCD81779CA5C00A63024 /* en */,
+				DF0DCCDA1779CA6100A63024 /* zh-Hant */,
+			);
+			name = Fruits.009.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCDD1779CA6700A63024 /* Fruits.010.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCDC1779CA6700A63024 /* en */,
+				DF0DCCDE1779CA6C00A63024 /* zh-Hant */,
+			);
+			name = Fruits.010.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCE11779CA7200A63024 /* Fruits.011.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCE01779CA7200A63024 /* en */,
+				DF0DCCE21779CA7700A63024 /* zh-Hant */,
+			);
+			name = Fruits.011.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCE51779CA7D00A63024 /* Fruits.012.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCE41779CA7D00A63024 /* en */,
+				DF0DCCE61779CA8100A63024 /* zh-Hant */,
+			);
+			name = Fruits.012.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCE91779CA8800A63024 /* Fruits.013.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCE81779CA8800A63024 /* en */,
+				DF0DCCEA1779CA8C00A63024 /* zh-Hant */,
+			);
+			name = Fruits.013.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCED1779CA9400A63024 /* Fruits.014.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCEC1779CA9400A63024 /* en */,
+				DF0DCCEE1779CA9800A63024 /* zh-Hant */,
+			);
+			name = Fruits.014.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCF11779CA9F00A63024 /* Fruits.015.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCF01779CA9F00A63024 /* en */,
+				DF0DCCF21779CAA400A63024 /* zh-Hant */,
+			);
+			name = Fruits.015.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCF51779CAAB00A63024 /* Fruits.016.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCF41779CAAB00A63024 /* en */,
+				DF0DCCF61779CAAF00A63024 /* zh-Hant */,
+			);
+			name = Fruits.016.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCF91779CAB500A63024 /* Fruits.017.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCF81779CAB500A63024 /* en */,
+				DF0DCCFA1779CAB900A63024 /* zh-Hant */,
+			);
+			name = Fruits.017.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCCFD1779CABF00A63024 /* Fruits.018.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCCFC1779CABF00A63024 /* en */,
+				DF0DCCFE1779CAC300A63024 /* zh-Hant */,
+			);
+			name = Fruits.018.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCD011779CAC900A63024 /* Fruits.019.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD001779CAC900A63024 /* en */,
+				DF0DCD021779CACD00A63024 /* zh-Hant */,
+			);
+			name = Fruits.019.mp3;
+			path = deepImage/audio/Fruits;
+			sourceTree = "<group>";
+		};
+		DF0DCD3E1779CD5A00A63024 /* Animals.001.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD3D1779CD5A00A63024 /* en */,
+				DF0DCD3F1779CD6300A63024 /* zh-Hant */,
+			);
+			name = Animals.001.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD421779CD6A00A63024 /* Animals.002.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD411779CD6A00A63024 /* en */,
+				DF0DCD431779CD6E00A63024 /* zh-Hant */,
+			);
+			name = Animals.002.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD461779CD7400A63024 /* Animals.003.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD451779CD7400A63024 /* en */,
+				DF0DCD471779CD7800A63024 /* zh-Hant */,
+			);
+			name = Animals.003.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD4A1779CD7E00A63024 /* Animals.004.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD491779CD7E00A63024 /* en */,
+				DF0DCD4B1779CD8300A63024 /* zh-Hant */,
+			);
+			name = Animals.004.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD4E1779CD8A00A63024 /* Animals.005.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD4D1779CD8A00A63024 /* en */,
+				DF0DCD4F1779CD8E00A63024 /* zh-Hant */,
+			);
+			name = Animals.005.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD521779CD9300A63024 /* Animals.006.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD511779CD9300A63024 /* en */,
+				DF0DCD531779CD9700A63024 /* zh-Hant */,
+			);
+			name = Animals.006.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD561779CD9E00A63024 /* Animals.007.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD551779CD9E00A63024 /* en */,
+				DF0DCD571779CDA200A63024 /* zh-Hant */,
+			);
+			name = Animals.007.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD5A1779CDA800A63024 /* Animals.008.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD591779CDA800A63024 /* en */,
+				DF0DCD5B1779CDAB00A63024 /* zh-Hant */,
+			);
+			name = Animals.008.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD5E1779CDB000A63024 /* Animals.009.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD5D1779CDB000A63024 /* en */,
+				DF0DCD5F1779CDB400A63024 /* zh-Hant */,
+			);
+			name = Animals.009.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD621779CDBA00A63024 /* Animals.010.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD611779CDBA00A63024 /* en */,
+				DF0DCD631779CDBE00A63024 /* zh-Hant */,
+			);
+			name = Animals.010.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD661779CDCF00A63024 /* Animals.011.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD651779CDCF00A63024 /* en */,
+				DF0DCD671779CDD400A63024 /* zh-Hant */,
+			);
+			name = Animals.011.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD6A1779CDD900A63024 /* Animals.012.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD691779CDD900A63024 /* en */,
+				DF0DCD6B1779CDDC00A63024 /* zh-Hant */,
+			);
+			name = Animals.012.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD6E1779CDE200A63024 /* Animals.013.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD6D1779CDE200A63024 /* en */,
+				DF0DCD6F1779CDE500A63024 /* zh-Hant */,
+			);
+			name = Animals.013.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD721779CDEA00A63024 /* Animals.014.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD711779CDEA00A63024 /* en */,
+				DF0DCD731779CDEE00A63024 /* zh-Hant */,
+			);
+			name = Animals.014.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD761779CDF400A63024 /* Animals.015.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD751779CDF400A63024 /* en */,
+				DF0DCD771779CDF800A63024 /* zh-Hant */,
+			);
+			name = Animals.015.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD7A1779CDFD00A63024 /* Animals.016.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD791779CDFD00A63024 /* en */,
+				DF0DCD7B1779CE0100A63024 /* zh-Hant */,
+			);
+			name = Animals.016.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD7E1779CE0700A63024 /* Animals.017.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD7D1779CE0700A63024 /* en */,
+				DF0DCD7F1779CE0A00A63024 /* zh-Hant */,
+			);
+			name = Animals.017.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD821779CE1000A63024 /* Animals.018.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD811779CE1000A63024 /* en */,
+				DF0DCD831779CE1400A63024 /* zh-Hant */,
+			);
+			name = Animals.018.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD861779CE1900A63024 /* Animals.019.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD851779CE1900A63024 /* en */,
+				DF0DCD871779CE1D00A63024 /* zh-Hant */,
+			);
+			name = Animals.019.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD8A1779CE2300A63024 /* Animals.020.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD891779CE2300A63024 /* en */,
+				DF0DCD8B1779CE2900A63024 /* zh-Hant */,
+			);
+			name = Animals.020.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD8E1779CE2E00A63024 /* Animals.021.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD8D1779CE2E00A63024 /* en */,
+				DF0DCD8F1779CE3200A63024 /* zh-Hant */,
+			);
+			name = Animals.021.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD921779CE3700A63024 /* Animals.022.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD911779CE3700A63024 /* en */,
+				DF0DCD931779CE4100A63024 /* zh-Hant */,
+			);
+			name = Animals.022.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD961779CE4700A63024 /* Animals.023.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD951779CE4700A63024 /* en */,
+				DF0DCD971779CE4C00A63024 /* zh-Hant */,
+			);
+			name = Animals.023.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD9A1779CE5300A63024 /* Animals.024.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD991779CE5300A63024 /* en */,
+				DF0DCD9B1779CE5800A63024 /* zh-Hant */,
+			);
+			name = Animals.024.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCD9E1779CE5E00A63024 /* Animals.025.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCD9D1779CE5E00A63024 /* en */,
+				DF0DCD9F1779CE6400A63024 /* zh-Hant */,
+			);
+			name = Animals.025.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCDA21779CE6A00A63024 /* Animals.026.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCDA11779CE6A00A63024 /* en */,
+				DF0DCDA31779CE6F00A63024 /* zh-Hant */,
+			);
+			name = Animals.026.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCDA61779CE7500A63024 /* Animals.027.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCDA51779CE7500A63024 /* en */,
+				DF0DCDA71779CE8800A63024 /* zh-Hant */,
+			);
+			name = Animals.027.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
+		DF0DCDAA1779CE9200A63024 /* Animals.028.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0DCDA91779CE9200A63024 /* en */,
+				DF0DCDAB1779CECD00A63024 /* zh-Hant */,
+			);
+			name = Animals.028.mp3;
+			path = deepImage/audio/Animals;
+			sourceTree = "<group>";
+		};
 		DF0FF2D817788C3500C25AC3 /* FamousPeople.001.mp3 */ = {
 			isa = PBXVariantGroup;
 			children = (

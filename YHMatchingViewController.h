@@ -13,9 +13,9 @@
 #define YH_TT_PLAYERS 8
 
 @interface YHMatchingViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource> {
-    NSMutableArray* m_matchingList;     // the index list of matching pictures
+    NSMutableArray* m_cellPictureList;  // the index list of matching pictures
     NSMutableArray* m_cellStatusList;   // the status list of cells
-    int m_clickedCell1, m_clickedCell2; // priviuse cliked cell
+    int m_clickedCell1, m_clickedCell2; // privious cliked cell
     int m_clickCount;                   // total clicks in a game
     // count down while the new game start
     int m_countDown;                    
@@ -29,12 +29,12 @@
 @property (retain, nonatomic) IBOutlet UICollectionView *m_collectionMatching;
 @property (retain, nonatomic) IBOutlet UILabel *m_labelStatus;
 
-// pass from maim page
-@property (retain, nonatomic) NSString* m_albumPrefix;
 //   the list of picture names
 @property (retain, nonatomic) NSMutableArray* m_pictureNameList;
 //   the list of picture titles to display
 @property (retain, nonatomic) NSMutableArray* m_pictureTitleList;
+//   the list of picture titles to display
+@property (retain, nonatomic) NSMutableArray* m_pictureAudioList;
 //   dimation of matching matrix
 @property int m_matchingRows;
 @property int m_matchingColumns;  

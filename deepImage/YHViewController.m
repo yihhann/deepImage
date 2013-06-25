@@ -120,15 +120,17 @@ YHAlbum AlbumList[1000];
     int total_picture = AlbumList[iAlbum].totalImage;
     NSString *album_prefix = AlbumList[iAlbum].prefix;
     int i;
-    matchingViewController.m_albumPrefix = album_prefix;
     matchingViewController.m_pictureNameList = [[NSMutableArray alloc] init];
     matchingViewController.m_pictureTitleList = [[NSMutableArray alloc] init];
+    matchingViewController.m_pictureAudioList = [[NSMutableArray alloc] init];
     for ( i = 0; i < total_picture; i++ )
     {
         [matchingViewController.m_pictureNameList addObject:
             [NSString stringWithFormat:@"%@.%03d.jpg", album_prefix, i + 1] ];
         [matchingViewController.m_pictureTitleList addObject:
             AlbumList[iAlbum].imageTitleList[i]];
+        [matchingViewController.m_pictureAudioList addObject:
+            [NSString stringWithFormat:@"%@.%03d", album_prefix, i + 1] ];
     }
     matchingViewController.m_matchingColumns = [m_MatrixColumn.text integerValue];
     matchingViewController.m_matchingRows = [m_MatrixRow.text integerValue];
