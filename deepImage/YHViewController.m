@@ -82,15 +82,32 @@ YHAlbum AlbumList[1000];
 - (IBAction)ColumnStep:(id)sender {
     UIStepper *stepper=(UIStepper *)sender;
     m_MatrixColumn.text =[NSString stringWithFormat:@"%d", (int)stepper.value];
-    if( stepper.value > m_RowStepper.value )
+  
+    if (m_ColumnStepper.maximumValue < m_RowStepper.maximumValue )
     {
-        m_RowStepper.value = stepper.value;
-        m_MatrixRow.text = m_MatrixColumn.text;
+        if( stepper.value > m_RowStepper.value )
+        {
+            m_RowStepper.value = stepper.value;
+            m_MatrixRow.text = m_MatrixColumn.text;
+        }
+        else if( stepper.value < m_RowStepper.value - 1 )
+        {
+            m_RowStepper.value = stepper.value + 1;
+            m_MatrixRow.text = [NSString stringWithFormat:@"%d", (int)stepper.value + 1];
+        }
     }
-    else if( stepper.value < m_RowStepper.value - 1 )
+    else
     {
-        m_RowStepper.value = stepper.value + 1;
-        m_MatrixRow.text = [NSString stringWithFormat:@"%d", (int)stepper.value + 1];
+        if( stepper.value > m_RowStepper.value + 1 )
+        {
+            m_RowStepper.value = stepper.value - 1;
+            m_MatrixRow.text = [NSString stringWithFormat:@"%d", (int)stepper.value - 1];
+        }
+        else if( stepper.value < m_RowStepper.value )
+        {
+            m_RowStepper.value = stepper.value;
+            m_MatrixRow.text = m_MatrixColumn.text;;
+        }
     }
 }
 
@@ -98,16 +115,34 @@ YHAlbum AlbumList[1000];
 - (IBAction)RowStep:(id)sender {
     UIStepper *stepper=(UIStepper *)sender;
     m_MatrixRow.text =[NSString stringWithFormat:@"%d", (int)stepper.value];
-    if( stepper.value < m_ColumnStepper.value )
+
+    if (m_ColumnStepper.maximumValue < m_RowStepper.maximumValue )
     {
-        m_ColumnStepper.value = stepper.value;
-        m_MatrixColumn.text = m_MatrixRow.text;
+        if( stepper.value < m_ColumnStepper.value )
+        {
+            m_ColumnStepper.value = stepper.value;
+            m_MatrixColumn.text = m_MatrixRow.text;
+        }
+        else if( stepper.value > m_ColumnStepper.value + 1 )
+        {
+            m_ColumnStepper.value = stepper.value - 1;
+            m_MatrixColumn.text = [NSString stringWithFormat:@"%d", (int)stepper.value - 1];
+        }
     }
-    else if( stepper.value > m_ColumnStepper.value + 1 )
+    else
     {
-        m_ColumnStepper.value = stepper.value - 1;
-        m_MatrixColumn.text = [NSString stringWithFormat:@"%d", (int)stepper.value - 1];
+        if( stepper.value < m_ColumnStepper.value - 1 )
+        {
+            m_ColumnStepper.value = stepper.value + 1;
+            m_MatrixColumn.text = [NSString stringWithFormat:@"%d", (int)stepper.value + 1];
+        }
+        else if( stepper.value > m_ColumnStepper.value )
+        {
+            m_ColumnStepper.value = stepper.value;
+            m_MatrixColumn.text = m_MatrixRow.text;
+        }
     }
+
 }
 
 // Play Button Clicked
@@ -204,9 +239,9 @@ YHAlbum AlbumList[1000];
         int startX;
         
         if( i >= 4 )
-            startX = ( m_ImageAlbum.bounds.size.width - 160 ) / total_picture * (total_picture - i);
+            startX = ( m_ImageAlbum.bounds.size.width - m_ImageAlbum.bounds.size.height * 2 ) / total_picture * (total_picture - i);
         else
-            startX = ( m_ImageAlbum.bounds.size.width - 160 ) / total_picture * (total_picture - i) + (4 - i) * 16 + (5 - i ) * (5 - i ) - 5;
+            startX = ( m_ImageAlbum.bounds.size.width - m_ImageAlbum.bounds.size.height * 2 ) / total_picture * (total_picture - i) + m_ImageAlbum.bounds.size.height * (4 - i ) / 4 - i * i;
         rect = CGRectMake(
                           startX,
                           m_ImageAlbum.bounds.size.height / total_picture * i,

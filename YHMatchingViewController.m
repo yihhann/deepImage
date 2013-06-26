@@ -340,7 +340,7 @@
         UILabel * nextLabel = [[UILabel alloc] initWithFrame:
                                m_labelStatus.frame];
         nextLabel.text = [NSString stringWithFormat:@"%d", m_countDown];
-        nextLabel.font = [UIFont systemFontOfSize:72];
+        nextLabel.font = [UIFont systemFontOfSize:m_labelStatus.bounds.size.height * 6/5 ];
         nextLabel.textAlignment = m_labelStatus.textAlignment;
         nextLabel.textColor = m_labelStatus.textColor;
         nextLabel.backgroundColor = m_labelStatus.backgroundColor;
@@ -360,7 +360,7 @@
              {
                  // Localize
                  nextLabel.text = NSLocalizedStringFromTable(@"Pick the matched pictures...", @"common", nil);
-                 nextLabel.font = [UIFont systemFontOfSize:42];
+                 nextLabel.font = [UIFont systemFontOfSize:m_labelStatus.bounds.size.height * 7/10];
                  nextLabel.adjustsFontSizeToFitWidth = YES;
              }
              m_labelStatus = nextLabel;
