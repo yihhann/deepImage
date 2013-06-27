@@ -125,6 +125,52 @@
 		DF0FF31317788DBB00C25AC3 /* FamousPeople.016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF31517788DBB00C25AC3 /* FamousPeople.016.mp3 */; };
 		DF0FF31717788DC700C25AC3 /* FamousPeople.017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF31917788DC700C25AC3 /* FamousPeople.017.mp3 */; };
 		DF0FF31B17788DD400C25AC3 /* FamousPeople.018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF31D17788DD400C25AC3 /* FamousPeople.018.mp3 */; };
+		DF17B895177C71ED003B6174 /* JapaneseFiftySounds.001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B867177C71EC003B6174 /* JapaneseFiftySounds.001.mp3 */; };
+		DF17B896177C71ED003B6174 /* JapaneseFiftySounds.002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B868177C71EC003B6174 /* JapaneseFiftySounds.002.mp3 */; };
+		DF17B897177C71ED003B6174 /* JapaneseFiftySounds.003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B869177C71EC003B6174 /* JapaneseFiftySounds.003.mp3 */; };
+		DF17B898177C71ED003B6174 /* JapaneseFiftySounds.004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B86A177C71EC003B6174 /* JapaneseFiftySounds.004.mp3 */; };
+		DF17B899177C71ED003B6174 /* JapaneseFiftySounds.005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B86B177C71ED003B6174 /* JapaneseFiftySounds.005.mp3 */; };
+		DF17B89A177C71ED003B6174 /* JapaneseFiftySounds.006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B86C177C71ED003B6174 /* JapaneseFiftySounds.006.mp3 */; };
+		DF17B89B177C71ED003B6174 /* JapaneseFiftySounds.007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B86D177C71ED003B6174 /* JapaneseFiftySounds.007.mp3 */; };
+		DF17B89C177C71ED003B6174 /* JapaneseFiftySounds.008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B86E177C71ED003B6174 /* JapaneseFiftySounds.008.mp3 */; };
+		DF17B89D177C71ED003B6174 /* JapaneseFiftySounds.009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B86F177C71ED003B6174 /* JapaneseFiftySounds.009.mp3 */; };
+		DF17B89E177C71ED003B6174 /* JapaneseFiftySounds.010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B870177C71ED003B6174 /* JapaneseFiftySounds.010.mp3 */; };
+		DF17B89F177C71ED003B6174 /* JapaneseFiftySounds.011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B871177C71ED003B6174 /* JapaneseFiftySounds.011.mp3 */; };
+		DF17B8A0177C71ED003B6174 /* JapaneseFiftySounds.012.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B872177C71ED003B6174 /* JapaneseFiftySounds.012.mp3 */; };
+		DF17B8A1177C71ED003B6174 /* JapaneseFiftySounds.013.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B873177C71ED003B6174 /* JapaneseFiftySounds.013.mp3 */; };
+		DF17B8A2177C71ED003B6174 /* JapaneseFiftySounds.014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B874177C71ED003B6174 /* JapaneseFiftySounds.014.mp3 */; };
+		DF17B8A3177C71ED003B6174 /* JapaneseFiftySounds.015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B875177C71ED003B6174 /* JapaneseFiftySounds.015.mp3 */; };
+		DF17B8A4177C71ED003B6174 /* JapaneseFiftySounds.016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B876177C71ED003B6174 /* JapaneseFiftySounds.016.mp3 */; };
+		DF17B8A5177C71ED003B6174 /* JapaneseFiftySounds.017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B877177C71ED003B6174 /* JapaneseFiftySounds.017.mp3 */; };
+		DF17B8A6177C71ED003B6174 /* JapaneseFiftySounds.018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B878177C71ED003B6174 /* JapaneseFiftySounds.018.mp3 */; };
+		DF17B8A7177C71ED003B6174 /* JapaneseFiftySounds.019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B879177C71ED003B6174 /* JapaneseFiftySounds.019.mp3 */; };
+		DF17B8A8177C71ED003B6174 /* JapaneseFiftySounds.020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B87A177C71ED003B6174 /* JapaneseFiftySounds.020.mp3 */; };
+		DF17B8A9177C71ED003B6174 /* JapaneseFiftySounds.021.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B87B177C71ED003B6174 /* JapaneseFiftySounds.021.mp3 */; };
+		DF17B8AA177C71ED003B6174 /* JapaneseFiftySounds.022.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B87C177C71ED003B6174 /* JapaneseFiftySounds.022.mp3 */; };
+		DF17B8AB177C71ED003B6174 /* JapaneseFiftySounds.023.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B87D177C71ED003B6174 /* JapaneseFiftySounds.023.mp3 */; };
+		DF17B8AC177C71ED003B6174 /* JapaneseFiftySounds.024.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B87E177C71ED003B6174 /* JapaneseFiftySounds.024.mp3 */; };
+		DF17B8AD177C71ED003B6174 /* JapaneseFiftySounds.025.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B87F177C71ED003B6174 /* JapaneseFiftySounds.025.mp3 */; };
+		DF17B8AE177C71ED003B6174 /* JapaneseFiftySounds.026.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B880177C71ED003B6174 /* JapaneseFiftySounds.026.mp3 */; };
+		DF17B8AF177C71ED003B6174 /* JapaneseFiftySounds.027.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B881177C71ED003B6174 /* JapaneseFiftySounds.027.mp3 */; };
+		DF17B8B0177C71ED003B6174 /* JapaneseFiftySounds.028.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B882177C71ED003B6174 /* JapaneseFiftySounds.028.mp3 */; };
+		DF17B8B1177C71ED003B6174 /* JapaneseFiftySounds.029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B883177C71ED003B6174 /* JapaneseFiftySounds.029.mp3 */; };
+		DF17B8B2177C71ED003B6174 /* JapaneseFiftySounds.030.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B884177C71ED003B6174 /* JapaneseFiftySounds.030.mp3 */; };
+		DF17B8B3177C71ED003B6174 /* JapaneseFiftySounds.031.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B885177C71ED003B6174 /* JapaneseFiftySounds.031.mp3 */; };
+		DF17B8B4177C71ED003B6174 /* JapaneseFiftySounds.032.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B886177C71ED003B6174 /* JapaneseFiftySounds.032.mp3 */; };
+		DF17B8B5177C71ED003B6174 /* JapaneseFiftySounds.033.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B887177C71ED003B6174 /* JapaneseFiftySounds.033.mp3 */; };
+		DF17B8B6177C71ED003B6174 /* JapaneseFiftySounds.034.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B888177C71ED003B6174 /* JapaneseFiftySounds.034.mp3 */; };
+		DF17B8B7177C71ED003B6174 /* JapaneseFiftySounds.035.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B889177C71ED003B6174 /* JapaneseFiftySounds.035.mp3 */; };
+		DF17B8B8177C71ED003B6174 /* JapaneseFiftySounds.036.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B88A177C71ED003B6174 /* JapaneseFiftySounds.036.mp3 */; };
+		DF17B8B9177C71ED003B6174 /* JapaneseFiftySounds.037.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B88B177C71ED003B6174 /* JapaneseFiftySounds.037.mp3 */; };
+		DF17B8BA177C71ED003B6174 /* JapaneseFiftySounds.038.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B88C177C71ED003B6174 /* JapaneseFiftySounds.038.mp3 */; };
+		DF17B8BB177C71ED003B6174 /* JapaneseFiftySounds.039.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B88D177C71ED003B6174 /* JapaneseFiftySounds.039.mp3 */; };
+		DF17B8BC177C71ED003B6174 /* JapaneseFiftySounds.040.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B88E177C71ED003B6174 /* JapaneseFiftySounds.040.mp3 */; };
+		DF17B8BD177C71ED003B6174 /* JapaneseFiftySounds.041.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B88F177C71ED003B6174 /* JapaneseFiftySounds.041.mp3 */; };
+		DF17B8BE177C71ED003B6174 /* JapaneseFiftySounds.042.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B890177C71ED003B6174 /* JapaneseFiftySounds.042.mp3 */; };
+		DF17B8BF177C71ED003B6174 /* JapaneseFiftySounds.043.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B891177C71ED003B6174 /* JapaneseFiftySounds.043.mp3 */; };
+		DF17B8C0177C71ED003B6174 /* JapaneseFiftySounds.044.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B892177C71ED003B6174 /* JapaneseFiftySounds.044.mp3 */; };
+		DF17B8C1177C71ED003B6174 /* JapaneseFiftySounds.045.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B893177C71ED003B6174 /* JapaneseFiftySounds.045.mp3 */; };
+		DF17B8C2177C71ED003B6174 /* JapaneseFiftySounds.046.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF17B894177C71ED003B6174 /* JapaneseFiftySounds.046.mp3 */; };
 		DF1A7AAD1773418400D74773 /* count0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AA71773418400D74773 /* count0.mp3 */; };
 		DF1A7AAE1773418400D74773 /* count1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AA81773418400D74773 /* count1.mp3 */; };
 		DF1A7AAF1773418400D74773 /* count2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AA91773418400D74773 /* count2.mp3 */; };
@@ -465,6 +511,53 @@
 		DF0FF31A17788DCC00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.017.mp3"; sourceTree = "<group>"; };
 		DF0FF31C17788DD400C25AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/FamousPeople.018.mp3; sourceTree = "<group>"; };
 		DF0FF31E17788DDA00C25AC3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/FamousPeople.018.mp3"; sourceTree = "<group>"; };
+		DF17B867177C71EC003B6174 /* JapaneseFiftySounds.001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.001.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.001.mp3; sourceTree = "<group>"; };
+		DF17B868177C71EC003B6174 /* JapaneseFiftySounds.002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.002.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.002.mp3; sourceTree = "<group>"; };
+		DF17B869177C71EC003B6174 /* JapaneseFiftySounds.003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.003.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.003.mp3; sourceTree = "<group>"; };
+		DF17B86A177C71EC003B6174 /* JapaneseFiftySounds.004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.004.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.004.mp3; sourceTree = "<group>"; };
+		DF17B86B177C71ED003B6174 /* JapaneseFiftySounds.005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.005.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.005.mp3; sourceTree = "<group>"; };
+		DF17B86C177C71ED003B6174 /* JapaneseFiftySounds.006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.006.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.006.mp3; sourceTree = "<group>"; };
+		DF17B86D177C71ED003B6174 /* JapaneseFiftySounds.007.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.007.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.007.mp3; sourceTree = "<group>"; };
+		DF17B86E177C71ED003B6174 /* JapaneseFiftySounds.008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.008.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.008.mp3; sourceTree = "<group>"; };
+		DF17B86F177C71ED003B6174 /* JapaneseFiftySounds.009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.009.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.009.mp3; sourceTree = "<group>"; };
+		DF17B870177C71ED003B6174 /* JapaneseFiftySounds.010.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.010.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.010.mp3; sourceTree = "<group>"; };
+		DF17B871177C71ED003B6174 /* JapaneseFiftySounds.011.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.011.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.011.mp3; sourceTree = "<group>"; };
+		DF17B872177C71ED003B6174 /* JapaneseFiftySounds.012.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.012.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.012.mp3; sourceTree = "<group>"; };
+		DF17B873177C71ED003B6174 /* JapaneseFiftySounds.013.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.013.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.013.mp3; sourceTree = "<group>"; };
+		DF17B874177C71ED003B6174 /* JapaneseFiftySounds.014.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.014.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.014.mp3; sourceTree = "<group>"; };
+		DF17B875177C71ED003B6174 /* JapaneseFiftySounds.015.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.015.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.015.mp3; sourceTree = "<group>"; };
+		DF17B876177C71ED003B6174 /* JapaneseFiftySounds.016.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.016.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.016.mp3; sourceTree = "<group>"; };
+		DF17B877177C71ED003B6174 /* JapaneseFiftySounds.017.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.017.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.017.mp3; sourceTree = "<group>"; };
+		DF17B878177C71ED003B6174 /* JapaneseFiftySounds.018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.018.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.018.mp3; sourceTree = "<group>"; };
+		DF17B879177C71ED003B6174 /* JapaneseFiftySounds.019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.019.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.019.mp3; sourceTree = "<group>"; };
+		DF17B87A177C71ED003B6174 /* JapaneseFiftySounds.020.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.020.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.020.mp3; sourceTree = "<group>"; };
+		DF17B87B177C71ED003B6174 /* JapaneseFiftySounds.021.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.021.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.021.mp3; sourceTree = "<group>"; };
+		DF17B87C177C71ED003B6174 /* JapaneseFiftySounds.022.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.022.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.022.mp3; sourceTree = "<group>"; };
+		DF17B87D177C71ED003B6174 /* JapaneseFiftySounds.023.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.023.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.023.mp3; sourceTree = "<group>"; };
+		DF17B87E177C71ED003B6174 /* JapaneseFiftySounds.024.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.024.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.024.mp3; sourceTree = "<group>"; };
+		DF17B87F177C71ED003B6174 /* JapaneseFiftySounds.025.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.025.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.025.mp3; sourceTree = "<group>"; };
+		DF17B880177C71ED003B6174 /* JapaneseFiftySounds.026.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.026.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.026.mp3; sourceTree = "<group>"; };
+		DF17B881177C71ED003B6174 /* JapaneseFiftySounds.027.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.027.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.027.mp3; sourceTree = "<group>"; };
+		DF17B882177C71ED003B6174 /* JapaneseFiftySounds.028.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.028.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.028.mp3; sourceTree = "<group>"; };
+		DF17B883177C71ED003B6174 /* JapaneseFiftySounds.029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.029.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.029.mp3; sourceTree = "<group>"; };
+		DF17B884177C71ED003B6174 /* JapaneseFiftySounds.030.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.030.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.030.mp3; sourceTree = "<group>"; };
+		DF17B885177C71ED003B6174 /* JapaneseFiftySounds.031.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.031.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.031.mp3; sourceTree = "<group>"; };
+		DF17B886177C71ED003B6174 /* JapaneseFiftySounds.032.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.032.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.032.mp3; sourceTree = "<group>"; };
+		DF17B887177C71ED003B6174 /* JapaneseFiftySounds.033.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.033.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.033.mp3; sourceTree = "<group>"; };
+		DF17B888177C71ED003B6174 /* JapaneseFiftySounds.034.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.034.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.034.mp3; sourceTree = "<group>"; };
+		DF17B889177C71ED003B6174 /* JapaneseFiftySounds.035.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.035.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.035.mp3; sourceTree = "<group>"; };
+		DF17B88A177C71ED003B6174 /* JapaneseFiftySounds.036.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.036.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.036.mp3; sourceTree = "<group>"; };
+		DF17B88B177C71ED003B6174 /* JapaneseFiftySounds.037.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.037.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.037.mp3; sourceTree = "<group>"; };
+		DF17B88C177C71ED003B6174 /* JapaneseFiftySounds.038.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.038.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.038.mp3; sourceTree = "<group>"; };
+		DF17B88D177C71ED003B6174 /* JapaneseFiftySounds.039.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.039.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.039.mp3; sourceTree = "<group>"; };
+		DF17B88E177C71ED003B6174 /* JapaneseFiftySounds.040.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.040.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.040.mp3; sourceTree = "<group>"; };
+		DF17B88F177C71ED003B6174 /* JapaneseFiftySounds.041.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.041.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.041.mp3; sourceTree = "<group>"; };
+		DF17B890177C71ED003B6174 /* JapaneseFiftySounds.042.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.042.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.042.mp3; sourceTree = "<group>"; };
+		DF17B891177C71ED003B6174 /* JapaneseFiftySounds.043.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.043.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.043.mp3; sourceTree = "<group>"; };
+		DF17B892177C71ED003B6174 /* JapaneseFiftySounds.044.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.044.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.044.mp3; sourceTree = "<group>"; };
+		DF17B893177C71ED003B6174 /* JapaneseFiftySounds.045.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.045.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.045.mp3; sourceTree = "<group>"; };
+		DF17B894177C71ED003B6174 /* JapaneseFiftySounds.046.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JapaneseFiftySounds.046.mp3; path = deepImage/audio/JapaneseFiftySounds/JapaneseFiftySounds.046.mp3; sourceTree = "<group>"; };
+		DF17B8C3177C725D003B6174 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/MainStoryboard_iPad.storyboard"; sourceTree = "<group>"; };
 		DF1A7AA71773418400D74773 /* count0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count0.mp3; path = deepImage/audio/count0.mp3; sourceTree = "<group>"; };
 		DF1A7AA81773418400D74773 /* count1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count1.mp3; path = deepImage/audio/count1.mp3; sourceTree = "<group>"; };
 		DF1A7AA91773418400D74773 /* count2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count2.mp3; path = deepImage/audio/count2.mp3; sourceTree = "<group>"; };
@@ -754,6 +847,52 @@
 		DF0DCDE11779D7AE00A63024 /* JapaneseFiftySounds */ = {
 			isa = PBXGroup;
 			children = (
+				DF17B867177C71EC003B6174 /* JapaneseFiftySounds.001.mp3 */,
+				DF17B868177C71EC003B6174 /* JapaneseFiftySounds.002.mp3 */,
+				DF17B869177C71EC003B6174 /* JapaneseFiftySounds.003.mp3 */,
+				DF17B86A177C71EC003B6174 /* JapaneseFiftySounds.004.mp3 */,
+				DF17B86B177C71ED003B6174 /* JapaneseFiftySounds.005.mp3 */,
+				DF17B86C177C71ED003B6174 /* JapaneseFiftySounds.006.mp3 */,
+				DF17B86D177C71ED003B6174 /* JapaneseFiftySounds.007.mp3 */,
+				DF17B86E177C71ED003B6174 /* JapaneseFiftySounds.008.mp3 */,
+				DF17B86F177C71ED003B6174 /* JapaneseFiftySounds.009.mp3 */,
+				DF17B870177C71ED003B6174 /* JapaneseFiftySounds.010.mp3 */,
+				DF17B871177C71ED003B6174 /* JapaneseFiftySounds.011.mp3 */,
+				DF17B872177C71ED003B6174 /* JapaneseFiftySounds.012.mp3 */,
+				DF17B873177C71ED003B6174 /* JapaneseFiftySounds.013.mp3 */,
+				DF17B874177C71ED003B6174 /* JapaneseFiftySounds.014.mp3 */,
+				DF17B875177C71ED003B6174 /* JapaneseFiftySounds.015.mp3 */,
+				DF17B876177C71ED003B6174 /* JapaneseFiftySounds.016.mp3 */,
+				DF17B877177C71ED003B6174 /* JapaneseFiftySounds.017.mp3 */,
+				DF17B878177C71ED003B6174 /* JapaneseFiftySounds.018.mp3 */,
+				DF17B879177C71ED003B6174 /* JapaneseFiftySounds.019.mp3 */,
+				DF17B87A177C71ED003B6174 /* JapaneseFiftySounds.020.mp3 */,
+				DF17B87B177C71ED003B6174 /* JapaneseFiftySounds.021.mp3 */,
+				DF17B87C177C71ED003B6174 /* JapaneseFiftySounds.022.mp3 */,
+				DF17B87D177C71ED003B6174 /* JapaneseFiftySounds.023.mp3 */,
+				DF17B87E177C71ED003B6174 /* JapaneseFiftySounds.024.mp3 */,
+				DF17B87F177C71ED003B6174 /* JapaneseFiftySounds.025.mp3 */,
+				DF17B880177C71ED003B6174 /* JapaneseFiftySounds.026.mp3 */,
+				DF17B881177C71ED003B6174 /* JapaneseFiftySounds.027.mp3 */,
+				DF17B882177C71ED003B6174 /* JapaneseFiftySounds.028.mp3 */,
+				DF17B883177C71ED003B6174 /* JapaneseFiftySounds.029.mp3 */,
+				DF17B884177C71ED003B6174 /* JapaneseFiftySounds.030.mp3 */,
+				DF17B885177C71ED003B6174 /* JapaneseFiftySounds.031.mp3 */,
+				DF17B886177C71ED003B6174 /* JapaneseFiftySounds.032.mp3 */,
+				DF17B887177C71ED003B6174 /* JapaneseFiftySounds.033.mp3 */,
+				DF17B888177C71ED003B6174 /* JapaneseFiftySounds.034.mp3 */,
+				DF17B889177C71ED003B6174 /* JapaneseFiftySounds.035.mp3 */,
+				DF17B88A177C71ED003B6174 /* JapaneseFiftySounds.036.mp3 */,
+				DF17B88B177C71ED003B6174 /* JapaneseFiftySounds.037.mp3 */,
+				DF17B88C177C71ED003B6174 /* JapaneseFiftySounds.038.mp3 */,
+				DF17B88D177C71ED003B6174 /* JapaneseFiftySounds.039.mp3 */,
+				DF17B88E177C71ED003B6174 /* JapaneseFiftySounds.040.mp3 */,
+				DF17B88F177C71ED003B6174 /* JapaneseFiftySounds.041.mp3 */,
+				DF17B890177C71ED003B6174 /* JapaneseFiftySounds.042.mp3 */,
+				DF17B891177C71ED003B6174 /* JapaneseFiftySounds.043.mp3 */,
+				DF17B892177C71ED003B6174 /* JapaneseFiftySounds.044.mp3 */,
+				DF17B893177C71ED003B6174 /* JapaneseFiftySounds.045.mp3 */,
+				DF17B894177C71ED003B6174 /* JapaneseFiftySounds.046.mp3 */,
 			);
 			name = JapaneseFiftySounds;
 			sourceTree = "<group>";
@@ -1397,6 +1536,52 @@
 				DFEA34A1177B42FD00B7919C /* Fruits.021.mp3 in Resources */,
 				DFEA34A2177B42FD00B7919C /* Fruits.022.mp3 in Resources */,
 				DFEA34A3177B42FD00B7919C /* Fruits.023.mp3 in Resources */,
+				DF17B895177C71ED003B6174 /* JapaneseFiftySounds.001.mp3 in Resources */,
+				DF17B896177C71ED003B6174 /* JapaneseFiftySounds.002.mp3 in Resources */,
+				DF17B897177C71ED003B6174 /* JapaneseFiftySounds.003.mp3 in Resources */,
+				DF17B898177C71ED003B6174 /* JapaneseFiftySounds.004.mp3 in Resources */,
+				DF17B899177C71ED003B6174 /* JapaneseFiftySounds.005.mp3 in Resources */,
+				DF17B89A177C71ED003B6174 /* JapaneseFiftySounds.006.mp3 in Resources */,
+				DF17B89B177C71ED003B6174 /* JapaneseFiftySounds.007.mp3 in Resources */,
+				DF17B89C177C71ED003B6174 /* JapaneseFiftySounds.008.mp3 in Resources */,
+				DF17B89D177C71ED003B6174 /* JapaneseFiftySounds.009.mp3 in Resources */,
+				DF17B89E177C71ED003B6174 /* JapaneseFiftySounds.010.mp3 in Resources */,
+				DF17B89F177C71ED003B6174 /* JapaneseFiftySounds.011.mp3 in Resources */,
+				DF17B8A0177C71ED003B6174 /* JapaneseFiftySounds.012.mp3 in Resources */,
+				DF17B8A1177C71ED003B6174 /* JapaneseFiftySounds.013.mp3 in Resources */,
+				DF17B8A2177C71ED003B6174 /* JapaneseFiftySounds.014.mp3 in Resources */,
+				DF17B8A3177C71ED003B6174 /* JapaneseFiftySounds.015.mp3 in Resources */,
+				DF17B8A4177C71ED003B6174 /* JapaneseFiftySounds.016.mp3 in Resources */,
+				DF17B8A5177C71ED003B6174 /* JapaneseFiftySounds.017.mp3 in Resources */,
+				DF17B8A6177C71ED003B6174 /* JapaneseFiftySounds.018.mp3 in Resources */,
+				DF17B8A7177C71ED003B6174 /* JapaneseFiftySounds.019.mp3 in Resources */,
+				DF17B8A8177C71ED003B6174 /* JapaneseFiftySounds.020.mp3 in Resources */,
+				DF17B8A9177C71ED003B6174 /* JapaneseFiftySounds.021.mp3 in Resources */,
+				DF17B8AA177C71ED003B6174 /* JapaneseFiftySounds.022.mp3 in Resources */,
+				DF17B8AB177C71ED003B6174 /* JapaneseFiftySounds.023.mp3 in Resources */,
+				DF17B8AC177C71ED003B6174 /* JapaneseFiftySounds.024.mp3 in Resources */,
+				DF17B8AD177C71ED003B6174 /* JapaneseFiftySounds.025.mp3 in Resources */,
+				DF17B8AE177C71ED003B6174 /* JapaneseFiftySounds.026.mp3 in Resources */,
+				DF17B8AF177C71ED003B6174 /* JapaneseFiftySounds.027.mp3 in Resources */,
+				DF17B8B0177C71ED003B6174 /* JapaneseFiftySounds.028.mp3 in Resources */,
+				DF17B8B1177C71ED003B6174 /* JapaneseFiftySounds.029.mp3 in Resources */,
+				DF17B8B2177C71ED003B6174 /* JapaneseFiftySounds.030.mp3 in Resources */,
+				DF17B8B3177C71ED003B6174 /* JapaneseFiftySounds.031.mp3 in Resources */,
+				DF17B8B4177C71ED003B6174 /* JapaneseFiftySounds.032.mp3 in Resources */,
+				DF17B8B5177C71ED003B6174 /* JapaneseFiftySounds.033.mp3 in Resources */,
+				DF17B8B6177C71ED003B6174 /* JapaneseFiftySounds.034.mp3 in Resources */,
+				DF17B8B7177C71ED003B6174 /* JapaneseFiftySounds.035.mp3 in Resources */,
+				DF17B8B8177C71ED003B6174 /* JapaneseFiftySounds.036.mp3 in Resources */,
+				DF17B8B9177C71ED003B6174 /* JapaneseFiftySounds.037.mp3 in Resources */,
+				DF17B8BA177C71ED003B6174 /* JapaneseFiftySounds.038.mp3 in Resources */,
+				DF17B8BB177C71ED003B6174 /* JapaneseFiftySounds.039.mp3 in Resources */,
+				DF17B8BC177C71ED003B6174 /* JapaneseFiftySounds.040.mp3 in Resources */,
+				DF17B8BD177C71ED003B6174 /* JapaneseFiftySounds.041.mp3 in Resources */,
+				DF17B8BE177C71ED003B6174 /* JapaneseFiftySounds.042.mp3 in Resources */,
+				DF17B8BF177C71ED003B6174 /* JapaneseFiftySounds.043.mp3 in Resources */,
+				DF17B8C0177C71ED003B6174 /* JapaneseFiftySounds.044.mp3 in Resources */,
+				DF17B8C1177C71ED003B6174 /* JapaneseFiftySounds.045.mp3 in Resources */,
+				DF17B8C2177C71ED003B6174 /* JapaneseFiftySounds.046.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2135,6 +2320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DF94F81F1748E6CE008B9B65 /* en */,
+				DF17B8C3177C725D003B6174 /* zh-Hant */,
 			);
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";

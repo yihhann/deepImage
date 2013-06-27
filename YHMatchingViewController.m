@@ -486,6 +486,7 @@
     return self;
 }
 
+
 - (void)dealloc {
     [m_collectionMatching release];
     [m_cellPictureList release];

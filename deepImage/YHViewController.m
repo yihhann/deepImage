@@ -60,6 +60,8 @@ YHAlbum AlbumList[1000];
     
 }
 
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
