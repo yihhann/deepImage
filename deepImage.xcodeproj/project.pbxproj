@@ -178,6 +178,9 @@
 		DF1A7AB11773418400D74773 /* count4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAB1773418400D74773 /* count4.mp3 */; };
 		DF1A7AB21773418400D74773 /* count5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AAC1773418400D74773 /* count5.mp3 */; };
 		DF1A7AB417734D3000D74773 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1A7AB317734D3000D74773 /* applause.mp3 */; };
+		DF208D4A178491900059B6A0 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF208D48178491900059B6A0 /* Icon-72@2x.png */; };
+		DF208D4B178491900059B6A0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DF208D49178491900059B6A0 /* Icon-72.png */; };
+		DF208D4D178491F10059B6A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DF208D4C178491F10059B6A0 /* README.md */; };
 		DF217460177499FA007CCA67 /* Animals.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217444177499FA007CCA67 /* Animals.001.jpg */; };
 		DF217461177499FA007CCA67 /* Animals.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217445177499FA007CCA67 /* Animals.002.jpg */; };
 		DF217462177499FA007CCA67 /* Animals.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF217446177499FA007CCA67 /* Animals.003.jpg */; };
@@ -565,6 +568,9 @@
 		DF1A7AAB1773418400D74773 /* count4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count4.mp3; path = deepImage/audio/count4.mp3; sourceTree = "<group>"; };
 		DF1A7AAC1773418400D74773 /* count5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = count5.mp3; path = deepImage/audio/count5.mp3; sourceTree = "<group>"; };
 		DF1A7AB317734D3000D74773 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = applause.mp3; path = deepImage/audio/applause.mp3; sourceTree = "<group>"; };
+		DF208D48178491900059B6A0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "images/icons/Icon-72@2x.png"; sourceTree = "<group>"; };
+		DF208D49178491900059B6A0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/icons/Icon-72.png"; sourceTree = "<group>"; };
+		DF208D4C178491F10059B6A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DF217444177499FA007CCA67 /* Animals.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.001.jpg; path = images/Albums/Animals/Animals.001.jpg; sourceTree = "<group>"; };
 		DF217445177499FA007CCA67 /* Animals.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.002.jpg; path = images/Albums/Animals/Animals.002.jpg; sourceTree = "<group>"; };
 		DF217446177499FA007CCA67 /* Animals.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.003.jpg; path = images/Albums/Animals/Animals.003.jpg; sourceTree = "<group>"; };
@@ -1006,6 +1012,8 @@
 			isa = PBXGroup;
 			children = (
 				DF29F6D6174FB24000C44598 /* Icon.png */,
+				DF208D48178491900059B6A0 /* Icon-72@2x.png */,
+				DF208D49178491900059B6A0 /* Icon-72.png */,
 				DF29F6D7174FB24000C44598 /* Icon@2x.png */,
 			);
 			name = icons;
@@ -1014,7 +1022,7 @@
 		DF94F7F71748E6CE008B9B65 = {
 			isa = PBXGroup;
 			children = (
-				DFFF2B011771F047005E09D0 /* AVFoundation.framework */,
+				DF208D4C178491F10059B6A0 /* README.md */,
 				DF94F8091748E6CE008B9B65 /* deepImage */,
 				DF29F6D2174FB04D00C44598 /* images */,
 				DFFF2AFC1771EF6D005E09D0 /* audio */,
@@ -1034,6 +1042,7 @@
 		DF94F8021748E6CE008B9B65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFFF2B011771F047005E09D0 /* AVFoundation.framework */,
 				DF94F8031748E6CE008B9B65 /* UIKit.framework */,
 				DF94F8051748E6CE008B9B65 /* Foundation.framework */,
 				DF94F8071748E6CE008B9B65 /* CoreGraphics.framework */,
@@ -1582,6 +1591,9 @@
 				DF17B8C0177C71ED003B6174 /* JapaneseFiftySounds.044.mp3 in Resources */,
 				DF17B8C1177C71ED003B6174 /* JapaneseFiftySounds.045.mp3 in Resources */,
 				DF17B8C2177C71ED003B6174 /* JapaneseFiftySounds.046.mp3 in Resources */,
+				DF208D4A178491900059B6A0 /* Icon-72@2x.png in Resources */,
+				DF208D4B178491900059B6A0 /* Icon-72.png in Resources */,
+				DF208D4D178491F10059B6A0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2391,7 +2403,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "2B864123-8ED1-41D9-AE8D-66D29CEC668C";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B864123-8ED1-41D9-AE8D-66D29CEC668C";
@@ -2437,7 +2449,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2461,7 +2473,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2484,11 +2496,13 @@
 		DF94F8281748E6CE008B9B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yi-Hann Chang (PM7Z5U2WZ2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "deepImage/deepImage-Prefix.pch";
 				INFOPLIST_FILE = "deepImage/deepImage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "29E87B4D-7D06-4B59-8C7F-433AD744219E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

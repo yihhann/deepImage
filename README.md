@@ -1,8 +1,19 @@
 deepImage
 =========
 
-A memory workout of image matching game for iOS.
+Deep Image is a memory workout game of non-profit project. We hope to help slow the progression of Alzheimer's disease. All you have to do is to match the images by tapping on the cards.
 
+Features include:
+- 5 albums of 141 images
+- Voice for each image to consolidate memory
+- 8 board sizes / levels from 2x2 to 5x6
+- Localized into English and Traditional Chinese
+- No advertising!
+
+It is also a fun game for kids to learn vocabulary and for anybody to enjoy leisure time intelligently.
+Your feedback is important to us as an encouragement for further development of this open source project.
+
+==========================================================
 Use of any of this software is governed by the terms of the MIT license below:
 
 Copyright (C) 2013 Hank Chang
