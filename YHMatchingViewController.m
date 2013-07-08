@@ -129,7 +129,10 @@
         imageToLoad = Nil;  // odd mesh
     // Draw the frame
     UIGraphicsBeginImageContext(cell.frame.size);
-    [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:cell.bounds];
+    if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_MATCHED )
+        [[UIImage imageNamed:@"pictureFrameMatched.png"] drawInRect:cell.bounds];
+    else
+        [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:cell.bounds];
     float dframe = cell.bounds.size.width / 15;
     CGRect inRect = CGRectMake(cell.bounds.origin.x + dframe, cell.bounds.origin.y + dframe, cell.bounds.size.width - dframe * 2, cell.bounds.size.height - dframe * 2 );
     // Draw the picture
@@ -171,9 +174,9 @@
             {
                 m_cellStatusList[indexPath.row] = @(YH_CELL_CLOSED_TO_MATCHED);
                 m_cellStatusList[m_clickedCell1] = @(YH_CELL_MATCHED);
-                //[m_collectionMatching reloadItemsAtIndexPaths:@[
-                // [NSIndexPath indexPathForRow:m_clickedCell1 inSection:0]
-                // ]];
+                [m_collectionMatching reloadItemsAtIndexPaths:@[
+                 [NSIndexPath indexPathForRow:m_clickedCell1 inSection:0]
+                 ]];
             }
         m_clickedCell2 = m_clickedCell1;
         m_clickedCell1 = indexPath.row;
@@ -189,6 +192,12 @@
 // implement to get the event after a cell is selected
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    int idx = [m_cellPictureList[indexPath.row] integerValue];
+
+    // click before the end of counting down
+    if( m_timerCountDown )
+        return;
+    
     // Animate cell from close to open status
     if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN ||
         [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_MATCHED )
@@ -197,11 +206,13 @@
         
         // Draw the frame
         UIGraphicsBeginImageContext(cell.frame.size);
-        [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:cell.imageInside.bounds];
+        if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_MATCHED )
+            [[UIImage imageNamed:@"pictureFrameMatched.png"] drawInRect:cell.imageInside.bounds];
+        else
+            [[UIImage imageNamed:@"pictureFrame.png"] drawInRect:cell.imageInside.bounds];
         float dframe = cell.bounds.size.width / 15;
         CGRect inRect = CGRectMake(cell.imageInside.bounds.origin.x + dframe, cell.imageInside.bounds.origin.y + dframe, cell.imageInside.bounds.size.width - dframe * 2, cell.imageInside.bounds.size.height - dframe * 2 );
         // Draw the picture
-        int idx = [m_cellPictureList[indexPath.row] integerValue];
         NSString *imageToLoad = m_pictureNameList[idx];
         [[UIImage imageNamed:imageToLoad] drawInRect:inRect];
         UIImage *cellImage = UIGraphicsGetImageFromCurrentImageContext();
@@ -220,9 +231,6 @@
         // Display image title
         m_labelStatus.text = m_pictureTitleList[idx];
         
-        // Speak image title
-        [self speakImageTitle:idx];
-        
         // set the status to open / matched
         if( [m_cellStatusList[indexPath.row] integerValue] == YH_CELL_CLOSED_TO_OPEN )
             m_cellStatusList[indexPath.row] = @(YH_CELL_OPEN);
@@ -231,6 +239,9 @@
         //[m_collectionMatching reloadItemsAtIndexPaths:@[indexPath]];
     }
 
+    // Speak image title
+    [self speakImageTitle:idx];
+    
 } // end of - (void)collectionView: didSelectItemAtIndexPath:
 
 // speak image titles in the same time

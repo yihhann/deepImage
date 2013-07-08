@@ -157,9 +157,9 @@ YHAlbum AlbumList[1000];
     int total_picture = AlbumList[iAlbum].totalImage;
     NSString *album_prefix = AlbumList[iAlbum].prefix;
     int i;
-    matchingViewController.m_pictureNameList = [[NSMutableArray alloc] init];
-    matchingViewController.m_pictureTitleList = [[NSMutableArray alloc] init];
-    matchingViewController.m_pictureAudioList = [[NSMutableArray alloc] init];
+    matchingViewController.m_pictureNameList = [[[NSMutableArray alloc] init] autorelease];
+    matchingViewController.m_pictureTitleList = [[[NSMutableArray alloc] init] autorelease];
+    matchingViewController.m_pictureAudioList = [[[NSMutableArray alloc] init] autorelease];
     for ( i = 0; i < total_picture; i++ )
     {
         [matchingViewController.m_pictureNameList addObject:
