@@ -213,6 +213,7 @@
 		DF21747B177499FA007CCA67 /* Animals.028.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF21745F177499FA007CCA67 /* Animals.028.jpg */; };
 		DF29F6D8174FB24000C44598 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D6174FB24000C44598 /* Icon.png */; };
 		DF29F6D9174FB24000C44598 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29F6D7174FB24000C44598 /* Icon@2x.png */; };
+		DF2F061817AC02D30008E66A /* YHMatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2F061717AC02D30008E66A /* YHMatchingViewController.m */; };
 		DF5EC66817677169008FE5F7 /* pictureFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5EC66717677169008FE5F7 /* pictureFrame.png */; };
 		DF7A8417176DDDEE00FF0DBB /* AlbumFruits.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A8419176DDDEE00FF0DBB /* AlbumFruits.strings */; };
 		DF7A841B176DDE1700FF0DBB /* AlbumAnimals.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7A841D176DDE1700FF0DBB /* AlbumAnimals.strings */; };
@@ -310,7 +311,6 @@
 		DFF4E5B1177579BA003FF70A /* Fruits.021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E59A177579BA003FF70A /* Fruits.021.jpg */; };
 		DFF4E5B2177579BA003FF70A /* Fruits.022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E59B177579BA003FF70A /* Fruits.022.jpg */; };
 		DFF4E5B3177579BA003FF70A /* Fruits.023.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF4E59C177579BA003FF70A /* Fruits.023.jpg */; };
-		DFF5C10817642EDA0096C4C9 /* YHMatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */; };
 		DFF5C11A1764B40A0096C4C9 /* FamousPeople.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */; };
 		DFF5C11B1764B40A0096C4C9 /* FamousPeople.002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10C1764B40A0096C4C9 /* FamousPeople.002.jpg */; };
 		DFF5C11C1764B40A0096C4C9 /* FamousPeople.003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C10D1764B40A0096C4C9 /* FamousPeople.003.jpg */; };
@@ -605,6 +605,8 @@
 		DF21745F177499FA007CCA67 /* Animals.028.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Animals.028.jpg; path = images/Albums/Animals/Animals.028.jpg; sourceTree = "<group>"; };
 		DF29F6D6174FB24000C44598 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icons/Icon.png; sourceTree = "<group>"; };
 		DF29F6D7174FB24000C44598 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icons/Icon@2x.png"; sourceTree = "<group>"; };
+		DF2F061617AC02C60008E66A /* YHMatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMatchingViewController.h; sourceTree = "<group>"; };
+		DF2F061717AC02D30008E66A /* YHMatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMatchingViewController.m; sourceTree = "<group>"; };
 		DF5EC66717677169008FE5F7 /* pictureFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureFrame.png; path = images/pictureFrame.png; sourceTree = "<group>"; };
 		DF7A840C176D916F00FF0DBB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
 		DF7A8418176DDDEE00FF0DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AlbumFruits.strings; sourceTree = "<group>"; };
@@ -719,8 +721,6 @@
 		DFF4E59A177579BA003FF70A /* Fruits.021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.021.jpg; path = images/Albums/Fruits/Fruits.021.jpg; sourceTree = "<group>"; };
 		DFF4E59B177579BA003FF70A /* Fruits.022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.022.jpg; path = images/Albums/Fruits/Fruits.022.jpg; sourceTree = "<group>"; };
 		DFF4E59C177579BA003FF70A /* Fruits.023.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fruits.023.jpg; path = images/Albums/Fruits/Fruits.023.jpg; sourceTree = "<group>"; };
-		DFF5C10617642EDA0096C4C9 /* YHMatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHMatchingViewController.h; path = ../YHMatchingViewController.h; sourceTree = "<group>"; };
-		DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHMatchingViewController.m; path = ../YHMatchingViewController.m; sourceTree = "<group>"; };
 		DFF5C10B1764B40A0096C4C9 /* FamousPeople.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.001.jpg; path = images/Albums/FamousPeople/FamousPeople.001.jpg; sourceTree = "<group>"; };
 		DFF5C10C1764B40A0096C4C9 /* FamousPeople.002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.002.jpg; path = images/Albums/FamousPeople/FamousPeople.002.jpg; sourceTree = "<group>"; };
 		DFF5C10D1764B40A0096C4C9 /* FamousPeople.003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FamousPeople.003.jpg; path = images/Albums/FamousPeople/FamousPeople.003.jpg; sourceTree = "<group>"; };
@@ -1065,8 +1065,8 @@
 				DF94F81E1748E6CE008B9B65 /* MainStoryboard_iPad.storyboard */,
 				DF94F8211748E6CE008B9B65 /* YHViewController.h */,
 				DF94F8221748E6CE008B9B65 /* YHViewController.m */,
-				DFF5C10617642EDA0096C4C9 /* YHMatchingViewController.h */,
-				DFF5C10717642EDA0096C4C9 /* YHMatchingViewController.m */,
+				DF2F061617AC02C60008E66A /* YHMatchingViewController.h */,
+				DF2F061717AC02D30008E66A /* YHMatchingViewController.m */,
 				DF03E0C2176C7E2100519336 /* YHMatchingCell.h */,
 				DF03E0C3176C7E2100519336 /* YHMatchingCell.m */,
 				DF94F80A1748E6CE008B9B65 /* Supporting Files */,
@@ -1615,8 +1615,8 @@
 				DF94F8101748E6CE008B9B65 /* main.m in Sources */,
 				DF94F8141748E6CE008B9B65 /* YHAppDelegate.m in Sources */,
 				DF94F8231748E6CE008B9B65 /* YHViewController.m in Sources */,
-				DFF5C10817642EDA0096C4C9 /* YHMatchingViewController.m in Sources */,
 				DF03E0C4176C7E2100519336 /* YHMatchingCell.m in Sources */,
+				DF2F061817AC02D30008E66A /* YHMatchingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
