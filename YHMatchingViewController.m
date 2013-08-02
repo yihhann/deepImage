@@ -14,9 +14,9 @@
 
 // status of a cell
 #define YH_CELL_CLOSED_TO_MATCHED -2
-#define YH_CELL_CLOSED_TO_OPEN -1
-#define YH_CELL_CLOSED 0
-#define YH_CELL_OPEN 1
+#define YH_CELL_CLOSED_TO_OPEN    -1
+#define YH_CELL_CLOSED  0
+#define YH_CELL_OPEN    1
 #define YH_CELL_MATCHED 2
 
 @interface YHMatchingViewController ()
@@ -44,6 +44,46 @@
     return self;
 }
 
+
+-(id) initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    
+    if( self )
+    {
+        // to play music further
+        if( m_musicPlayer != Nil )
+        {
+            if( m_musicPlayer.playing )
+                [m_musicPlayer stop];
+            [m_musicPlayer release];
+        }
+        NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"back_piano" withExtension:@"mp3"];
+        m_musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_musicPlayer prepareToPlay];
+        
+        if( m_amazingPlayer != Nil )
+        {
+            if( m_amazingPlayer.playing )
+                [m_amazingPlayer stop];
+            [m_amazingPlayer release];
+        }
+        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
+        m_amazingPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
+        [m_amazingPlayer prepareToPlay];
+        
+        m_voicePlayer = Nil;
+        
+        // to speak image titles in the same time
+        int i;
+        for( i = 0; i < YH_TT_PLAYERS; i++ )
+            m_titlePlayers[i] = Nil;
+        
+    }
+    
+    return self;
+} // end of (id) initWithCoder:(NSCoder *)aDecoder
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -67,8 +107,8 @@
     m_cellStatusList = [[NSMutableArray alloc] init];
     srandom(time(NULL));
     [self renewMatchingList];
-       
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -460,43 +500,6 @@
         [m_amazingPlayer play];
     
 }
-
-// implement to play music further
--(id) initWithCoder:(NSCoder *)aDecoder{
-    self = [super initWithCoder:aDecoder];
-    if( self )
-    {
-        if( m_musicPlayer != Nil )
-        {
-            if( m_musicPlayer.playing )
-                [m_musicPlayer stop];
-            [m_musicPlayer release];
-        }
-        NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"back_piano" withExtension:@"mp3"];
-        m_musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_musicPlayer prepareToPlay];
-        
-        if( m_amazingPlayer != Nil )
-        {
-            if( m_amazingPlayer.playing )
-                [m_amazingPlayer stop];
-            [m_amazingPlayer release];
-        }
-        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
-        m_amazingPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_amazingPlayer prepareToPlay];
-
-        m_voicePlayer = Nil;
-        
-        // to play image titles in the same time
-        int i;
-        for( i = 0; i < YH_TT_PLAYERS; i++ )
-            m_titlePlayers[i] = Nil;
-        
-    }
-    return self;
-}
-
 
 - (void)dealloc {
     [m_collectionMatching release];

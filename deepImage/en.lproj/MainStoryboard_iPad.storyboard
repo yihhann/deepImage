@@ -45,7 +45,7 @@
                                     <action selector="ColumnStep:" destination="2" eventType="touchUpInside" id="kCz-fQ-XbV"/>
                                 </connections>
                             </stepper>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6A-Sv-1xM">
+                            <label opaque="NO" clipsSubviews="YES" tag="102" contentMode="left" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6A-Sv-1xM">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="CjE-C8-i7b"/>
                                     <constraint firstAttribute="height" constant="100" id="RrI-yq-Iqc"/>
@@ -67,7 +67,7 @@
                                 <color key="shadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyh-RD-wuQ">
+                            <label opaque="NO" clipsSubviews="YES" tag="101" contentMode="left" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyh-RD-wuQ">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="LYt-tH-DJ6"/>
                                     <constraint firstAttribute="width" constant="90" id="QPE-iR-KWK"/>
@@ -299,52 +299,6 @@
             <point key="canvasLocation" x="844" y="424"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="UICollectionReusableView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
-        </class>
-        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
-        </class>
-        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
-        </class>
-        <class className="YHMatchingCell" superclassName="UICollectionViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YHMatchingCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="imageInside" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="YHMatchingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YHMatchingViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="BackButtonClicked:"/>
-                <relationship kind="action" name="RenewButtonClicked:"/>
-                <relationship kind="outlet" name="m_collectionMatching" candidateClass="UICollectionView"/>
-                <relationship kind="outlet" name="m_labelClickCount" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="m_labelStatus" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="YHViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YHViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="ColumnStep:"/>
-                <relationship kind="action" name="PlayButtonClicked:"/>
-                <relationship kind="action" name="RowStep:"/>
-                <relationship kind="outlet" name="m_AlbumPicker" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="m_ColumnStepper" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="m_ImageAlbum" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="m_MatrixColumn" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="m_MatrixRow" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="m_PlayButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="m_RowStepper" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="m_SetupButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

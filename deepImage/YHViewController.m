@@ -11,6 +11,10 @@
 #import "YHViewController.h"
 #import "YHMatchingViewController.h"
 
+// tag of labels to handle touch events
+#define YH_LABEL_COLUMN 101
+#define YH_LABEL_ROW    102
+
 // Album data structures
 typedef struct {
     NSString *prefix;
@@ -144,8 +148,30 @@ YHAlbum AlbumList[1000];
             m_MatrixColumn.text = m_MatrixRow.text;
         }
     }
-
 }
+
+// implement touch event
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch* touch = [touches anyObject];
+    
+    // simulate touch on lables as on steppers
+    if (touch.view.tag == YH_LABEL_COLUMN) {
+        if( m_ColumnStepper.value < m_ColumnStepper.maximumValue )
+            m_ColumnStepper.value = m_ColumnStepper.value + 1;
+        else
+            m_ColumnStepper.value = m_ColumnStepper.minimumValue;
+        [self ColumnStep:m_ColumnStepper];
+    }
+    else if (touch.view.tag == YH_LABEL_ROW) {
+        if( m_RowStepper.value < m_RowStepper.maximumValue )
+            m_RowStepper.value = m_RowStepper.value + 1;
+        else
+            m_RowStepper.value = m_RowStepper.minimumValue;
+        [self RowStep:m_RowStepper];
+    }
+}
+
 
 // Play Button Clicked
 - (IBAction)PlayButtonClicked:(id)sender {
@@ -177,6 +203,11 @@ YHAlbum AlbumList[1000];
     
     // stop the theme music
     [m_audioPlayer stop];
+}
+
+// Setup Button clicked
+- (IBAction)SetupButtonClicked:(id)sender {
+    
 }
 
 

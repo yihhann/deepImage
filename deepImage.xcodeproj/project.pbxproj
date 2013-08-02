@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF03E0C4176C7E2100519336 /* YHMatchingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03E0C3176C7E2100519336 /* YHMatchingCell.m */; };
+		DF03EAF81792D0B800626792 /* setup.png in Resources */ = {isa = PBXBuildFile; fileRef = DF03EAF71792D0B800626792 /* setup.png */; };
 		DF0DCCB71779C9E800A63024 /* Fruits.001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCB91779C9E800A63024 /* Fruits.001.mp3 */; };
 		DF0DCCBB1779CA0300A63024 /* Fruits.002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCBD1779CA0300A63024 /* Fruits.002.mp3 */; };
 		DF0DCCBF1779CA0F00A63024 /* Fruits.003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0DCCC11779CA0F00A63024 /* Fruits.003.mp3 */; };
@@ -333,6 +334,7 @@
 /* Begin PBXFileReference section */
 		DF03E0C2176C7E2100519336 /* YHMatchingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMatchingCell.h; sourceTree = "<group>"; };
 		DF03E0C3176C7E2100519336 /* YHMatchingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMatchingCell.m; sourceTree = "<group>"; };
+		DF03EAF71792D0B800626792 /* setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setup.png; path = images/icons/setup.png; sourceTree = "<group>"; };
 		DF0DCCB81779C9E800A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/Fruits.001.mp3; sourceTree = "<group>"; };
 		DF0DCCBA1779C9F300A63024 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hant"; path = "zh-Hant.lproj/Fruits.001.mp3"; sourceTree = "<group>"; };
 		DF0DCCBC1779CA0300A63024 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/Fruits.002.mp3; sourceTree = "<group>"; };
@@ -1014,6 +1016,7 @@
 		DF29F6D3174FB05C00C44598 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				DF03EAF71792D0B800626792 /* setup.png */,
 				DF29F6D6174FB24000C44598 /* Icon.png */,
 				DF208D48178491900059B6A0 /* Icon-72@2x.png */,
 				DF208D49178491900059B6A0 /* Icon-72.png */,
@@ -1598,6 +1601,7 @@
 				DF208D4B178491900059B6A0 /* Icon-72.png in Resources */,
 				DF208D4D178491F10059B6A0 /* README.md in Resources */,
 				DF1E1D431787CAD000B05BD7 /* pictureFrameMatched.png in Resources */,
+				DF03EAF81792D0B800626792 /* setup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2409,8 +2413,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "2B864123-8ED1-41D9-AE8D-66D29CEC668C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B864123-8ED1-41D9-AE8D-66D29CEC668C";
+				PROVISIONING_PROFILE = "3E79BB16-A790-4E5D-BFC4-8E2DA500DB93";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3E79BB16-A790-4E5D-BFC4-8E2DA500DB93";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

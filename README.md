@@ -13,7 +13,15 @@ Features include:
 It is also a fun game for kids to learn vocabulary and for anybody to enjoy leisure time intelligently.
 Your feedback is important to us as an encouragement for further development of this open source project.
 
-==========================================================
+====
+Support URL
+  https://www.facebook.com/notes/yihhann-chang/542400852451459
+
+====
+View in App Store
+  https://itunes.apple.com/us/app/deep-image/id669483205?ls=1&mt=8
+
+====
 Use of any of this software is governed by the terms of the MIT license below:
 
 Copyright (C) 2013 Hank Chang
