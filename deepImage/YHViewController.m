@@ -207,6 +207,9 @@ YHAlbum AlbumList[1000];
 
 // Setup Button clicked
 - (IBAction)SetupButtonClicked:(id)sender {
+    UINavigationController* navigationSetup =
+        [self.storyboard instantiateViewControllerWithIdentifier:@"NavigationSetup"];
+    [self presentViewController:navigationSetup animated:YES completion:nil];
     
 }
 
