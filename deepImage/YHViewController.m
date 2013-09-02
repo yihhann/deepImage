@@ -173,6 +173,12 @@ YHAlbum AlbumList[1000];
 }
 
 
+// Click on album images to play
+- (IBAction)AlbumButtomClicked:(id)sender {
+    [self PlayButtonClicked:sender];
+}
+
+
 // Play Button Clicked
 - (IBAction)PlayButtonClicked:(id)sender {
     YHMatchingViewController* matchingViewController =

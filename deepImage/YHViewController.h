@@ -25,6 +25,7 @@
 
 - (IBAction)ColumnStep:(id)sender;
 - (IBAction)RowStep:(id)sender;
+- (IBAction)AlbumButtomClicked:(id)sender;
 - (IBAction)PlayButtonClicked:(id)sender;
 - (IBAction)SetupButtonClicked:(id)sender;
 

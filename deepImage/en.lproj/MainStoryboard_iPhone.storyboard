@@ -102,6 +102,22 @@
                                     <constraint firstAttribute="height" constant="78" id="20n-ZT-nxT"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cx-kz-ABv">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="286" id="gks-af-BzQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AlbumButtomClicked:" destination="2" eventType="touchUpInside" id="QRR-br-jqH"/>
+                                </connections>
+                            </button>
                             <pickerView alpha="0.60000000000000009" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56y-Zm-7cF">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="ewQ-W8-vGf"/>
@@ -139,7 +155,7 @@
                             <constraint firstItem="56y-Zm-7cF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="182" id="9dE-1Q-8OV"/>
                             <constraint firstAttribute="bottom" secondItem="bNR-Iz-jGj" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Avr-9g-kLi"/>
                             <constraint firstItem="56y-Zm-7cF" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="BOB-AD-yan"/>
-                            <constraint firstItem="bNR-Iz-jGj" firstAttribute="top" secondItem="o6a-kc-EpV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Cm2-yO-dJr"/>
+                            <constraint firstItem="o6a-kc-EpV" firstAttribute="top" secondItem="4Cx-kz-ABv" secondAttribute="top" type="default" id="Cw7-Y8-NfM"/>
                             <constraint firstAttribute="trailing" secondItem="o6a-kc-EpV" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="D1o-2n-bdX"/>
                             <constraint firstItem="RqK-qw-Ti7" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="FWh-JT-QKu"/>
                             <constraint firstItem="2zh-ac-yz4" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KG5-BT-hdI"/>
@@ -149,6 +165,7 @@
                             <constraint firstItem="lrb-n6-fJh" firstAttribute="top" secondItem="2zh-ac-yz4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QLO-pt-0Ug"/>
                             <constraint firstItem="56y-Zm-7cF" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="XK9-gM-EWb"/>
                             <constraint firstItem="S3I-sR-XTV" firstAttribute="baseline" secondItem="Cvs-Hb-fow" secondAttribute="baseline" type="default" id="YjA-YW-FA9"/>
+                            <constraint firstItem="Dnr-Nh-MOk" firstAttribute="top" secondItem="4Cx-kz-ABv" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="cB9-Gx-bQ6"/>
                             <constraint firstItem="lrb-n6-fJh" firstAttribute="centerX" secondItem="S3I-sR-XTV" secondAttribute="centerX" type="default" id="dDL-Xd-uZU"/>
                             <constraint firstAttribute="trailing" secondItem="lrb-n6-fJh" secondAttribute="trailing" constant="30" id="exf-Vy-WwW"/>
                             <constraint firstItem="RqK-qw-Ti7" firstAttribute="top" secondItem="3" secondAttribute="top" constant="21" id="fkP-wd-3AC"/>
@@ -156,8 +173,10 @@
                             <constraint firstItem="S3I-sR-XTV" firstAttribute="top" secondItem="Cvs-Hb-fow" secondAttribute="top" type="default" id="gSb-AQ-E3u"/>
                             <constraint firstItem="mKw-FI-Dxa" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="33" id="hnF-WL-aqg"/>
                             <constraint firstAttribute="bottom" secondItem="Dnr-Nh-MOk" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="jg8-LI-dTp"/>
+                            <constraint firstAttribute="trailing" secondItem="4Cx-kz-ABv" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="kx3-6u-5Hu"/>
                             <constraint firstItem="Dnr-Nh-MOk" firstAttribute="top" secondItem="o6a-kc-EpV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rsu-UX-uEg"/>
                             <constraint firstAttribute="trailing" secondItem="2zh-ac-yz4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="vON-cy-Pe6"/>
+                            <constraint firstItem="bNR-Iz-jGj" firstAttribute="top" secondItem="4Cx-kz-ABv" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vQm-LF-fmu"/>
                             <constraint firstItem="2zh-ac-yz4" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="vrI-Qn-LOa"/>
                             <constraint firstItem="Dnr-Nh-MOk" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wQ9-Ki-b8Q"/>
                             <constraint firstItem="QLQ-Nf-rs8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="126" id="whE-mu-fWw"/>
@@ -370,6 +389,54 @@
     <resources>
         <image name="setup.png" width="120" height="120"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="UICollectionReusableView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
+        </class>
+        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
+        </class>
+        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
+        <class className="YHMatchingCell" superclassName="UICollectionViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/YHMatchingCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageInside" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="YHMatchingViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/YHMatchingViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="BackButtonClicked:"/>
+                <relationship kind="action" name="RenewButtonClicked:"/>
+                <relationship kind="outlet" name="m_collectionMatching" candidateClass="UICollectionView"/>
+                <relationship kind="outlet" name="m_labelClickCount" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="m_labelStatus" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="YHViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/YHViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="AlbumButtomClicked:"/>
+                <relationship kind="action" name="ColumnStep:"/>
+                <relationship kind="action" name="PlayButtonClicked:"/>
+                <relationship kind="action" name="RowStep:"/>
+                <relationship kind="action" name="SetupButtonClicked:"/>
+                <relationship kind="outlet" name="m_AlbumPicker" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="m_ColumnStepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="m_ImageAlbum" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="m_MatrixColumn" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="m_MatrixRow" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="m_PlayButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="m_RowStepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="m_SetupButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
