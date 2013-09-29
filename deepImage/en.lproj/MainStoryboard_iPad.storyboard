@@ -125,11 +125,12 @@
                             </button>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dom-qr-beG">
                                 <rect key="frame" x="20" y="915" width="728" height="89"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.080000000000000002" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="89" id="aOl-Fj-Gqg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="72"/>
+                                <color key="tintColor" red="1" green="1" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="1" green="1" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
@@ -198,12 +199,13 @@
                         <subviews>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lP-PJ-ioy">
                                 <rect key="frame" x="20" y="915" width="192" height="89"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.080000000000000002" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="89" id="3Da-cJ-4Ks"/>
                                     <constraint firstAttribute="width" constant="192" id="y6D-BS-2pj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="48"/>
+                                <color key="tintColor" red="1" green="1" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="1" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -215,11 +217,12 @@
                             </button>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgF-EH-aG2">
                                 <rect key="frame" x="279" y="915" width="469" height="89"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.080000000000000002" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="469" id="MX2-uD-Gma"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="72"/>
+                                <color key="tintColor" red="1" green="1" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="Renew">
                                     <color key="titleColor" red="1" green="1" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>

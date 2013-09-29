@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Deep Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RqK-qw-Ti7">
-                                <rect key="frame" x="20" y="1" width="280" height="66"/>
+                                <rect key="frame" x="20" y="4" width="280" height="63"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="56"/>
                                 <color key="textColor" red="1" green="0.94525547445255476" blue="0.8941605839416058" alpha="0.83000000000000007" colorSpace="calibratedRGB"/>
@@ -23,7 +23,7 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Deep Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2zh-ac-yz4">
-                                <rect key="frame" x="18" y="3" width="280" height="66"/>
+                                <rect key="frame" x="18" y="6" width="280" height="63"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="56"/>
                                 <color key="textColor" red="1" green="0.83245342942700129" blue="0.45265479187307744" alpha="0.83000000000000007" colorSpace="calibratedRGB"/>
@@ -100,7 +100,7 @@
                                 </connections>
                             </button>
                             <pickerView alpha="0.60000000000000009" contentMode="scaleToFill" id="56y-Zm-7cF">
-                                <rect key="frame" x="0.0" y="148" width="320" height="216"/>
+                                <rect key="frame" x="18" y="148" width="280" height="216"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="2" id="KhV-Y6-eyX"/>
