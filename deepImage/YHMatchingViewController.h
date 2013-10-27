@@ -3,8 +3,7 @@
 //  deepImage
 //
 //  Created by Yihhann on 13/6/9.
-//  Copyright (c) 2013 Yihhann. All rights reserved.
-//  Remark:
+        //  Remark:
 //    This is the gaming view controller.
 
 #import <UIKit/UIKit.h>
@@ -20,10 +19,7 @@
     // count down while the new game start
     int m_countDown;                    
     NSTimer* m_timerCountDown;
-    AVAudioPlayer* m_musicPlayer;      // to play the back music
-    AVAudioPlayer* m_voicePlayer;      // to play sounds
-    AVAudioPlayer* m_amazingPlayer;    // to play amazing sounds
-    AVAudioPlayer* m_titlePlayers[YH_TT_PLAYERS];  // to play image titles in the same time
+    SystemSoundID sidGoBackMusic;        // the going back music
 }
 @property (retain, nonatomic) IBOutlet UILabel *m_labelClickCount;
 @property (retain, nonatomic) IBOutlet UICollectionView *m_collectionMatching;
@@ -37,7 +33,8 @@
 @property (retain, nonatomic) NSMutableArray* m_pictureAudioList;
 //   dimation of matching matrix
 @property int m_matchingRows;
-@property int m_matchingColumns;  
+@property int m_matchingColumns;
+
 
 - (IBAction)BackButtonClicked:(id)sender;
 - (IBAction)RenewButtonClicked:(id)sender;

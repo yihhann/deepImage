@@ -59,11 +59,9 @@ YHAlbum AlbumList[1000];
     // preview the default album
     [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(doPreviewDefaultAlbum:) userInfo:nil repeats:NO];
     
-    // play the theme music
-    [m_audioPlayer play];
-    
+    // play the theme music;
+    AudioServicesPlaySystemSound(sidThemeMusic);
 }
-
 
 
 - (void)didReceiveMemoryWarning
@@ -71,6 +69,7 @@ YHAlbum AlbumList[1000];
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 - (void)dealloc {
     [m_MatrixColumn release];
@@ -208,7 +207,8 @@ YHAlbum AlbumList[1000];
     [self presentViewController:matchingViewController animated:YES completion:nil];
     
     // stop the theme music
-    [m_audioPlayer stop];
+    //[m_audioPlayer stop];
+    AudioServicesDisposeSystemSoundID(sidThemeMusic);
 }
 
 // Setup Button clicked
@@ -366,8 +366,7 @@ YHAlbum AlbumList[1000];
     if( self )
     {
         NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"theme_piano" withExtension:@"mp3"];
-        m_audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_audioPlayer prepareToPlay];
+        AudioServicesCreateSystemSoundID((CFURLRef)fileURL, &sidThemeMusic);
     }
     return self;
 }

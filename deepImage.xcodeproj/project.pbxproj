@@ -232,6 +232,8 @@
 		DF94F81D1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF94F81B1748E6CE008B9B65 /* MainStoryboard_iPhone.storyboard */; };
 		DF94F8201748E6CE008B9B65 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF94F81E1748E6CE008B9B65 /* MainStoryboard_iPad.storyboard */; };
 		DF94F8231748E6CE008B9B65 /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF94F8221748E6CE008B9B65 /* YHViewController.m */; };
+		DFE63A64181CE5D6009EF91C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE63A63181CE5D6009EF91C /* AudioToolbox.framework */; };
+		DFE63A65181CE662009EF91C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFF2B011771F047005E09D0 /* AVFoundation.framework */; };
 		DFE888A3176D64F20073C67B /* common.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFE888A5176D64F20073C67B /* common.strings */; };
 		DFEA3499177B42B000B7919C /* Fruits.020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFEA3497177B42B000B7919C /* Fruits.020.mp3 */; };
 		DFEA34A1177B42FD00B7919C /* Fruits.021.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFEA349B177B42FD00B7919C /* Fruits.021.mp3 */; };
@@ -328,7 +330,6 @@
 		DFF5C1281764B40A0096C4C9 /* FamousPeople.015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFF5C1191764B40A0096C4C9 /* FamousPeople.015.jpg */; };
 		DFFF2AFF1771EFAF005E09D0 /* back_piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFFF2AFD1771EFAF005E09D0 /* back_piano.mp3 */; };
 		DFFF2B001771EFAF005E09D0 /* theme_piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFFF2AFE1771EFAF005E09D0 /* theme_piano.mp3 */; };
-		DFFF2B021771F047005E09D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFF2B011771F047005E09D0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -636,6 +637,7 @@
 		DF94F81F1748E6CE008B9B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		DF94F8211748E6CE008B9B65 /* YHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
 		DF94F8221748E6CE008B9B65 /* YHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+		DFE63A63181CE5D6009EF91C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DFE888A4176D64F20073C67B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/common.strings; sourceTree = "<group>"; };
 		DFE888A6176D65B80073C67B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/common.strings"; sourceTree = "<group>"; };
 		DFE888A7176D65B80073C67B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -746,7 +748,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFF2B021771F047005E09D0 /* AVFoundation.framework in Frameworks */,
+				DFE63A65181CE662009EF91C /* AVFoundation.framework in Frameworks */,
+				DFE63A64181CE5D6009EF91C /* AudioToolbox.framework in Frameworks */,
 				DF94F8041748E6CE008B9B65 /* UIKit.framework in Frameworks */,
 				DF94F8061748E6CE008B9B65 /* Foundation.framework in Frameworks */,
 				DF94F8081748E6CE008B9B65 /* CoreGraphics.framework in Frameworks */,
@@ -1048,6 +1051,7 @@
 		DF94F8021748E6CE008B9B65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFE63A63181CE5D6009EF91C /* AudioToolbox.framework */,
 				DFFF2B011771F047005E09D0 /* AVFoundation.framework */,
 				DF94F8031748E6CE008B9B65 /* UIKit.framework */,
 				DF94F8051748E6CE008B9B65 /* Foundation.framework */,

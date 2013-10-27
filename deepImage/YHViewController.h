@@ -12,7 +12,7 @@
 
 @interface YHViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate> {
     NSMutableArray* m_albumNameList;    // for the list of album names
-    AVAudioPlayer * m_audioPlayer;      // to play theme music
+    SystemSoundID sidThemeMusic;        // the theme music
 }
 @property (retain, nonatomic) IBOutlet UIStepper *m_ColumnStepper;
 @property (retain, nonatomic) IBOutlet UIStepper *m_RowStepper;

@@ -51,33 +51,8 @@
     if( self )
     {
         // to play music further
-        if( m_musicPlayer != Nil )
-        {
-            if( m_musicPlayer.playing )
-                [m_musicPlayer stop];
-            [m_musicPlayer release];
-        }
         NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"back_piano" withExtension:@"mp3"];
-        m_musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_musicPlayer prepareToPlay];
-        
-        if( m_amazingPlayer != Nil )
-        {
-            if( m_amazingPlayer.playing )
-                [m_amazingPlayer stop];
-            [m_amazingPlayer release];
-        }
-        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
-        m_amazingPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_amazingPlayer prepareToPlay];
-        
-        m_voicePlayer = Nil;
-        
-        // to speak image titles in the same time
-        int i;
-        for( i = 0; i < YH_TT_PLAYERS; i++ )
-            m_titlePlayers[i] = Nil;
-        
+        AudioServicesCreateSystemSoundID((CFURLRef)fileURL, &sidGoBackMusic);
     }
     
     return self;
@@ -119,7 +94,7 @@
 // Back to main view
 - (IBAction)BackButtonClicked:(id)sender {
     [[self presentingViewController] dismissViewControllerAnimated:YES completion:Nil];
-    [m_musicPlayer play];
+    AudioServicesPlaySystemSound(sidGoBackMusic);
 }
 
 // Renew the game
@@ -284,27 +259,16 @@
     
 } // end of - (void)collectionView: didSelectItemAtIndexPath:
 
+
 // speak image titles in the same time
 -(void) speakImageTitle:(int)idx
 {
-    static int iPlayer = 0;
-    
-    if( m_titlePlayers[iPlayer] != Nil )
-    {
-        if( m_titlePlayers[iPlayer].playing )
-            [m_titlePlayers[iPlayer] stop];
-        [m_titlePlayers[iPlayer] release];
-    }
     NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:m_pictureAudioList[idx] withExtension:@"mp3"];
-    m_titlePlayers[iPlayer] = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-    [m_titlePlayers[iPlayer] prepareToPlay];
-    [m_titlePlayers[iPlayer] play];
-
-    // next time next player
-    iPlayer++;
-    if( iPlayer >= YH_TT_PLAYERS )
-        iPlayer = 0;
+    SystemSoundID sidVoice;
+    AudioServicesCreateSystemSoundID((CFURLRef)fileURL, &sidVoice);
+    AudioServicesPlaySystemSound(sidVoice);
 }
+
 
 // Pick pictures randomly
 -(void) renewMatchingList
@@ -420,18 +384,12 @@
     }
     
     // Play countdown voice
-    if( m_voicePlayer != Nil )
-    {
-        if( m_voicePlayer.playing )
-            [m_voicePlayer stop];
-        [m_voicePlayer release];
-    }
     NSString* key = [NSString stringWithFormat:@"count%d", m_countDown];
     NSString* filename = NSLocalizedStringFromTable(key, @"common", @"voice file name" );
     NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:filename withExtension:@"mp3"];
-    m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-    [m_voicePlayer prepareToPlay];
-    [m_voicePlayer play];
+    SystemSoundID sidVoice;
+    AudioServicesCreateSystemSoundID((CFURLRef)fileURL, &sidVoice);
+    AudioServicesPlaySystemSound(sidVoice);
 
     // next countdown
     if( m_countDown > 0 )
@@ -483,22 +441,14 @@
         m_labelStatus.text = NSLocalizedStringFromTable(@"You are so amazing!", @"common", @"Game is completed in the least clicks" );
     
     // Play well done voice
+    SystemSoundID sidVoice;
+    NSURL* fileURL;
     if( m_clickCount > leastClick )
-    {
-        if( m_voicePlayer != Nil )
-        {
-            if( m_voicePlayer.playing )
-                [m_voicePlayer stop];
-            [m_voicePlayer release];
-        }
-        NSURL* fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
-        m_voicePlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:Nil];
-        [m_voicePlayer prepareToPlay];
-        [m_voicePlayer play];
-    }
+        fileURL = [[ NSBundle mainBundle] URLForResource:@"applause" withExtension:@"mp3"];
     else
-        [m_amazingPlayer play];
-    
+        fileURL = [[ NSBundle mainBundle] URLForResource:@"amazing" withExtension:@"mp3"];
+    AudioServicesCreateSystemSoundID((CFURLRef)fileURL, &sidVoice);
+    AudioServicesPlaySystemSound(sidVoice);
 }
 
 - (void)dealloc {
